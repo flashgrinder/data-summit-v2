@@ -1,26 +1,36 @@
 .footer {
-	background-color: rgb(39, 39, 39);
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
-
-	h1 {
-		font-size: 32px;
-	}
-
-	a {
-		// color: var(--link-color);
-		color: #fff;
-		text-decoration: underline;
-	}
-
-	@media (max-width: 1200px) {
-		font-size: 26px;
-	}
+	padding: 250px 0 116px;
+	background-color: #181D30;
+	background-image: url('../img/decor/footer-decor.png');
+	background-repeat: no-repeat;
+	background-position: -17% 50%;
 }
 
-.footer__copyright {
-	padding: 10px 0;
-	font-size: 16px;
+.footer__columns {
+	gap: 50px;
+}
 
+.footer__col:first-child {
+	max-width: 311px;
+}
+
+.footer__title {
+	margin-bottom: 24px;
+}
+
+.footer__socials {
+	gap: 32px;
+}
+
+.footer__contacts {
+	gap: 16px;
+}
+
+.footer__contact {
+	gap: 12px;
+	transition: color var(--hover-time) ease;
+}
+
+.footer__contact:hover {
+	color: var(--primary);
 }

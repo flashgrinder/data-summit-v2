@@ -1,5 +1,5 @@
 {
-	"name": "base-template",
+	"name": "data-summit",
 	"version": "1.0.0",
 	"author": "Georgii Filipov",
 	"license": "ISC",
@@ -64,10 +64,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/flashgrinder/base-template.git"
+		"url": "git+ssh://git@github.com/flashgrinder/data-summit.git"
 	},
 	"bugs": {
-		"url": "https://github.com/flashgrinder/base-template/issues"
+		"url": "https://github.com/flashgrinder/data-summit/issues"
 	},
-	"homepage": "https://github.com/flashgrinder/base-template#readme"
+	"homepage": "https://github.com/flashgrinder/data-summit#readme"
 }

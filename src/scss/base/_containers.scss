@@ -12,6 +12,10 @@
 
 	max-width: var(--container-width);
 	width: 100%;
+	@include mobile {
+		--container-padding: 16px;
+		padding: 0 var(--container-padding);
+	}
 }
 
 .container-1600 {

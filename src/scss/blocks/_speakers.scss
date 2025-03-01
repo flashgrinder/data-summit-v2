@@ -1,0 +1,69 @@
+.speakers {
+	padding-top: 130px;
+	padding-bottom: 128px;
+	background-color: #0F1426;
+}
+
+.speakers__body.container {
+	max-width: 1240px;
+}
+
+.speakers__heading {
+	position: relative;
+}
+
+.speakers__heading::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 522px;
+	height: 311px;
+	background: url('../img/decor/blur-orange.png') no-repeat center;
+}
+
+.speakers__items {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+	gap: 32px 34px;
+	margin-top: 128px;
+}
+
+.speakers__item {
+	background-color: var(--secondary-bg-2);
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.speakers__item-pic {
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.speakers__item-pic picture,
+.speakers__item-pic img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	max-height: 200px;
+}
+
+.speakers__item-logo {
+	position: relative;
+	width: 96px;
+	height: 36px;
+	background-color: var(--white-bg);
+	border-radius: 8px;
+	margin-top: -18px;
+	margin-left: 12px;
+}
+
+.speakers__item-info {
+	padding: 12px 12px 15px;
+}
+
+.speakers__item-position {
+	margin-top: 10px;
+}

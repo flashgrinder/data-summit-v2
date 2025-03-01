@@ -4,28 +4,23 @@
 	margin: 0;
 	&--extra-huge {
 		font-size: responsive 48px 120px;
-		font-range: 375px 1600px;
+		font-range: 768px 1440px;
 	}
 	&--huge {
-		font-size: responsive 48px 64px;
-		font-range: 375px 1600px;
+		font-size: responsive 48px 76px;
+		font-range: 768px 1440px;
 	}
 	&--big {
 		font-size: responsive 32px 48px;
-		font-range: 375px 1600px;
+		font-range: 768px 1440px;
+	}
+	&--pre-big {
+		font-size: responsive 32px 40px;
+		font-range: 768px 1440px;
 	}
 	&--large {
-		font-size: responsive 24px 28px;
-		font-range: 375px 1600px;
-	}
-	&--medium {
-		font-family: var(--font-secondary);
-		font-size: responsive 20px 24px;
-		font-range: 375px 1600px;
-	}
-	&--small {
-		font-family: var(--font-secondary);
-		font-size: 20px;
+		font-size: responsive 28px 36px;
+		font-range: 768px 1440px;
 	}
 	&--primary {
 		color: var(--primary-font-color);
@@ -33,8 +28,14 @@
 	&--secondary {
 		color: var(--secondary-font-color);
 	}
-	&--subtext {
-		color: var(--subtext-font-color);
+	&--w-ligh {
+		font-weight: 300;
+	}
+	&--w-regular {
+		font-weight: 400;
+	}
+	&--w-medium {
+		font-weight: 500;
 	}
 	&--w-semibold {
 		font-weight: 600;

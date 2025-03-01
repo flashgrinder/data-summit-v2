@@ -1,5 +1,5 @@
 {
-	"name": "base-template",
+	"name": "data-summit",
 	"version": "1.0.0",
 	"author": "Georgii Filipov",
 	"license": "ISC",
@@ -52,11 +52,13 @@
 	"dependencies": {
 		"@fancyapps/ui": "^5.0.36",
 		"@splidejs/splide": "^4.1.4",
+		"@splidejs/splide-extension-auto-scroll": "^0.5.3",
 		"@splidejs/splide-extension-grid": "^0.4.1",
 		"autoprefixer": "^10.4.20",
 		"avif-webp-checker": "^1.0.0",
 		"filepond": "^4.32.5",
 		"filepond-plugin-file-validate-type": "^1.2.9",
+		"gsap": "^3.12.7",
 		"hystmodal": "^1.0.1",
 		"jquery": "^3.7.1",
 		"slim-select": "^2.9.2",
@@ -64,10 +66,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/flashgrinder/base-template.git"
+		"url": "git+ssh://git@github.com/flashgrinder/data-summit.git"
 	},
 	"bugs": {
-		"url": "https://github.com/flashgrinder/base-template/issues"
+		"url": "https://github.com/flashgrinder/data-summit/issues"
 	},
-	"homepage": "https://github.com/flashgrinder/base-template#readme"
+	"homepage": "https://github.com/flashgrinder/data-summit#readme"
 }

@@ -1,5 +1,5 @@
 .text {
-	font-family: var(--font-secondary);
+	font-family: var(--font-main);
 	font-style: normal;
 	margin: 0;
 	&--large {
@@ -16,7 +16,7 @@
 		font-size: 14px;
 	}
 	&--tiny {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	&--primary {
 		color: var(--primary-font-color);
@@ -24,11 +24,17 @@
 	&--secondary {
 		color: var(--secondary-font-color);
 	}
-	&--subtext {
-		color: var(--subtext-font-color);
+	&--orange {
+		color: var(--primary);
+	}
+	&--w-ligh {
+		font-weight: 300;
 	}
 	&--w-regular {
 		font-weight: normal;
+	}
+	&--w-medium {
+		font-weight: 500;
 	}
 	&--w-semibold {
 		font-weight: 600;

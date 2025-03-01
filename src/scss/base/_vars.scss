@@ -1,13 +1,12 @@
 :root {
-	--container-width: 1312px;
+	--container-width: 1440px;
 	--container-width-1600: 1630px;
-	--container-padding: 16px;
+	--container-padding: 32px;
 
-	--font-main: Tektur, sans-serif;
-	--font-secondary: Gilroy, sans-serif;
+	--font-main: Manrope, sans-serif;
 
 	/* Brand Colors */
-	--primary: #F48A0B;
+	--primary: #FB9512;
 	--secondary: #16161C;
 	/* State Colors */
 	--primary-hover: #E3820D;
@@ -25,15 +24,15 @@
 	--success-border: #699E4A;
 	--error-border: #D1493F;
 	/* Background Colors */
-	--primary-bg: #FFFFFF;
-	--secondary-bg: #ECEFF180;
-	--secondary-bg-2: #ECEFF1;
+	--primary-bg: #13182B;
+	--white-bg: #ffffff;
+	--secondary-bg: #1E2137;
+	--secondary-bg-2: #171A30;
 	--dark-bg: #16161C;
 	--blue-gray-bg: #CFD8DC;
 	/* Font Colors */
-	--primary-font-color: #16161C;
-	--secondary-font-color: #607D8B;
-	--subtext-font-color: #B0BEC5;
+	--primary-font-color: #FFFFFF;
+	--secondary-font-color: #FF9F43;
 	/* Shadows */
 	--small-shadow: 0px 3px 10px 0px #8585851A;
 	--big-shadow: 0px 10px 50px 0px #8585850D;

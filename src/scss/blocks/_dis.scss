@@ -1,0 +1,53 @@
+.dis {
+	background-color: #0F1426;
+}
+
+.dis__body.container {
+	max-width: 1240px;
+}
+
+.dis__section {
+	padding: 128px 0;
+	min-height: 50vh;
+	position: sticky;
+	top: 0;
+}
+
+.dis__card {
+	position: relative;
+	padding: 32px;
+	background-color: #171A30;
+	border-radius: 12px;
+	overflow: hidden;
+	background-image: url('../img/decor/dis-blur.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	min-height: 378px;
+}
+
+.dis__card-title {
+	font-size: 32px;
+}
+
+.dis__card-title,
+.dis__card-excerpt {
+	margin-top: 24px;
+}
+
+.dis__card-wrap {
+	max-width: 633px;
+}
+
+.dis__card-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.dis__section:first-child .dis__card .dis__card-img {
+	right: 50px;
+}
+
+.dis__section:last-child .dis__card {
+	overflow: visible;
+}

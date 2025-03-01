@@ -1,0 +1,62 @@
+.info {
+	border-radius: 111px 111px 0 0;
+	background-color: #0F1426;
+	padding-bottom: 102px;
+}
+
+.info__anchors {
+	gap: 16px;
+	padding: 74px 0 64px;
+}
+
+.info__anchor {
+	gap: 8px;
+	padding: 9px 12px 6px 16px;
+	background-color: var(--secondary-bg);
+	border-radius: 6px;
+	transition: background-color var(--hover-time) ease;
+}
+
+.info__anchor:hover {
+	background-color: var(--primary-hover);
+}
+
+.info__outer {
+	padding-top: 142px;
+	background: url('../img/decor/info-decor.svg') no-repeat center;
+	background-size: 100%;
+}
+
+.info__inner.container {
+	max-width: 620px;
+}
+
+.info__title,
+.info__description,
+.info__invite-description {
+	line-height: 36px;
+}
+
+.info__title + .info__description,
+.info__description + .info__title {
+	margin-top: 49px;
+}
+
+.info__invite {
+	margin-top: 87px;
+	gap: 22px;
+}
+
+.info__invite-description {
+	padding: 16px;
+	border: 2px solid var(--secondary-font-color);
+	border-radius: 13px;
+	max-width: 564px;
+}
+
+.info__invite-arrow {
+	width: 66px;
+	height: 63px;
+	border-radius: 13px;
+	border: 2px solid var(--secondary-font-color);
+}

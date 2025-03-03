@@ -1,0 +1,53 @@
+.main-screen {
+	background-image: url('../img/main-screen-bg.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0 120px;
+	min-height: 790px;
+	position: relative;
+}
+
+.main-screen__decor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/decor/info-decor.svg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	pointer-events: none;
+	user-select: none;
+}
+
+.main-screen__inner {
+	gap: 50px;
+}
+
+.main-screen__date {
+	gap: 15px;
+}
+
+.main-screen__date-day {
+	font-size: 57px;
+	line-height: 57px;
+	padding: 16px 14px;
+	border-radius: 19px;
+	background-color: var(--primary);
+	box-shadow: 0 4px 58.9px 0 #FB9512;
+}
+
+.main-screen__actions {
+	display: inline-block;
+	text-align: center;
+	margin-top: 130px;
+	padding: 24px 55px 16px;
+	border-radius: 72px;
+	background-color: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(34.400001525878906px)
+}
+
+.main-screen__on-off {
+	margin-top: 12px;
+	opacity: .6;
+}

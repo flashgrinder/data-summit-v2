@@ -11,7 +11,7 @@
   text-align: center;
   font-size: 24px;
   line-height: 31px;
-  padding: 24px 32px;
+  padding: 12px 12px 12px 24px;
   z-index: 1;
   outline: var(--primary);
   background: transparent;
@@ -22,7 +22,10 @@
 
 .button--primary {
   background-color: var(--primary);
-  color: var(--primary-bg);
+  color: var(--white-bg);
+  border-radius: 92px;
+  font-size: 20px;
+  font-weight: 600;
   border: 1px solid transparent;
   @include mobile {
     width: 100%;
@@ -33,6 +36,17 @@
 .button--primary:focus,
 .button--primary:target {
   background-color: var(--primary-hover);
+}
+
+.button--primary .button__icon {
+  transform: rotateZ(0deg);
+  transition: transform var(--hover-time) ease;
+}
+
+.button--primary:hover .button__icon,
+.button--primary:focus .button__icon,
+.button--primary:target .button__icon {
+  transform: rotateZ(45deg);
 }
 
 .button--primary:active {

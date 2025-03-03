@@ -1,19 +1,11 @@
 import Splide from '@splidejs/splide';
 import '@splidejs/splide/css';
+import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 function wasSliders() {
 
-    const main = new Splide( '.js-was-slider-big', {
-        type      : 'fade',
-        height    : 293,
-        rewind    : true,
-        pagination: false,
-        arrows    : false,
-    } );
-
     const thumbnails = new Splide( '.js-was-slider-mini', {
-        // fixedWidth  : 100,
-        // fixedHeight : 60,
+        type        : 'loop',
         height      : 186,
         perPage     : 3.5,
         gap         : 24,
@@ -21,6 +13,9 @@ function wasSliders() {
         pagination  : false,
         arrows    : false,
         isNavigation: true,
+        autoScroll  : {
+            speed: 0.3,
+        }
         // breakpoints : {
         //     600: {
         //         fixedWidth : 60,
@@ -29,9 +24,7 @@ function wasSliders() {
         // },
     } );
 
-    main.sync( thumbnails );
-    main.mount();
-    thumbnails.mount();
+    thumbnails.mount({AutoScroll});
 
 }
 

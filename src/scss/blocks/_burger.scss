@@ -2,8 +2,8 @@
 .burger {
 	--time: .150s;
 
-	--width: 30px;
-	--height: 24px;
+	--width: 50px;
+	--height: 30px;
 
 	--line-height: 4px;
 	--spacing: 5px;
@@ -23,7 +23,7 @@
 	justify-content: center;
 	align-items: center;
 	z-index: 101;
-	@include mobile {
+	@include tablet {
 		display: flex;
 	}
 }

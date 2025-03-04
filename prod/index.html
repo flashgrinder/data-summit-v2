@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Базовый шаблон</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon.png">
+</head>
+<body>
+<!-- Убираешь класс header--dark и меняет цвета на белый -->
+<header class="header js-header">
+    <div class="header__body container">
+        <div class="header__inner d-flex flex-align-center flex-justify-sb">
+            <a href="./" class="header__logo">
+                <picture>
+<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp">
+<source srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" type="image/png">
+<img src="./img/logo.png" alt="">
+</picture>
+            </a>
+            <nav class="header__menu mobile-nav menu">
+    <ul class="header__menu-list menu__list">
+        <li class="menu__item">
+            <a class="menu__link" href="#speakers">Спикеры</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#program">Программа</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="#partners">Партнёры</a>
+        </li>
+        <li class="menu__item menu__item--bot">
+            <a class="menu__link" href="">Перейти в&#160;чат-бот</a>
+        </li>
+    </ul>
+</nav>
+
+            <div class="header__actions">
+                <a href="" class="button button--primary">
+                    <span>Регистрация</span>
+                    <svg width="36" height="36" class="button__icon">
+                        <use href="./img/svgsprite/sprite.symbol.svg#btn-arrow"></use>
+                    </svg>
+                </a>
+                <div class="header__on-off text text--primary text--small text--w-semibold text--uppercase">
+                    оффлайн и&#160;онлайн
+                </div>
+            </div>
+            <button class="mobile-nav-btn burger js-mobile-nav-burger">
+                <div class="nav-icon burger__icon"></div>
+            </button>
+        </div>
+    </div>
+</header>
+<main>
+
+<section class="dashbord visually-hidden" style="margin: 100px auto;max-width: 1024px">
+    <a href="" class="button button--primary">
+        <svg width="45" height="23" class="button__icon">
+            <use href="./img/svgsprite/sprite.symbol.svg#arrow-btn-right"></use>
+        </svg>
+        <span>Сделать заказ</span>
+    </a>
+    <a href="" class="button button--secondary">
+        <span>Сделать заказ</span>
+        <svg width="45" height="23" class="button__icon">
+            <use href="./img/svgsprite/sprite.symbol.svg#arrow-btn-right-gray"></use>
+        </svg>
+    </a>
+    <a href="" class="button button--thirty">
+        <span>Сделать заказ</span>
+        <svg width="45" height="23" class="button__icon">
+            <use href="./img/svgsprite/sprite.symbol.svg#arrow-btn-right"></use>
+        </svg>
+    </a>
+    <a href="" class="button button--text">
+        <span>Сделать заказ</span>
+        <svg width="45" height="23" class="button__icon">
+            <use href="./img/svgsprite/sprite.symbol.svg#arrow-btn-right-orange"></use>
+        </svg>
+    </a>
+    <a href="" class="button button--primary button--medium">
+        <svg width="24" height="24" class="button__icon">
+            <use href="./img/svgsprite/sprite.symbol.svg#check-white"></use>
+        </svg>
+        <span>Сделать заказ</span>
+    </a>
+</section>
+
+<section class="main-screen">
+    <div class="main-screen__decor"></div>
+    <div class="main-screen__body container">
+        <div class="main-screen__info">
+            <div class="main-screen__top">
+                <div class="main-screen__inner d-flex flex-align-center flex-justify-sb">
+                    <h1 class="main-screen__heading title title--extra-huge title--primary title--w-light title--uppercase">
+                        DATA SUMMIT 2025
+                    </h1>
+                    <div class="main-screen__date d-flex d-flex-column flex-align-center flex-justify-center">
+                        <div class="main-screen__city text text--medium text--primary text--w-semibold text--uppercase">
+                            Москва
+                        </div>
+                        <div class="main-screen__date-day text text--primary text--w-medium">
+                            17
+                        </div>
+                        <div class="main-screen__date-month text text--medium text--primary text--w-semibold text--uppercase">
+                            Апреля
+                        </div>
+                    </div>
+                </div>
+                <div class="main-screen__subtitle title title--big title--primary title--w-regular title--uppercase">
+                    ПУЛЬС ДАННЫХ
+                </div>
+            </div>
+        </div>
+        <div class="main-screen__actions">
+            <a href="" class="button button--primary">
+                <span>Регистрация</span>
+                <svg width="36" height="36" class="button__icon">
+                    <use href="./img/svgsprite/sprite.symbol.svg#btn-arrow"></use>
+                </svg>
+            </a>
+            <div class="main-screen__on-off text text--primary text--normal text--w-semibold text--uppercase">
+                оффлайн и&#160;онлайн
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="info__body container">
+        <div class="info__anchors d-flex flex-align-center flex-justify-center">
+            <a href="#program"
+               class="info__anchor text text--medium text--primary text--w-semibold text--uppercase d-flex flex-justify-center flex-align-center">
+                Программа
+                <svg width="36" height="36" class="button__icon">
+                    <use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+                </svg>
+            </a>
+            <a href="#program"
+               class="info__anchor  text text--medium text--primary text--w-semibold text--uppercase d-flex flex-justify-center flex-align-center">
+                Спикеры
+                <svg width="36" height="36">
+                    <use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="info__outer">
+        <div class="info__inner container">
+            <h3 class="info__title text text--large text--primary text--w-medium text--uppercase">
+                <span class="text text--secondary">Данные&#160;&#8212; это сердце и&#160;кровеносная система</span> IT-архитектуры, питающая бизнес жизненно важными ресурсами.
+            </h3>
+            <p class="info__description text text--large text--primary text--w-regular">
+                Эффективное управление ими укрепляет иммунитет компании, помогает достигать высоких результатов, обеспечивать лидерство и&#160;открывать новые возможности для развития.
+            </p>
+            <h3 class="info__title text text--large text--secondary text--w-medium text--uppercase">
+                17&#160;апреля приглашаем вас на&#160;Дата Саммит &#171;Пульс данных&#187;!
+            </h3>
+            <p class="info__description text text--large text--primary text--w-regular">
+                Эксперты ведущих компаний и&#160;госструктур (к&#160;участию приглашены представители Минцифры, Сбербанка, Росатома, Ростеха, Роснефти, Axenix и&#160;других крупнейших игроков рынка)&#160;&#8212; поделятся практическим опытом внедрения решений для управления данными, обсудят ключевые тренды и&#160;перспективы.
+            </p>
+        </div>
+    </div>
+    <div class="info__wrapper-invite container">
+        <div class="info__invite d-flex flex-align-center flex-justify-center">
+            <div class="info__invite-arrow d-flex flex-justify-center flex-align-center">
+                <svg width="27" height="34">
+                    <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-right"></use>
+                </svg>
+            </div>
+            <div class="info__invite-description text text--large text--orange text--w-semibold">
+                Присоединяйтесь, чтобы почувствовать пульс ваших данных! Участвовать можно как лично, так и&#160;онлайн.
+            </div>
+            <div class="info__invite-arrow d-flex flex-justify-center flex-align-center">
+                <svg width="27" height="34">
+                    <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-left"></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sponsors">
+    <div class="sponsors__body container">
+        <div class="sponsors__items d-flex flex-align-center flex-justify-center">
+            <div class="sponsors__item">
+                <picture>
+<source srcset="./img/sponsors/univers.webp 1x, ./img/sponsors/univers@2x.webp 2x" type="image/webp">
+<source srcset="./img/sponsors/univers.png 1x, ./img/sponsors/univers@2x.png 2x" type="image/png">
+<img src="./img/sponsors/univers.png" alt="" class="sponsors__logo">
+</picture>
+            </div>
+            <div class="sponsors__item">
+                <picture>
+<source srcset="./img/sponsors/selena.webp 1x, ./img/sponsors/selena@2x.webp 2x" type="image/webp">
+<source srcset="./img/sponsors/selena.png 1x, ./img/sponsors/selena@2x.png 2x" type="image/png">
+<img src="./img/sponsors/selena.png" alt="" class="sponsors__logo">
+</picture>
+            </div>
+            <div class="sponsors__item">
+                <picture>
+<source srcset="./img/sponsors/dataflot.webp 1x, ./img/sponsors/dataflot@2x.webp 2x" type="image/webp">
+<source srcset="./img/sponsors/dataflot.png 1x, ./img/sponsors/dataflot@2x.png 2x" type="image/png">
+<img src="./img/sponsors/dataflot.png" alt="" class="sponsors__logo">
+</picture>
+            </div>
+            <div class="sponsors__item">
+                <picture>
+<source srcset="./img/sponsors/data-innovation.webp 1x, ./img/sponsors/data-innovation@2x.webp 2x" type="image/webp">
+<source srcset="./img/sponsors/data-innovation.png 1x, ./img/sponsors/data-innovation@2x.png 2x" type="image/png">
+<img src="./img/sponsors/data-innovation.png" alt="" class="sponsors__logo">
+</picture>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dis">
+    <div class="dis__body container">
+        <div class="dic__sections">
+            <div class="dis__section panel">
+                <div class="dis__card">
+                    <div class="dis__card-wrap">
+                        <div class="dis__card-arrow">
+                            <svg width="40" height="40">
+                                <use href="./img/svgsprite/sprite.symbol.svg#arrow-circl-right"></use>
+                            </svg>
+                        </div>
+                        <h3 class="dis__card-title title title--primary title--w-medium title--uppercase">
+                            DIS Group&#160;&#8212; 20 лет: взгляд 2.0!
+                        </h3>
+                        <div class="dis__card-excerpt text text--medium text--primary text--w-medium">
+                            Погрузимся в&#160;историю рынка данных, вспомним самые сложные и&#160;яркие кейсы, проанализируем накопленный опыт и&#160;поделимся ценными инсайтами.
+                        </div>
+                    </div>
+                    <img src="./img/dis/card-1.svg" alt="" class="dis__card-img">
+                </div>
+            </div>
+            <div class="dis__section panel">
+                <div class="dis__card">
+                    <div class="dis__card-wrap">
+                        <div class="dis__card-arrow">
+                            <svg width="40" height="40">
+                                <use href="./img/svgsprite/sprite.symbol.svg#arrow-circl-right"></use>
+                            </svg>
+                        </div>
+                        <h3 class="dis__card-title title title--primary title--w-medium title--uppercase">
+                            Данные + ИИ: новый уровень
+                        </h3>
+                        <div class="dis__card-excerpt text text--medium text--primary text--w-medium">
+                            Покажем, как искусственный интеллект уже встроен в&#160;решения по&#160;управлению данными, какие задачи он&#160;автоматизирует и&#160;как максимально эффективно его использовать.
+                        </div>
+                    </div>
+                    <picture>
+<source srcset="./img/dis/card-2.webp 1x, ./img/dis/card-2@2x.webp 2x" type="image/webp">
+<source srcset="./img/dis/card-2.png 1x, ./img/dis/card-2@2x.png 2x" type="image/png">
+<img src="./img/dis/card-2.png" alt="" class="dis__card-img">
+</picture>
+                </div>
+            </div>
+            <div class="dis__section panel">
+                <div class="dis__card">
+                    <div class="dis__card-wrap">
+                        <div class="dis__card-arrow">
+                            <svg width="40" height="40">
+                                <use href="./img/svgsprite/sprite.symbol.svg#arrow-circl-right"></use>
+                            </svg>
+                        </div>
+                        <h3 class="dis__card-title title title--primary title--w-medium title--uppercase">
+                            Премьера: Селена&#160;&#8212; высокопроизводительная Lakehouse платформа
+                        </h3>
+                        <div class="dis__card-excerpt text text--medium text--primary text--w-medium">
+                            Впервые представим Селену&#160;&#8212; платформу для аналитики в&#160;реальном времени. Презентацию проведет RnD-инженер, готовый ответить на&#160;любые вопросы.
+                        </div>
+                    </div>
+                    <picture>
+<source srcset="./img/dis/card-3.webp 1x, ./img/dis/card-3@2x.webp 2x" type="image/webp">
+<source srcset="./img/dis/card-3.png 1x, ./img/dis/card-3@2x.png 2x" type="image/png">
+<img src="./img/dis/card-3.png" alt="" class="dis__card-img">
+</picture>
+                </div>
+            </div>
+            <div class="dis__section panel">
+                <div class="dis__card">
+                    <div class="dis__card-wrap">
+                        <div class="dis__card-arrow">
+                            <svg width="40" height="40">
+                                <use href="./img/svgsprite/sprite.symbol.svg#arrow-circl-right"></use>
+                            </svg>
+                        </div>
+                        <h3 class="dis__card-title title title--primary title--w-medium title--uppercase">
+                            Нетворкинг с&#160;лидерами индустрии
+                        </h3>
+                        <div class="dis__card-excerpt text text--medium text--primary text--w-medium">
+                            Уникальная возможность пообщаться с&#160;CDO, CDTO, директорами по&#160;данным и&#160;экспертами крупнейших компаний, обменяться опытом и&#160;наладить полезные связи.
+                        </div>
+                    </div>
+                    <img src="./img/dis/card-4.svg" alt="" class="dis__card-img">
+                </div>
+            </div>
+            <div class="dis__section panel" id="last-panel">
+                <div class="dis__card">
+                    <div class="dis__card-wrap">
+                        <div class="dis__card-arrow">
+                            <svg width="40" height="40">
+                                <use href="./img/svgsprite/sprite.symbol.svg#arrow-circl-right"></use>
+                            </svg>
+                        </div>
+                        <h3 class="dis__card-title title title--primary title--w-medium title--uppercase">
+                            Демо-зона: тестируйте технологии в&#160;реальном времени
+                        </h3>
+                        <div class="dis__card-excerpt text text--medium text--primary text--w-medium">
+                            Испытайте решения своими руками, соберите свою идеальную платформу управления данными и&#160;получите консультации экспертов.
+                        </div>
+                    </div>
+                    <picture>
+<source srcset="./img/dis/card-5.webp 1x, ./img/dis/card-5@2x.webp 2x" type="image/webp">
+<source srcset="./img/dis/card-5.png 1x, ./img/dis/card-5@2x.png 2x" type="image/png">
+<img src="./img/dis/card-5.png" alt="" class="dis__card-img">
+</picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="speakers" id="speakers">
+    <div class="speakers__body container">
+        <h3 class="speakers__heading title title--primary title--large title--w-regular title--uppercase text-center">
+            Спикеры
+        </h3>
+        <div class="speakers__items">
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/pavel.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <picture>
+<source srcset="./img/speakers/ydata.webp 1x, ./img/speakers/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/ydata.png 1x, ./img/speakers/ydata@2x.png 2x" type="image/png">
+<img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+</picture>
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Павел Лихницкий
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Генеральный директор DIS Group
+                    </div>
+                </div>
+            </div>
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/giacintov.png" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <picture>
+<source srcset="./img/speakers/ydata.webp 1x, ./img/speakers/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/ydata.png 1x, ./img/speakers/ydata@2x.png 2x" type="image/png">
+<img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+</picture>
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Олег Гиацинтов
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Технический директор DIS Group
+                    </div>
+                </div>
+            </div>
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/kulik.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <picture>
+<source srcset="./img/speakers/ydata.webp 1x, ./img/speakers/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/ydata.png 1x, ./img/speakers/ydata@2x.png 2x" type="image/png">
+<img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+</picture>
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Александр Кулик
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Директор практики Digital & Data Transformation DIS Group
+                    </div>
+                </div>
+            </div>
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/hasanov.jpeg" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <picture>
+<source srcset="./img/speakers/ydata.webp 1x, ./img/speakers/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/ydata.png 1x, ./img/speakers/ydata@2x.png 2x" type="image/png">
+<img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+</picture>
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Василий Хасанов
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Заместитель технического директора, DIS Group
+                    </div>
+                </div>
+            </div>
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/chulok.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <picture>
+<source srcset="./img/speakers/ydata.webp 1x, ./img/speakers/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/ydata.png 1x, ./img/speakers/ydata@2x.png 2x" type="image/png">
+<img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+</picture>
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Александр Чулок
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Доктор экономических наук, доцент. Директор центра научно-технологического прогнозирования,
+                        Институт статистических исследований и&#160;экономики знаний НИУ ВШЭ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tracks">
+    <div class="tracks__body container">
+        <div class="tracks__top d-flex flex-align-center">
+            <h3 class="tracks__heading title title--uppercase title--w-semibold">
+                3 трека
+            </h3>
+            <div class="tracks__arrow d-flex flex-justify-center flex-align-center">
+                <svg width="32" height="26">
+                    <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-down"></use>
+                </svg>
+            </div>
+            <div class="tracks__onof d-flex d-flex-column">
+                <span class="tracks__offline title title--uppercase title--w-semibold">
+                    Оффлайн
+                </span>
+                <span class="tracks__online title title--uppercase title--w-semibold">
+                    Онлайн
+                </span>
+            </div>
+        </div>
+        <div class="tracks__grid">
+            <div class="tracks__item">
+                <div class="tracks__item-inner">
+                    <h3 class="tracks__item-title title title--pre-big title--primary title--w-medium title--uppercase">
+                        Пленарная сессия
+                    </h3>
+                    <p class="tracks__item-excerpt text text--medium text--primary text--w-semibold">
+                        Культура управления данными, ценность данных, регулирование в&#160;области управления данными и&#160;наращивание эффективности от&#160;использования данных компаний.
+                    </p>
+                </div>
+            </div>
+            <div class="tracks__item">
+                <div class="tracks__item-pic">
+                    <picture>
+<source srcset="./img/decor/track-decor-item-two.webp 1x, ./img/decor/track-decor-item-two@2x.webp 2x" type="image/webp">
+<source srcset="./img/decor/track-decor-item-two.png 1x, ./img/decor/track-decor-item-two@2x.png 2x" type="image/png">
+<img src="./img/decor/track-decor-item-two.png" alt="">
+</picture>
+                    <picture>
+<source srcset="./img/decor/tracks-decor-ellipse.webp 1x, ./img/decor/tracks-decor-ellipse@2x.webp 2x" type="image/webp">
+<source srcset="./img/decor/tracks-decor-ellipse.png 1x, ./img/decor/tracks-decor-ellipse@2x.png 2x" type="image/png">
+<img class="tracks__item-decor" src="./img/decor/tracks-decor-ellipse.png" alt="">
+</picture>
+                </div>
+                <div class="tracks__item-info">
+                    <h3 class="tracks__item-title title title--pre-big title--primary title--w-medium title--uppercase">
+                        Технологическая сессия
+                    </h3>
+                    <p class="tracks__item-excerpt text text--medium text--primary text--w-semibold">
+                        Современные инструменты управления данными: от&#160;Data Warehouse и&#160;Data Lakehouse до&#160;Data Governance. Практики по&#160;профилированию, очистке и&#160;трансформации данных.
+                    </p>
+                </div>
+            </div>
+            <div class="tracks__item">
+                <div class="tracks__item-pic">
+                    <picture>
+<source srcset="./img/decor/track-decor-item-tree.webp 1x, ./img/decor/track-decor-item-tree@2x.webp 2x" type="image/webp">
+<source srcset="./img/decor/track-decor-item-tree.png 1x, ./img/decor/track-decor-item-tree@2x.png 2x" type="image/png">
+<img src="./img/decor/track-decor-item-tree.png" alt="">
+</picture>
+                    <picture>
+<source srcset="./img/decor/tracks-decor-ellipse.webp 1x, ./img/decor/tracks-decor-ellipse@2x.webp 2x" type="image/webp">
+<source srcset="./img/decor/tracks-decor-ellipse.png 1x, ./img/decor/tracks-decor-ellipse@2x.png 2x" type="image/png">
+<img class="tracks__item-decor" src="./img/decor/tracks-decor-ellipse.png" alt="">
+</picture>
+                </div>
+                <div class="tracks__item-info">
+                    <h3 class="tracks__item-title title title--pre-big title--primary title--w-medium title--uppercase">
+                        Бизнес- <br> сессия
+                    </h3>
+                    <p class="tracks__item-excerpt text text--medium text--primary text--w-semibold">
+                        Стоимость и&#160;ценность данных, риски, гигиена работы с&#160;ними. Дискуссии о&#160;роли CDO, цифровом следе, управлении активами и&#160;ключевых показателях.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="program" id="program">
+    <div class="program__top container-full">
+        <h3 class="program__heading title title--primary title--large title--w-regular title--uppercase text-center">
+            Программа
+        </h3>
+    </div>
+    <div class="program__body container">
+        <div class="program__table">
+            <div class="program__tr program__tr--start">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        10:00&#160;&#8212; 10:10
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Открытие саммита
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--full">
+                <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    Пленарная сессия
+                </div>
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        10:00&#160;&#8212; 10:10
+                    </div>
+                    <div class="program__info">
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            DIS Group: Путь в&#160;20 лет.
+                        </div>
+                        <div class="program__info-text text text--large text--brown text--w-medium">
+                            От&#160;дистрибутора Informatica до&#160;игрока платформенных решений и&#160;методологий в&#160;управлении данными
+                        </div>
+                        <div class="program__speakers">
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Гиацинтов
+                                    Олег
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    Технический директор DIS Group
+                                </div>
+                            </div>
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Егор Красновский
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    СБЕР, Директор цифровой трансформации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./img/decor/20-let.svg" alt="" class="program__tr-decor">
+                </div>
+            </div>
+            <div class="program__tr program__tr--full">
+                <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    Пленарная сессия
+                </div>
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        11:30&#160;&#8212; 12:00
+                    </div>
+                    <div class="program__info">
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Панельная дискуссия
+                        </div>
+                        <div class="program__info-text text text--large text--brown text--w-medium">
+                            От&#160;дистрибутора Informatica до&#160;игрока платформенных решений и&#160;методологий в&#160;управлении данными
+                        </div>
+                        <div class="program__speakers">
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Гиацинтов
+                                    Олег
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    Технический директор DIS Group
+                                </div>
+                            </div>
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Егор Красновский
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    СБЕР, Директор цифровой трансформации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--gen">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        10:50&#160;&#8212; 11:10
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Выступление генерального спонсора
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--full">
+                <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    Пленарная сессия
+                </div>
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        11:10&#160;&#8212; 11:30
+                    </div>
+                    <div class="program__info">
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Какая-то тема
+                        </div>
+                        <div class="program__info-text text text--large text--brown text--w-medium">
+                            От&#160;дистрибутора Informatica до&#160;игрока платформенных решений и&#160;методологий в&#160;управлении данными
+                        </div>
+                        <div class="program__speakers">
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Гиацинтов
+                                    Олег
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    Технический директор DIS Group
+                                </div>
+                            </div>
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Егор Красновский
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    СБЕР, Директор цифровой трансформации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--full">
+                <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    Пленарная сессия
+                </div>
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        11:30&#160;&#8212; 12:30
+                    </div>
+                    <div class="program__info">
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Панельная дискуссия
+                        </div>
+                        <div class="program__info-text text text--large text--brown text--w-medium">
+                            От&#160;дистрибутора Informatica до&#160;игрока платформенных решений и&#160;методологий в&#160;управлении данными
+                        </div>
+                        <div class="program__speakers">
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Гиацинтов
+                                    Олег
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    Технический директор DIS Group
+                                </div>
+                            </div>
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Егор Красновский
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    СБЕР, Директор цифровой трансформации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        12:30&#160;&#8212; 13:30
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Обед
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--title">
+                    <div class="program__tr-inner d-flex">
+                        <div class="program__title title title--pre-large title--blue title--w-semibold title--uppercase">
+                            Технологический трек
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--title">
+                    <div class="program__tr-inner d-flex">
+                        <div class="program__title title title--pre-large title--mint title--w-semibold title--uppercase">
+                            Бизнес-трек
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            13:00&#160;&#8212; 13:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Платформенность решений компании DIS group
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            13:00&#160;&#8212; 13:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Зрелость компаний для data&#8212;центричного подхода
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--full">
+                <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    Пленарная сессия
+                </div>
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        14:00&#160;&#8212; 14:30
+                    </div>
+                    <div class="program__info">
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Axenix + НЛМК&#160;&#8212; проект по&#160;DG
+                        </div>
+                        <div class="program__info-text text text--large text--brown text--w-medium">
+                            От&#160;дистрибутора Informatica до&#160;игрока платформенных решений и&#160;методологий в&#160;управлении данными
+                        </div>
+                        <div class="program__speakers">
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Гиацинтов
+                                    Олег
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    Технический директор DIS Group
+                                </div>
+                            </div>
+                            <div class="program__speaker">
+                                <div class="program__speaker-photo">
+                                    <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                </div>
+                                <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                    Егор Красновский
+                                </div>
+                                <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                    СБЕР, Директор цифровой трансформации
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        14:30&#160;&#8212; 14:45
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Перерыв
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            13:00&#160;&#8212; 13:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Наполнение lakehouse:
+                                Датафлот
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            13:00&#160;&#8212; 13:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                архитектуры
+                                в&#160;data-центричном подходе
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            15:15&#160;&#8212; 15:45
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Universe DG&#160;+ MDM +
+                                ИИ&#160;в&#160;MDM
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            15:15&#160;&#8212; 15:45
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Добавить предполагаемых спикеров- компании
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        15:45&#160;&#8212; 16:00
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Перерыв
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            16:00&#160;&#8212; 16:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Добавить предполагаемых спикеров- компании
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            16:00&#160;&#8212; 16:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Добавить предполагаемых спикеров- компании
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            16:00&#160;&#8212; 16:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Добавить предполагаемых спикеров- компании
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            16:00&#160;&#8212; 16:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Добавить предполагаемых спикеров- компании
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        15:45&#160;&#8212; 16:00
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        Перерыв
+                    </div>
+                </div>
+            </div>
+            <div class="program__grid-tr">
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            17:00&#160;&#8212; 17:45
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                DG+Маскирование: выявление критичных данных для дальнейшей защиты
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program__tr program__tr--elem-grid">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            17:00&#160;&#8212; 17:45
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Панельная дискуссия Управение цифровыми активами (клиент, бэк-офис)
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/giacintov.webp 1x, ./img/speakers/giacintov@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/giacintov.png 1x, ./img/speakers/giacintov@2x.png 2x" type="image/png">
+<img src="./img/speakers/giacintov.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Гиацинтов
+                                        Олег
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Технический директор DIS Group
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <picture>
+<source srcset="./img/speakers/speaker-1.webp 1x, ./img/speakers/speaker-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/speakers/speaker-1.png 1x, ./img/speakers/speaker-1@2x.png 2x" type="image/png">
+<img src="./img/speakers/speaker-1.png" alt="" class="program__speaker-img">
+</picture>
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Егор Красновский
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        СБЕР, Директор цифровой трансформации
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program__tr program__tr--end">
+                <div class="program__tr-inner d-flex">
+                    <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                        18:30&#160;&#8212; 20:00
+                    </div>
+                    <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                        фУРШЕТ И&#160;ВЕЧЕРНЯЯ ЧАСТЬ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="was">
+    <div class="was__body">
+        <div class="was__top container">
+            <div class="was__columns">
+                <div class="was__left-col">
+                    <div class="was__info-wrap d-flex">
+                        <div class="was__title title title--secondary title--w-semibold title--uppercase">
+                            Каким был Дата <br> Саммит в&#160;2024
+                        </div>
+                        <div class="was__arrows d-flex d-flex-column flex-align-center flex-justify-center">
+                            <svg width="32" height="26">
+                                <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-down-orange"></use>
+                            </svg>
+                            <svg width="32" height="26">
+                                <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-down-orange"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="was__description text text--large text--primary text--w-medium">
+                        Это сердце и&#160;кровеносная система любой композитной IT-архитектуры, по&#160;жилам которой течет то&#160;важное и&#160;ценное, что необходимо любой компании&#160;&#8212; качественные и&#160;достоверные данные.
+                    </div>
+                </div>
+                <div class="was__right-col">
+                    <div class="was__video">
+                        <iframe width="100%" height="100%" loading="lazy"
+                                src="https://rutube.ru/play/embed/549d9a453d4b9f242266c89372678395/?p=Uvnk9Q3jF48qgKlAB9Q5kw" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="was__wrap-slider">
+            <div class="was__splide splide js-was-slider-mini">
+                <div class="was__splide-track splide__track">
+                    <div class="was__splide-list splide__list">
+                        <div class="was__splide-slide splide__slide">
+                            <picture>
+<source srcset="./img/was/was-1.webp 1x, ./img/was/was-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/was/was-1.png 1x, ./img/was/was-1@2x.png 2x" type="image/png">
+<img src="./img/was/was-1.png" alt="">
+</picture>
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <picture>
+<source srcset="./img/was/was-2.webp 1x, ./img/was/was-2@2x.webp 2x" type="image/webp">
+<source srcset="./img/was/was-2.png 1x, ./img/was/was-2@2x.png 2x" type="image/png">
+<img src="./img/was/was-2.png" alt="">
+</picture>
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <picture>
+<source srcset="https://placehold.jp/150x150.webp 1x, https://placehold.jp/150x150@2x.webp 2x" type="image/webp">
+<source srcset="https://placehold.jp/150x150.png 1x, https://placehold.jp/150x150@2x.png 2x" type="image/png">
+<img src="https://placehold.jp/150x150.png" alt="">
+</picture>
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <picture>
+<source srcset="https://placehold.jp/1500x1050.webp 1x, https://placehold.jp/1500x1050@2x.webp 2x" type="image/webp">
+<source srcset="https://placehold.jp/1500x1050.png 1x, https://placehold.jp/1500x1050@2x.png 2x" type="image/png">
+<img src="https://placehold.jp/1500x1050.png" alt="">
+</picture>
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <picture>
+<source srcset="https://placehold.jp/1024x768.webp 1x, https://placehold.jp/1024x768@2x.webp 2x" type="image/webp">
+<source srcset="https://placehold.jp/1024x768.png 1x, https://placehold.jp/1024x768@2x.png 2x" type="image/png">
+<img src="https://placehold.jp/1024x768.png" alt="">
+</picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners js-partners" id="partners">
+    <div class="partners__body">
+        <div class="partners__top container">
+            <h3 class="partners__heading title title--primary title--large title--w-regular title--uppercase text-center">
+                Партнёры
+            </h3>
+        </div>
+        <div class="partners__sliders-wrapper">
+            <div class="partners__splide splide js-slider-partners" id="slider-1"
+                 data-splide='{"autoScroll":{ "speed": 0.3}}'>
+                <div class="partners__splide-track splide__track">
+                    <div class="partners__splide-list splide__list">
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/rostelecom.webp 1x, ./img/partners/rostelecom@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/rostelecom.png 1x, ./img/partners/rostelecom@2x.png 2x" type="image/png">
+<img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/ydata.webp 1x, ./img/partners/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/ydata.png 1x, ./img/partners/ydata@2x.png 2x" type="image/png">
+<img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tarantool.webp 1x, ./img/partners/tarantool@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tarantool.png 1x, ./img/partners/tarantool@2x.png 2x" type="image/png">
+<img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tern.webp 1x, ./img/partners/tern@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tern.png 1x, ./img/partners/tern@2x.png 2x" type="image/png">
+<img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/pix.webp 1x, ./img/partners/pix@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/pix.png 1x, ./img/partners/pix@2x.png 2x" type="image/png">
+<img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/sberteh.webp 1x, ./img/partners/sberteh@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/sberteh.png 1x, ./img/partners/sberteh@2x.png 2x" type="image/png">
+<img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/korus.webp 1x, ./img/partners/korus@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/korus.png 1x, ./img/partners/korus@2x.png 2x" type="image/png">
+<img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners__splide splide js-slider-partners" id="slider-2"
+                 data-splide='{"autoScroll":{ "speed": -0.3}}'>
+                <div class="partners__splide-track splide__track">
+                    <div class="partners__splide-list splide__list">
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/rostelecom.webp 1x, ./img/partners/rostelecom@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/rostelecom.png 1x, ./img/partners/rostelecom@2x.png 2x" type="image/png">
+<img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/ydata.webp 1x, ./img/partners/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/ydata.png 1x, ./img/partners/ydata@2x.png 2x" type="image/png">
+<img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tarantool.webp 1x, ./img/partners/tarantool@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tarantool.png 1x, ./img/partners/tarantool@2x.png 2x" type="image/png">
+<img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tern.webp 1x, ./img/partners/tern@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tern.png 1x, ./img/partners/tern@2x.png 2x" type="image/png">
+<img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/pix.webp 1x, ./img/partners/pix@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/pix.png 1x, ./img/partners/pix@2x.png 2x" type="image/png">
+<img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/sberteh.webp 1x, ./img/partners/sberteh@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/sberteh.png 1x, ./img/partners/sberteh@2x.png 2x" type="image/png">
+<img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/korus.webp 1x, ./img/partners/korus@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/korus.png 1x, ./img/partners/korus@2x.png 2x" type="image/png">
+<img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners__splide splide js-slider-partners" id="slider-3"
+                 data-splide='{"autoScroll":{ "speed": 0.4}}'>
+                <div class="partners__splide-track splide__track">
+                    <div class="partners__splide-list splide__list">
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/rostelecom.webp 1x, ./img/partners/rostelecom@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/rostelecom.png 1x, ./img/partners/rostelecom@2x.png 2x" type="image/png">
+<img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/ydata.webp 1x, ./img/partners/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/ydata.png 1x, ./img/partners/ydata@2x.png 2x" type="image/png">
+<img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tarantool.webp 1x, ./img/partners/tarantool@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tarantool.png 1x, ./img/partners/tarantool@2x.png 2x" type="image/png">
+<img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tern.webp 1x, ./img/partners/tern@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tern.png 1x, ./img/partners/tern@2x.png 2x" type="image/png">
+<img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/pix.webp 1x, ./img/partners/pix@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/pix.png 1x, ./img/partners/pix@2x.png 2x" type="image/png">
+<img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/sberteh.webp 1x, ./img/partners/sberteh@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/sberteh.png 1x, ./img/partners/sberteh@2x.png 2x" type="image/png">
+<img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/korus.webp 1x, ./img/partners/korus@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/korus.png 1x, ./img/partners/korus@2x.png 2x" type="image/png">
+<img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partners__splide splide js-slider-partners" id="slider-4"
+                 data-splide='{"autoScroll":{ "speed": -0.2}}'>
+                <div class="partners__splide-track splide__track">
+                    <div class="partners__splide-list splide__list">
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/rostelecom.webp 1x, ./img/partners/rostelecom@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/rostelecom.png 1x, ./img/partners/rostelecom@2x.png 2x" type="image/png">
+<img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/ydata.webp 1x, ./img/partners/ydata@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/ydata.png 1x, ./img/partners/ydata@2x.png 2x" type="image/png">
+<img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tarantool.webp 1x, ./img/partners/tarantool@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tarantool.png 1x, ./img/partners/tarantool@2x.png 2x" type="image/png">
+<img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/tern.webp 1x, ./img/partners/tern@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/tern.png 1x, ./img/partners/tern@2x.png 2x" type="image/png">
+<img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/pix.webp 1x, ./img/partners/pix@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/pix.png 1x, ./img/partners/pix@2x.png 2x" type="image/png">
+<img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/sberteh.webp 1x, ./img/partners/sberteh@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/sberteh.png 1x, ./img/partners/sberteh@2x.png 2x" type="image/png">
+<img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <picture>
+<source srcset="./img/partners/korus.webp 1x, ./img/partners/korus@2x.webp 2x" type="image/webp">
+<source srcset="./img/partners/korus.png 1x, ./img/partners/korus@2x.png 2x" type="image/png">
+<img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
+</picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- Модалка -->
+<div class="modal modal--feedback hystmodal" id="feedback" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="dialog" aria-modal="true">
+            <button data-hystclose class="modal__close hystmodal__close">Close</button>
+            <div class="modal__title title title--large title--primary title--w-regular text-center">
+                Оставьте заявку и&#160;мы&#160;подберем
+                для вас оборудование
+            </div>
+            <div class="modal__subtitle text text--normal text--primary text--w-regular text-center">
+                Заполните данную форму, если у&#160;вас имеется техническое задание или чертеж,
+                и&#160;прикрепите файлы.
+            </div>
+            <form action="./upload/" class="main-form__form form form--modal js-form-1"
+				  enctype="multipart/form-data"
+				  method="post">
+                <div class="main-form__wrapper-fields form__wrapper-fields">
+                    <label class="main-form__form-input form__field" for="service-form-name">
+                        <input class="main-form__form-input form__input" type="text" name="name"
+							   id="modal-form-name" required>
+                        <span class="form__placeholder text text--normal text--secondary text--w-regular">
+                            Как к&#160;вам обращаться?
+                        </span>
+                    </label>
+                    <label class="main-form__form-input form__field form__field--industry" for="modal-form-industry">
+                        <select class="form__select js-select-form" id="modal-form-industry">
+                            <option data-placeholder="true">Применение</option>
+                            <option value="Медицина">Медицина</option>
+                            <option value="Авто">Авто</option>
+                            <option value="Промышленность">Промышленность</option>
+                        </select>
+                    </label>
+                    <label class="main-form__form-input form__field" for="service-form-company">
+                        <input class="main-form__form-input form__input js-input" type="text" name="company"
+							   id="modal-form-company">
+                        <span class="form__placeholder text text--normal text--secondary text--w-regular">
+                                Название компании
+                            </span>
+                    </label>
+                    <label class="main-form__form-input form__field form__field--material" for="modal-form-material">
+                        <select class="form__select js-select-form" id="modal-form-material">
+                            <option data-placeholder="true">Используемый материал</option>
+                            <option value="Металл">Металл</option>
+                            <option value="Дерево">Дерево</option>
+                            <option value="Алмазы">Алмазы</option>
+                            <option value="Платы">Платы</option>
+                        </select>
+                    </label>
+                    <label class="main-form__form-input form__field is-error" for="modal-form-phone">
+                        <input class="main-form__form-input form__input js-input" type="tel" name="phone"
+							   id="modal-form-phone" required>
+                        <span class="form__placeholder text text--normal text--secondary text--w-regular">
+                                Контактный телефон
+                            </span>
+                    </label>
+                    <label class="main-form__form-input form__field form__field--category" for="modal-form-category">
+                        <select class="form__select js-select-form" id="modal-form-category">
+                            <option data-placeholder="true">Категория</option>
+                            <option value="Аниме">Аниме</option>
+                            <option value="Фильмы">Фильмы</option>
+                            <option value="Металл">Металл</option>
+                            <option value="Рок">Рок</option>
+                            <option value="Герои III">Герои III</option>
+                        </select>
+                    </label>
+                    <label class="main-form__form-input form__field" for="service-form-email">
+                        <input class="main-form__form-input form__input js-input" type="email" name="email"
+							   id="modal-form-email" required>
+                        <span class="form__placeholder text text--normal text--secondary text--w-regular">
+                                E&#8212;mail
+                            </span>
+                    </label>
+                    <label class="main-form__form-input form__field form__field--type" for="modal-form-type">
+                        <select class="form__select js-select-form" id="modal-form-type">
+                            <option data-placeholder="true">Тип лазера</option>
+                            <option value="Обжигающий">Обжигающий</option>
+                            <option value="Сжигающий">Сжигающий</option>
+                            <option value="Пронзающий">Пронзающий</option>
+                            <option value="Испепеляющий">Испепеляющий</option>
+                        </select>
+                    </label>
+                    <label class="main-form__form-input form__field" for="modal-form-textarea">
+                            <textarea class="main-form__text-area form__input form__input--textarea" name="message"
+									  id="modal-form-textarea"
+									  cols="30" rows="1" placeholder="Опишите вашу задачу"></textarea>
+                    </label>
+                </div>
+                <div class="main-form__form-files-wrapper form__files-wrapper">
+                    <div class="form__dropzone">
+                        <input class="js-input-drag-adn-drop"
+							   type="file"
+							   name="FILES[]"
+							   data-max-file-size="25MB"
+							   multiple />
+                    </div>
+                </div>
+                <div class="main-form__captcha form__captcha">
+                    <div style="height: 102px;min-height: 102px !important;" class="smart-captcha-manual"></div>
+                </div>
+                <div class="main-form__actions form__actions d-flex flex-justify-sb flex-align-center">
+                    <button type="button" class="main-form__form-button form__button button button--primary"
+							data-hystmodal="#thanks">
+                        Отправить заявку
+                    </button>
+                    <div class="main-form__accept form__accept">
+                        <input class="main-form__checkbox form__checkbox" type="checkbox" id="modal-form-agreement"
+							   name="agreement"
+							   checked>
+                        <label for="modal-form-agreement"
+							   class="main-form__accept-label form__accept-label text text--normal text--primary text--w-regular">
+                                <span class="main-form__accept-text form__accept-text">
+                                    <a href="">Согласен на&#160;обработку персональных данных</a>
+                                </span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Модалка успешной отправки -->
+<div class="modal modal--thanks hystmodal js-modal-success" id="thanks" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="dialog" aria-modal="true">
+            <button data-hystclose class="modal__close hystmodal__close">Close</button>
+            <div class="modal__inner">
+                <div class="modal__inner-text">
+                    <div class="modal__title title title--large title--primary title--w-bold">
+                        Спасибо! Ваша заявка принята.
+                    </div>
+                    <div class="modal__subtitle text text--large text--primary text--w-regular">
+                        Наши менеджеры свяжутся с&#160;вами в&#160;ближайшее время для обсуждения деталей
+                    </div>
+                    <button class="modal__thanks-btn button button--primary" data-hystclose>
+                        Вернуться назад
+                    </button>
+                </div>
+                <div class="modal__pic">
+                    <picture>
+<source srcset="./img/other/thanks.webp 1x, ./img/other/thanks@2x.webp 2x" type="image/webp">
+<source srcset="./img/other/thanks.png 1x, ./img/other/thanks@2x.png 2x" type="image/png">
+<img src="./img/other/thanks.png" alt="">
+</picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer js-reveal gs-reveal">
+    <div class="footer__body container">
+        <div class="footer__columns d-flex flex-justify-sb">
+            <div class="footer__col">
+                <div class="footer__title text text--normal text--primary text--w-regular text--uppercase">
+                    О&#160;нас
+                </div>
+                <div class="footer__excerpt text text--normal text--primary text--w-medium">
+                    Решения по&#160;управлению данными, бизнес-аналитике, защите информации и&#160;управлению знаниями.
+                    <br>
+                    <br>
+                    Мы&#160;упрощаем работу с&#160;данными и&#160;информацией, предоставляя новые возможности для роста бизнеса.
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="footer__title text text--normal text--primary text--w-regular text--uppercase">
+                    Мы&#160;в&#160;соц сетях
+                </div>
+                <div class="footer__socials d-flex flex-align-center">
+                    <a href="https://t.me/dis_group_news" class="footer__social">
+                        <svg width="32" height="32">
+                            <use href="./img/svgsprite/sprite.symbol.svg#tg"></use>
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/disgroup1" class="footer__social">
+                        <svg width="28" height="28">
+                            <use href="./img/svgsprite/sprite.symbol.svg#vk"></use>
+                        </svg>
+                    </a>
+                    <a href="https://rutube.ru/channel/38442777/" class="footer__social">
+                        <svg width="37" height="32">
+                            <use href="./img/svgsprite/sprite.symbol.svg#rutube"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="footer__title text text--normal text--primary text--w-regular text--uppercase">
+                    Наши контакты
+                </div>
+                <div class="footer__contacts d-flex d-flex-column">
+                    <a href="tel:+7 495 645-0201"
+					   class="footer__contact text text--normal text--primary text--w-medium d-flex flex-align-center">
+                        <svg width="20" height="20">
+                            <use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+                        </svg>
+                        +7&#160;495&#160;645-02-01
+                    </a>
+                    <a href="mailto:forum@dis-group.ru"
+					   class="footer__contact text text--normal text--primary text--w-medium d-flex flex-align-center">
+                        <svg width="20" height="20">
+                            <use href="./img/svgsprite/sprite.symbol.svg#mail"></use>
+                        </svg>
+                        forum@dis-group.ru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/index.bundle.js"></script>
+</body>
+</html>

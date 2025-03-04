@@ -22,11 +22,24 @@
 		font-size: responsive 28px 36px;
 		font-range: 768px 1440px;
 	}
+	&--pre-large {
+		font-size: responsive 24px 32px;
+		font-range: 768px 1440px;
+	}
 	&--primary {
 		color: var(--primary-font-color);
 	}
 	&--secondary {
 		color: var(--secondary-font-color);
+	}
+	&--orange {
+		color: var(--primary);
+	}
+	&--blue {
+		color: #4897FE;
+	}
+	&--mint {
+		color: #48EBFF;
 	}
 	&--w-light {
 		font-weight: 300;

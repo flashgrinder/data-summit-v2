@@ -6,6 +6,7 @@
 .was__columns {
 	display: grid;
 	grid-template-columns: minmax(450px, 512px) minmax(600px, 670px);
+	align-items: center;
 	gap: 50px;
 	justify-content: space-between;
 }

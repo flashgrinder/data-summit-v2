@@ -55,10 +55,17 @@
 	position: relative;
 	width: 96px;
 	height: 36px;
+	padding: 3px;
 	background-color: var(--white-bg);
 	border-radius: 8px;
 	margin-top: -18px;
 	margin-left: 12px;
+}
+
+.speakers__item-logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .speakers__item-info {

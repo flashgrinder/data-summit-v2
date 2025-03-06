@@ -85,8 +85,7 @@
 }
 
 .program__speakers {
-	//display: grid;
-	display: none;
+	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(189px, 189px));
 	gap: 24px;
 }

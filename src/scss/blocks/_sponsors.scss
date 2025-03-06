@@ -6,9 +6,9 @@
 .sponsors__items {
 	flex-wrap: wrap;
 	gap: 30px 75px;
+	justify-content: space-evenly;
 }
 
-.sponsors__items {
-	max-width: 850px;
-	margin: 0 auto;
+.sponsors__item {
+	max-width: 220px;
 }

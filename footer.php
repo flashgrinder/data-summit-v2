@@ -5,7 +5,7 @@
         <div class="footer__columns d-flex flex-justify-sb">
             <div class="footer__col">
                 <div class="footer__title text text--normal text--primary text--w-regular text--uppercase">
-                    О нас
+                    О DIS Group
                 </div>
                 <div class="footer__excerpt text text--normal text--primary text--w-medium">
                     Решения по управлению данными, бизнес-аналитике, защите информации и управлению знаниями.
@@ -60,6 +60,17 @@
         </div>
     </div>
 </footer>
+
+<!-- Модалка -->
+<div class="modal modal--feedback hystmodal" id="feedback" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="dialog" aria-modal="true">
+            <button data-hystclose class="modal__close hystmodal__close">Close</button>
+            <script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="30874" data-twf2s-event--id="3231087" data-timepad-widget-v2="event_register"></script>
+        </div>
+    </div>
+</div>
+
 <? wp_footer(); ?>
 </body>
 </html>

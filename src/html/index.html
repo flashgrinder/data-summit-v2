@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="main-screen__actions">
-            <a href="" class="button button--primary">
+            <a href="javascript:;" class="button button--primary" data-hystmodal="#feedback">
                 <span>Регистрация</span>
                 <svg width="36" height="36" class="button__icon">
                     <use href="./img/svgsprite/sprite.symbol.svg#btn-arrow"></use>
@@ -83,7 +83,7 @@
                     <use href="./img/svgsprite/sprite.symbol.svg#arrow-down"></use>
                 </svg>
             </a>
-            <a href="#program"
+            <a href="#speakers"
                class="info__anchor  text text--medium text--primary text--w-semibold text--uppercase d-flex flex-justify-center flex-align-center">
                 Спикеры
                 <svg width="36" height="36">
@@ -115,7 +115,7 @@
                     <use href="./img/svgsprite/sprite.symbol.svg#curved-arrow-right"></use>
                 </svg>
             </div>
-            <div class="info__invite-description text text--large text--orange text--w-semibold">
+            <div class="info__invite-description text text--large text--orange text--w-semibold" data-hystmodal="#feedback">
                 Присоединяйтесь, чтобы почувствовать пульс ваших данных! Участвовать можно как лично, так и онлайн.
             </div>
             <div class="info__invite-arrow d-flex flex-justify-center flex-align-center">
@@ -129,7 +129,7 @@
 
 <section class="sponsors">
     <div class="sponsors__body container">
-        <div class="sponsors__items d-flex flex-align-center flex-justify-center">
+        <div class="sponsors__items d-flex flex-align-center">
             <div class="sponsors__item">
                 <img src="./img/sponsors/univers.png" alt="" class="sponsors__logo">
             </div>
@@ -256,7 +256,7 @@
                     </picture>
                 </div>
                 <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                    <img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                    <img src="./img/speakers/dis.png" alt="" class="speakers__item-logo-img">
                 </div>
                 <div class="speakers__item-info">
                     <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -274,7 +274,7 @@
                     </picture>
                 </div>
                 <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                    <img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                    <img src="./img/speakers/dis.png" alt="" class="speakers__item-logo-img">
                 </div>
                 <div class="speakers__item-info">
                     <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -292,7 +292,7 @@
                     </picture>
                 </div>
                 <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                    <img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                    <img src="./img/speakers/dis.png" alt="" class="speakers__item-logo-img">
                 </div>
                 <div class="speakers__item-info">
                     <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -310,7 +310,7 @@
                     </picture>
                 </div>
                 <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                    <img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                    <img src="./img/speakers/dis.png" alt="" class="speakers__item-logo-img">
                 </div>
                 <div class="speakers__item-info">
                     <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -328,7 +328,7 @@
                     </picture>
                 </div>
                 <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                    <img src="./img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                    <img src="./img/speakers/hse.png" alt="" class="speakers__item-logo-img">
                 </div>
                 <div class="speakers__item-info">
                     <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -337,6 +337,24 @@
                     <div class="speakers__item-position text text--small text--primary text--w-medium">
                         Доктор экономических наук, доцент. Директор центра научно-технологического прогнозирования,
                         Институт статистических исследований и экономики знаний НИУ ВШЭ
+                    </div>
+                </div>
+            </div>
+            <div class="speakers__item">
+                <div class="speakers__item-pic">
+                    <picture>
+                        <img src="./img/speakers/ivanov.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                    <img src="./img/speakers/renesans.svg" alt="" class="speakers__item-logo-img">
+                </div>
+                <div class="speakers__item-info">
+                    <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                        Сергей Иванов
+                    </h3>
+                    <div class="speakers__item-position text text--small text--primary text--w-medium">
+                        Ренессанс Страхование
                     </div>
                 </div>
             </div>
@@ -1527,7 +1545,7 @@
                         </div>
                     </div>
                     <div class="was__description text text--large text--primary text--w-medium">
-                        Это сердце и кровеносная система любой композитной IT-архитектуры, по жилам которой течет то важное и ценное, что необходимо любой компании – качественные и достоверные данные.
+                        В Дата Саммите 2024 приняли участие эксперты из СИБУРа, Ленты, Axenix, Росатома, Сколково, РКС, Уралсиба, Сбера, МТС Банка и других крупнейших компаний. Обсудили тренды и перспективы развития, поговорили про экономику данных и про то, как подготовить данные к искусственному интеллекту.
                     </div>
                 </div>
                 <div class="was__right-col">
@@ -1543,19 +1561,28 @@
                 <div class="was__splide-track splide__track">
                     <div class="was__splide-list splide__list">
                         <div class="was__splide-slide splide__slide">
-                            <img src="./img/was/was-1.png" alt="">
+                            <img src="./img/was/was-1.jpg" alt="">
                         </div>
                         <div class="was__splide-slide splide__slide">
-                            <img src="./img/was/was-2.png" alt="">
+                            <img src="./img/was/was-2.jpg" alt="">
                         </div>
                         <div class="was__splide-slide splide__slide">
-                            <img src="https://placehold.jp/150x150.png" alt="">
+                            <img src="./img/was/was-3.jpg" alt="">
                         </div>
                         <div class="was__splide-slide splide__slide">
-                            <img src="https://placehold.jp/1500x1050.png" alt="">
+                            <img src="./img/was/was-4.jpg" alt="">
                         </div>
                         <div class="was__splide-slide splide__slide">
-                            <img src="https://placehold.jp/1024x768.png" alt="">
+                            <img src="./img/was/was-5.jpg" alt="">
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <img src="./img/was/was-6.jpg" alt="">
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <img src="./img/was/was-7.jpg" alt="">
+                        </div>
+                        <div class="was__splide-slide splide__slide">
+                            <img src="./img/was/was-8.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -1616,90 +1643,6 @@
             </div>
             <div class="partners__splide splide js-slider-partners" id="slider-2"
                  data-splide='{"autoScroll":{ "speed": -0.3}}'>
-                <div class="partners__splide-track splide__track">
-                    <div class="partners__splide-list splide__list">
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="partners__splide splide js-slider-partners" id="slider-3"
-                 data-splide='{"autoScroll":{ "speed": 0.4}}'>
-                <div class="partners__splide-track splide__track">
-                    <div class="partners__splide-list splide__list">
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/rostelecom.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/ydata.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/tarantool.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/tern.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/pix.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/sberteh.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="./img/partners/korus.png" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="partners__splide splide js-slider-partners" id="slider-4"
-                 data-splide='{"autoScroll":{ "speed": -0.2}}'>
                 <div class="partners__splide-track splide__track">
                     <div class="partners__splide-list splide__list">
                         <div class="partners__splide-slide splide__slide">

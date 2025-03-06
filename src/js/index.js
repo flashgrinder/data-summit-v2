@@ -5,6 +5,7 @@ import partnersSliders from "./modules/partners-sliders";
 import wasSliders from "./modules/was-slider";
 import animationsSections from "./modules/animation-section";
 import showHideHeader from "./modules/show-hide-header";
+import initModal from "./modules/modals-form";
 
 document.addEventListener('DOMContentLoaded', ()=> {
 
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     wasSliders();
     partnersSliders();
     animationsSections();
+    initModal();
     Fancybox.bind('[data-fancybox]');
 
 })

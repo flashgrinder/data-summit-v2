@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             <div class="header__actions">
-                <a href="" class="button button--primary">
+                <a href="javascript:;" class="button button--primary" data-hystmodal="#feedback">
                     <span>Регистрация</span>
                     <svg width="36" height="36" class="button__icon">
                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#btn-arrow"></use>

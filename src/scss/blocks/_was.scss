@@ -1,6 +1,9 @@
 .was {
 	padding: 170px 0 230px;
 	background-color: var(--primary-bg);
+	@include mobile {
+		padding: 100px 0;
+	}
 }
 
 .was__columns {
@@ -9,6 +12,9 @@
 	align-items: center;
 	gap: 50px;
 	justify-content: space-between;
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
 }
 
 .was__title {

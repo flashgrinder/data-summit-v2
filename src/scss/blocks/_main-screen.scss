@@ -5,6 +5,9 @@
 	padding: 230px 0 120px;
 	min-height: 790px;
 	position: relative;
+	@include mobile {
+		padding: 150px 0 120px;
+	}
 }
 
 .main-screen__decor {
@@ -44,7 +47,10 @@
 	padding: 24px 55px 16px;
 	border-radius: 72px;
 	background-color: rgba(255, 255, 255, 0.04);
-	backdrop-filter: blur(34.400001525878906px)
+	backdrop-filter: blur(34.400001525878906px);
+	@include mobile {
+		width: 100%;
+	}
 }
 
 .main-screen__on-off {

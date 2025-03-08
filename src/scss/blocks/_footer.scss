@@ -8,6 +8,9 @@
 
 .footer__columns {
 	gap: 50px;
+	@include mobile {
+		flex-direction: column;
+	}
 }
 
 .footer__col:first-child {

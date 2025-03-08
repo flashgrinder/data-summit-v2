@@ -1,10 +1,18 @@
 .tracks {
 	padding: 128px 0 120px;
 	background-color: #0F1426;
+	@include mobile {
+		padding: 50px 0 50px;
+	}
 }
 
 .tracks__top {
 	align-items: flex-end;
+	@include mobile {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
 }
 
 .tracks__heading {
@@ -61,6 +69,10 @@
 	grid-template-areas:
 			"item-1 item-1"
 			"item-2 item-3";
+	@include mobile {
+		grid-template-areas: none;
+		grid-template-columns: 1fr;
+	}
 }
 
 .tracks__item {
@@ -75,6 +87,10 @@
 	border-radius: 37px;
 	background-color: rgba(255, 255, 255, 0.02);
 	max-width: 639px;
+	@include mobile {
+		padding: 0;
+		background-color: transparent;
+	}
 }
 
 .tracks__item-excerpt {
@@ -90,6 +106,11 @@
 	background-size: contain;
 	overflow: hidden;
 	grid-area: item-1;
+	@include mobile {
+		grid-area: unset;
+		padding: 24px 24px 60px;
+		background-image: none;
+	}
 }
 
 .tracks__item:first-child::before {
@@ -105,14 +126,25 @@
 	backdrop-filter: blur(71.04450225830078px);
 	opacity: .4;
 	z-index: -1;
+	pointer-events: none;
+	user-select: none;
+	@include mobile {
+		backdrop-filter: none;
+	}
 }
 
 .tracks__item:nth-child(2) {
 	grid-area: item-2;
+	@include mobile {
+		grid-area: unset;
+	}
 }
 
 .tracks__item:nth-child(3) {
 	grid-area: item-3;
+	@include mobile {
+		grid-area: unset;
+	}
 }
 
 .tracks__item:nth-child(2),
@@ -122,10 +154,18 @@
 	align-items: start;
 	gap: 8px;
 	padding: 32px 32px 60px;
+	@include mobile {
+		grid-template-columns: 1fr;
+		padding: 32px 24px;
+	}
 }
 
 .tracks__item-pic {
 	position: relative;
+	@include mobile {
+		order: 1;
+		margin-top: 50px;
+	}
 }
 
 .tracks__item-decor {

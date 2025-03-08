@@ -26,6 +26,11 @@ function partnersSliders() {
                     // speed: 0.5,
                     pauseOnHover: false,
                 },
+                breakpoints : {
+                    768: {
+                        perPage: 2,
+                    },
+                },
             })
         }
 

@@ -5,6 +5,11 @@
 	overflow: hidden;
 	background-color: #181D30;
 	border-radius: 64px 64px 0 0;
+	@include mobile {
+		border-radius: 50px 50px 0 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 
 .partners::before {
@@ -21,6 +26,9 @@
 
 .partners__sliders-wrapper {
 	margin-top: 100px;
+	@include mobile {
+		margin-top: 50px;
+	}
 }
 
 .partners__splide + .partners__splide {

@@ -15,13 +15,13 @@ function wasSliders() {
         isNavigation: true,
         autoScroll  : {
             speed: 0.3,
-        }
-        // breakpoints : {
-        //     600: {
-        //         fixedWidth : 60,
-        //         fixedHeight: 44,
-        //     },
-        // },
+        },
+        breakpoints : {
+            768: {
+                perPage: 1,
+                gap: 16,
+            },
+        },
     } );
 
     thumbnails.mount({AutoScroll});

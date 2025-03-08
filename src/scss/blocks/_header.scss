@@ -6,7 +6,10 @@
 	box-shadow: var(--small-shadow);
 	padding: 25px 0;
 	background: #FFFFFF05;
-	backdrop-filter: blur(12px)
+	backdrop-filter: blur(12px);
+	@include mobile {
+		padding: 18px 0;
+	}
 }
 
 .header__logo {

@@ -2,6 +2,10 @@
 	padding-top: 130px;
 	padding-bottom: 128px;
 	background-color: #0F1426;
+	@include mobile {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 
 .speakers__body.container {
@@ -39,6 +43,9 @@
 .speakers__item-pic {
 	overflow: hidden;
 	border-radius: 12px;
+	@include mobile {
+		aspect-ratio: 5/4;
+	}
 }
 
 .speakers__item-pic picture,
@@ -49,6 +56,10 @@
 	object-fit: cover;
 	max-height: 200px;
 	min-height: 200px;
+	@include mobile {
+		max-height: 100%;
+		min-height: 100%;
+	}
 }
 
 .speakers__item-logo {

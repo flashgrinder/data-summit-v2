@@ -34,7 +34,7 @@
                     </svg>
                 </a>
                 <div class="main-screen__on-off text text--primary text--normal text--w-semibold text--uppercase">
-                    оффлайн и онлайн
+                    офлайн и онлайн
                 </div>
             </div>
         </div>
@@ -310,25 +310,6 @@
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/chulok.jpg" alt="">
-                        </picture>
-                    </div>
-                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/hse.png" alt="" class="speakers__item-logo-img">
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Александр Чулок
-                        </h3>
-                        <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Доктор экономических наук, доцент. Директор центра научно-технологического прогнозирования,
-                            Институт статистических исследований и экономики знаний НИУ ВШЭ
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/ivanov.jpg" alt="">
                         </picture>
                     </div>
@@ -435,7 +416,7 @@
                     </div>
                     <div class="program__tr-inner d-flex">
                         <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
-                            10:00 — 10:10
+                            10:10 — 10:30
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -450,7 +431,7 @@
                                         <img src="<?php echo STANDART_DIR; ?>img/speakers/pavel.jpg" alt="" class="program__speaker-img">
                                     </div>
                                     <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                        Павел Лихницкий,
+                                        Лихницкий Павел
                                     </div>
                                     <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                         Генеральный директор DIS Group
@@ -470,18 +451,13 @@
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                 Экосистема, платформа и экспертиза для создания data-центричной компании
                             </div>
-                            <div class="program__info-text text text--large text--brown text--w-medium">
-                                Путь к эффективному управлению данными
-                                Будущее управления данными: тренды и Lakehouse как новая парадигма
-                            </div>
                             <div class="program__speakers">
                                 <div class="program__speaker">
                                     <div class="program__speaker-photo">
                                         <img src="<?php echo STANDART_DIR; ?>img/speakers/giacintov.png" alt="" class="program__speaker-img">
                                     </div>
                                     <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                        Гиацинтов
-                                        Олег
+                                        Гиацинтов Олег
                                     </div>
                                     <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                         Технический директор DIS Group
@@ -516,9 +492,10 @@
                                         <img src="<?php echo STANDART_DIR; ?>img/speakers/chulok.jpg" alt="" class="program__speaker-img">
                                     </div>
                                     <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                        Чулок Александр, доктор экономических наук, доцент.
+                                        Чулок Александр
                                     </div>
                                     <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Доктор экономических наук, доцент.
                                         Директор центра научно-технологического прогнозирования, Институт статистических исследований и экономики знаний НИУ ВШЭ
                                     </div>
                                 </div>
@@ -538,13 +515,16 @@
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                 Практический опыт и приоритеты: культура в управлении данными, понимание ценности данных, способы нарастить эффективность компании
                             </div>
+                            <div class="program__info-text text text--large text--brown text--w-medium">
+                                К участию приглашены представители компаний: Сбер, DIS Group, Федеральное Казначейство РФ, Росатом, Ростех, Лукойл
+                            </div>
                             <div class="program__speakers">
                                 <div class="program__speaker">
                                     <div class="program__speaker-photo">
                                         <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                     </div>
                                     <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                        Модерато: Александр Левашов
+                                        Модератор: Александр Левашов
                                     </div>
                                     <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                         Главный редактор TAdviser
@@ -561,7 +541,7 @@
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                Драйверы data-индустрии: награждение компаний за выдающиеся проекты
+                                DIS Awards: Награждение компаний по итогам совместной проектной деятельности в 2024 году
                             </div>
                         </div>
                     </div>
@@ -593,6 +573,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                             Панельная дискуссия
@@ -603,118 +584,10 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Готовность компаний к дата-центричному подходу
-                                </div>
-                                <div class="program__speakers">
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/kulik.jpg" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Модератор: Александр Кулик
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Директор практики Digital & Data Transformation DIS Group
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="program__tr program__tr--elem-grid">
-                        <div class="program__subtitle text text--normal text--blue text--w-regular text--uppercase">
-                            Панельная дискуссия
-                        </div>
-                        <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                13:30 - 14:00
-                            </div>
-                            <div class="program__info">
-                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                     Современная платформа и экосистема в управлении данными: стандарты и требования к платформам, направление развития платформ
                                 </div>
-                                <div class="program__speakers">
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/giacintov.png" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Модератор: Гиацинтов
-                                            Олег
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Технический директор DIS Group
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="program__grid-tr">
-                    <div class="program__tr program__tr--elem-grid">
-                        <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                                14:00 — 14:30
-                            </div>
-                            <div class="program__info">
-                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Data Lakehouse - перспективное поколение решений для хранения и использования данных.
-                                    Презентация Lakehouse Селена
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="program__tr program__tr--elem-grid">
-                        <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                14:00 — 14:30
-                            </div>
-                            <div class="program__info">
-                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Data-driven в контексте трендов
-                                </div>
-                                <div class="program__speakers">
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Дмитрий Трофимов
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Управляющий цифровой трансформации СберПро
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="program__tr">
-                    <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
-                            14:30 — 14:45
-                        </div>
-                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                            Перерыв
-                        </div>
-                    </div>
-                </div>
-
-                <div class="program__grid-tr">
-                    <div class="program__tr program__tr--elem-grid">
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
-                            Панельная дискуссия
-                        </div>
-                        <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                                14:45 — 15:15
-                            </div>
-                            <div class="program__info">
-                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    ИИ в данных
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    К участию приглашены представители компаний: Газпром нефть, Сбер, МТС, Счётная палата, Еврохим, Алроса, Цифрум, Росагро ОЭК, Роснефть
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -732,18 +605,18 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--blue text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                14:45 — 15:45
+                                13:30 - 14:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Роль данных в повышении прозрачности и формировании системы ключевых показателей для увеличения производительности бизнеса
-                                    Панельная дискуссия
+                                    Дата-центричные компании: роль данных в повышении прозрачности и формировании системы ключевых показателей для увеличения производительности бизнеса.
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -751,7 +624,146 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Модератор: Александр Тарасов
+                                            Модератор: Тарасов Александр
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Ст.директор Блока бизнеса Юникон Бизнес Солюшнс
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Технологическая -->
+                <div class="program__tr program__tr--full">
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            14:00 — 14:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                Тема и спикер уточняются
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program__tr">
+                    <div class="program__tr-inner d-flex">
+                        <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">
+                            14:30 — 14:45
+                        </div>
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Перерыв
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program__grid-tr">
+                    <!-- Технологическая -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                            Панельная дискуссия
+                        </div>
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                                14:45 — 15:15
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    ИИ в данных
+                                </div>
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    К участию приглашены представители компаний: К участию приглашены представители компаний: РЖД, Газпром нефть, DIS Group, СУЭК, Автоваз, Роснефть, Tele2
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/giacintov.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Модератор: Гиацинтов Олег
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Технический директор DIS Group
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Бизнес  -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                            Панельная дискуссия
+                        </div>
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                                14:45 — 15:15
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    Эффективность инструментов ИИ в области Data Governance
+                                </div>
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    К участию приглашены представители компаний: Сбер Про, Российские космические системы, Агроэко, МТС Банк, Азпроммедиа
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Модератор: Малькова Лариса
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Управляющий директор практики Данные и прикладной искусственный интеллект, Axenix
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program__grid-tr">
+                    <!-- Технологическая -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                                15:15 - 15:45
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    Тема уточняется
+                                </div>
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    Представитель Газпром нефти
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Бизнес  -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                                15:15 — 15:45
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    Тема уточняется
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                             Трофимов Дмитрий
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Сбер Про управляющий Цифровой трансформации
                                         </div>
                                     </div>
                                 </div>
@@ -772,19 +784,20 @@
                 </div>
 
                 <div class="program__grid-tr">
+                    <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                                16:00 — 16:30
+                                16:00 - 16:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Репликация - от миграции до непрерывной передачи данных в гетерогенных средах
-                                    ДатаФлот
+                                    Тема и спикер уточняются
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
@@ -792,31 +805,45 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Стратегия и будущее ИИ в управлении данными. Деконструкция ИИ: от идей  Алана Тьюринга до сингулярности - технологической "чёрной дыры"
+                                    Комплексный подход к построению функции УД в организации  -  опермодель, регламенты, технологии, промоушн проекта внутри + эффекты
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Молчанов Олег
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Магнит. Руководитель направления по метаданным и качеству данных
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="program__grid-tr">
+                    <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                                16:30 — 17:00
+                                16:30 - 17:00
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    ИИ: практическое использование инструментов
-                                    <br>
-                                    ИИ в управлении данными
+                                    Тема и спикер уточняются
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                16:30 — 17:00
+                                16:00 — 16:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -825,13 +852,13 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/ivanov.jpg" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Иванов Сергей
+                                             Иванов Сергей
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                           Управляющий директор по корпоративной архитектуре и управлению данными департамента информационных технологий и стратегических инициатив, "Ренессанс Страхование"
+                                            Ренессанс Страхование. Управляющий директор по корпоративной архитектуре и управлению данными
                                         </div>
                                     </div>
                                 </div>
@@ -852,6 +879,7 @@
                 </div>
 
                 <div class="program__grid-tr">
+                    <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
@@ -859,20 +887,26 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Data Governance и Маскирование. Выявление критичных данных для дальнейшей защиты: профилирование, разметка данных (ссылка на DG), передача информации в Маскирование.
-                                    ИИ в маскировании данных
+                                    Тема и спикер уточняются
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                            Панельная дискуссия
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 17:15 — 17:45
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Взгляд с точки зрения CDO: показатели эффективности в управлении данными, композитная архитектура, "цифровые двойники" компании, импортозамещение и ИИ. С чего начать?
+                                    А вы зарабатываете на данных?
+                                </div>
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    К участию приглашены представители компаний: Сберпро, Счетная палата  РФ, ОТП Банк, Северсталь
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -880,10 +914,10 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Модератор: Сергей Евтушенко
+                                            Модератор: Евтушенко Сергей
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            DIS Group
+                                            Зам.директора департамента консалтинга, DIS Group
                                         </div>
                                     </div>
                                 </div>
@@ -891,7 +925,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="program__grid-tr">
+                    <!-- Технологическая  -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
@@ -899,20 +935,23 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Интеграционные процессы между бизнес-системами и технологическими платформами
-                                    ETL-система ФормИТ + DQ
+                                    Тема и спикер уточняются
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                17:45 — 18:15
+                                17:45 — 18:00
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Финализируем тему, чтобы она была максимально полезной
+                                    Тема уточняется
+                                </div>
+                                <div class="program__info-text text text--large text--brown text--w-medium">
+                                    Представитель  компании Форсайт
                                 </div>
                             </div>
                         </div>
@@ -920,6 +959,7 @@
                 </div>
 
                 <div class="program__grid-tr">
+                    <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
@@ -946,20 +986,35 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                18:15 — 18:30
+                                18:00 — 18:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Готовим актуальный контент – скоро анонс
+                                    Стратегия и будущее ИИ в управлении данными. Деконструкция ИИ: от идей  Алана Тьюринга до сингулярности - технологической "чёрной дыры"
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Гашников Олег
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            DIS Group
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Конец -->
                 <div class="program__tr">
                     <div class="program__tr-inner d-flex">
                         <div class="program__time title title--pre-large title--primary title--w-semibold title--uppercase">

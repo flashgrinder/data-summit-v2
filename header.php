@@ -26,9 +26,9 @@
                     <li class="menu__item">
                         <a class="menu__link" href="#partners">Партнёры</a>
                     </li>
-                    <li class="menu__item menu__item--bot">
-                        <a class="menu__link" href="">Перейти в чат-бот</a>
-                    </li>
+<!--                    <li class="menu__item menu__item--bot">-->
+<!--                        <a class="menu__link" href="">Перейти в чат-бот</a>-->
+<!--                    </li>-->
                 </ul>
             </nav>
             <div class="header__actions">
@@ -39,7 +39,7 @@
                     </svg>
                 </a>
                 <div class="header__on-off text text--primary text--small text--w-semibold text--uppercase">
-                    оффлайн и онлайн
+                    офлайн и онлайн
                 </div>
             </div>
             <button class="mobile-nav-btn burger js-mobile-nav-burger">

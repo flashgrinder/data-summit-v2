@@ -6,7 +6,7 @@ function wasSliders() {
 
     const thumbnails = new Splide( '.js-was-slider-mini', {
         type        : 'loop',
-        height      : 186,
+        height      : 'auto',
         perPage     : 3.5,
         gap         : 24,
         rewind      : true,

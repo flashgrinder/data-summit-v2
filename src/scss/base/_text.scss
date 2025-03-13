@@ -3,11 +3,14 @@
 	font-style: normal;
 	margin: 0;
 	&--large {
-		font-size: responsive 20px 24px;
+		//font-size: responsive 20px 24px;
+		//font-range: 576px 1600px;
+		font-size: responsive 18px 20px;
 		font-range: 576px 1600px;
 	}
 	&--medium {
-		font-size: 20px;
+		//font-size: 20px;
+		font-size: 18px;
 	}
 	&--normal {
 		font-size: 16px;

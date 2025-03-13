@@ -115,12 +115,12 @@
 }
 
 .program__info {
-	max-width: 758px;
+	max-width: 770px;
 }
 
 .program__speakers {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(189px, 189px));
+	grid-template-columns: repeat(auto-fill, minmax(189px, 237px));
 	gap: 24px;
 	@include mobile {
 		padding-top: 30px;

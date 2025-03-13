@@ -168,6 +168,10 @@
 	}
 }
 
+.tracks__item-pic img:first-child {
+	margin: 0 auto;
+}
+
 .tracks__item-decor {
 	content: '';
 	position: absolute;

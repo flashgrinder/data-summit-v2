@@ -10,7 +10,7 @@
 
 .info__anchors {
 	gap: 16px;
-	padding: 74px 0 64px;
+	padding: 74px 0 0;
 	@include mobile {
 		flex-direction: column;
 	}
@@ -32,11 +32,11 @@
 }
 
 .info__outer {
-	padding-top: 142px;
-	background: url('../img/decor/info-decor.svg') no-repeat center;
-	background-size: 100%;
+	padding-top: 100px;
+	//background: url('../img/decor/info-decor.svg') no-repeat center;
+	//background-size: 100%;
 	@include mobile {
-		padding-top: 0;
+		padding-top: 60px;
 	}
 }
 

@@ -255,42 +255,6 @@
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/kulik.jpg" alt="">
-                        </picture>
-                    </div>
-                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/dis.png" alt="" class="speakers__item-logo-img">
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Александр Кулик
-                        </h3>
-                        <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Директор практики Digital & Data Transformation DIS Group
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/hasanov.jpeg" alt="">
-                        </picture>
-                    </div>
-                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/dis.png" alt="" class="speakers__item-logo-img">
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Василий Хасанов
-                        </h3>
-                        <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Заместитель технического директора, DIS Group
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/chulok.jpg" alt="">
                         </picture>
                     </div>
@@ -325,6 +289,60 @@
                         </div>
                     </div>
                 </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rabinovich.jpg" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/renesans.svg" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Рабинович Борис
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Сбер, Старший управляющий директор - директор Департамента управления данными (SberData)
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/goncharov.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/uralsib.png" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Гончаров Игорь
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Уралсиб, Руководитель Службы управления данными
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/selivanov.jpg" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/uralsib.svg" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Селиванов Юрий
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Сбер, Управляющий директор
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -340,14 +358,14 @@
                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#curved-arrow-down"></use>
                     </svg>
                 </div>
-                <div class="tracks__onof d-flex d-flex-column">
-                <span class="tracks__offline title title--uppercase title--w-semibold">
-                    Оффлайн
-                </span>
-                    <span class="tracks__online title title--uppercase title--w-semibold">
-                    Онлайн
-                </span>
-                </div>
+<!--                <div class="tracks__onof d-flex d-flex-column">-->
+<!--                    <span class="tracks__offline title title--uppercase title--w-semibold">-->
+<!--                        Оффлайн-->
+<!--                    </span>-->
+<!--                        <span class="tracks__online title title--uppercase title--w-semibold">-->
+<!--                        Онлайн-->
+<!--                    </span>-->
+<!--                </div>-->
             </div>
             <div class="tracks__grid">
                 <div class="tracks__item">
@@ -360,7 +378,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="tracks__item">
+                <a href="#tech" class="tracks__item">
                     <div class="tracks__item-pic">
                         <img src="<?php echo STANDART_DIR; ?>img/decor/track-decor-item-two.png" alt="">
                         <img class="tracks__item-decor" src="<?php echo STANDART_DIR; ?>img/decor/tracks-decor-ellipse.png" alt="">
@@ -373,8 +391,8 @@
                             Современные инструменты управления данными: от Data Warehouse и Data Lakehouse до Data Governance. Практики по профилированию, очистке и трансформации данных.
                         </p>
                     </div>
-                </div>
-                <div class="tracks__item">
+                </a>
+                <a href="#business" class="tracks__item">
                     <div class="tracks__item-pic">
                         <img src="<?php echo STANDART_DIR; ?>img/decor/track-decor-item-tree.png" alt="">
                         <img class="tracks__item-decor" src="<?php echo STANDART_DIR; ?>img/decor/tracks-decor-ellipse.png" alt="">
@@ -387,7 +405,7 @@
                             Стоимость и ценность данных, риски, гигиена работы с ними. Дискуссии о роли CDO, цифровом следе, управлении активами и ключевых показателях.
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -559,17 +577,17 @@
                 </div>
 
                 <div class="program__grid-tr">
-                    <div class="program__tr program__tr--title">
+                    <div class="program__tr program__tr--title" id="tech">
                         <div class="program__tr-inner d-flex">
                             <div class="program__title title title--pre-large title--blue title--w-semibold title--uppercase">
-                                Технологическая сессия (Зал ROCKEFELLER)
+                                Технологическая сессия <br> (Зал ROCKEFELLER)
                             </div>
                         </div>
                     </div>
-                    <div class="program__tr program__tr--title">
+                    <div class="program__tr program__tr--title" id="business">
                         <div class="program__tr-inner d-flex">
                             <div class="program__title title title--pre-large title--mint title--w-semibold title--uppercase">
-                                Бизнес сессия (Зал RATUSHA)
+                                Бизнес-сессия <br> (Зал RATUSHA)
                             </div>
                         </div>
                     </div>
@@ -1050,9 +1068,6 @@
                                 Каким был Дата <br> Саммит в 2024
                             </div>
                             <div class="was__arrows d-flex d-flex-column flex-align-center flex-justify-center">
-                                <svg width="32" height="26">
-                                    <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#curved-arrow-down-orange"></use>
-                                </svg>
                                 <svg width="32" height="26">
                                     <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#curved-arrow-down-orange"></use>
                                 </svg>

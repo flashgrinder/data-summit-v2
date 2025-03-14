@@ -1,14 +1,12 @@
 .partners {
 	position: relative;
-	padding-top: 124px;
-	padding-bottom: 150px;
+	padding: 85px 0;
 	overflow: hidden;
 	background-color: #181D30;
 	border-radius: 64px 64px 0 0;
 	@include mobile {
 		border-radius: 50px 50px 0 0;
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding: 50px 0;
 	}
 }
 
@@ -25,7 +23,7 @@
 }
 
 .partners__sliders-wrapper {
-	margin-top: 100px;
+	margin-top: 85px;
 	@include mobile {
 		margin-top: 50px;
 	}

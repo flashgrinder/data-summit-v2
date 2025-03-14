@@ -1,8 +1,9 @@
 .tracks {
-	padding: 128px 0 120px;
+	padding: 85px 0;
 	background-color: #0F1426;
+	overflow-x: hidden;
 	@include mobile {
-		padding: 50px 0 50px;
+		padding: 50px 0;
 	}
 }
 
@@ -94,7 +95,7 @@
 }
 
 .tracks__item-excerpt {
-	opacity: 0.8;
+	opacity: 1;
 	margin-top: 24px;
 }
 
@@ -135,6 +136,8 @@
 
 .tracks__item:nth-child(2) {
 	grid-area: item-2;
+	background-color: #4897FE;
+	cursor: pointer;
 	@include mobile {
 		grid-area: unset;
 	}
@@ -142,6 +145,8 @@
 
 .tracks__item:nth-child(3) {
 	grid-area: item-3;
+	background-color: var(--primary);
+	cursor: pointer;
 	@include mobile {
 		grid-area: unset;
 	}

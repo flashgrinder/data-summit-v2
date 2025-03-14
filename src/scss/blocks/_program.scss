@@ -1,5 +1,6 @@
 .program {
 	background-color: #13182B;
+	padding: 0 0 85px;
 }
 
 .program__top {
@@ -8,8 +9,8 @@
 
 .program__heading {
 	position: relative;
-	padding-top: 128px;
-	padding-bottom: 128px;
+	padding-top: 85px;
+	padding-bottom: 85px;
 	@include mobile {
 		padding: 50px 0;
 	}
@@ -102,7 +103,9 @@
 	margin-top: 16px;
 }
 
+.program__time,
 .program__title {
+	font-size: 24px;
 	@include mobile {
 		font-size: 20px;
 	}
@@ -120,7 +123,7 @@
 
 .program__speakers {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(189px, 237px));
+	grid-template-columns: repeat(auto-fit, minmax(189px, 1fr));
 	gap: 24px;
 	@include mobile {
 		padding-top: 30px;

@@ -1,16 +1,15 @@
 .info {
 	border-radius: 111px 111px 0 0;
 	background-color: #0F1426;
-	padding-bottom: 102px;
+	padding: 85px 0;
 	@include mobile {
 		border-radius: 50px 50px 0 0;
-		padding-bottom: 50px;
+		padding: 50px 0;
 	}
 }
 
 .info__anchors {
 	gap: 16px;
-	padding: 74px 0 0;
 	@include mobile {
 		flex-direction: column;
 	}
@@ -32,16 +31,12 @@
 }
 
 .info__outer {
-	padding-top: 100px;
+	padding-top: 85px;
 	//background: url('../img/decor/info-decor.svg') no-repeat center;
 	//background-size: 100%;
 	@include mobile {
-		padding-top: 60px;
+		padding-top: 50px;
 	}
-}
-
-.info__inner.container {
-	max-width: 620px;
 }
 
 .info__title,
@@ -52,7 +47,7 @@
 
 .info__title + .info__description,
 .info__description + .info__title {
-	margin-top: 49px;
+	margin-top: 32px;
 }
 
 .info__invite {

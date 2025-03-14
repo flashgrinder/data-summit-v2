@@ -1,10 +1,9 @@
 .speakers {
-	padding-top: 130px;
-	padding-bottom: 128px;
+	padding: 85px 0;
 	background-color: #0F1426;
+	overflow-x: hidden;
 	@include mobile {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding: 50px 0;
 	}
 }
 
@@ -25,13 +24,17 @@
 	width: 522px;
 	height: 311px;
 	background: url('../img/decor/blur-orange.png') no-repeat center;
+	@include mobile {
+		width: 100%;
+		background-size: contain;
+	}
 }
 
 .speakers__items {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
 	gap: 32px 34px;
-	margin-top: 128px;
+	margin-top: 85px;
 }
 
 .speakers__item {

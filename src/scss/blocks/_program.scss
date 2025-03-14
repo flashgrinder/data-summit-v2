@@ -94,6 +94,20 @@
 	}
 }
 
+.program__tr.program__tr--desktop {
+	@include mobile {
+		display: none;
+	}
+}
+
+.program__hol {
+	display: none;
+	@include mobile {
+		display: block;
+		margin-bottom: 24px;
+	}
+}
+
 .program__subtitle {
 	margin-bottom: 24px;
 }

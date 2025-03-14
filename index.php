@@ -531,7 +531,7 @@
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                Практический опыт и приоритеты: культура в управлении данными, понимание ценности данных, способы нарастить эффективность компании
+                                Как управление данными и культура работы с ними повышают эффективность компании
                             </div>
                             <div class="program__info-text text text--large text--brown text--w-medium">
                                 К участию приглашены представители компаний: Сбер, DIS Group, Федеральное Казначейство РФ, Росатом, Ростех, Лукойл
@@ -548,6 +548,28 @@
                                         Главный редактор TAdviser
                                     </div>
                                 </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <img src="<?php echo STANDART_DIR; ?>img/speakers/rabinovich.jpg" alt="" class="program__speaker-img">
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Рабинович Борис
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Сбер. Старший управляющий директор. Директор Департамента управления данными (SberData) ПАО Сбербанк
+                                    </div>
+                                </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <img src="<?php echo STANDART_DIR; ?>img/speakers/pavel.jpg" alt="" class="program__speaker-img">
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Лихницкий Павел
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                         Генеральный директор DIS Group
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -559,7 +581,7 @@
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                DIS Awards: Награждение компаний по итогам совместной проектной деятельности в 2024 году
+                                Драйверы data-индустрии: награждение компаний за выдающиеся проекты
                             </div>
                         </div>
                     </div>
@@ -576,7 +598,7 @@
                     </div>
                 </div>
 
-                <div class="program__grid-tr">
+                <div class="program__grid-tr program__tr--desktop">
                     <div class="program__tr program__tr--title" id="tech">
                         <div class="program__tr-inner d-flex">
                             <div class="program__title title title--pre-large title--blue title--w-semibold title--uppercase">
@@ -593,6 +615,9 @@
                     </div>
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
@@ -603,9 +628,6 @@
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                     Современная платформа и экосистема в управлении данными: стандарты и требования к платформам, направление развития платформ
-                                </div>
-                                <div class="program__info-text text text--large text--brown text--w-medium">
-                                    К участию приглашены представители компаний: Газпром нефть, Сбер, МТС, Счётная палата, Еврохим, Алроса, Цифрум, Росагро ОЭК, Роснефть
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -625,6 +647,9 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__subtitle text text--normal text--blue text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
@@ -634,7 +659,7 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Дата-центричные компании: роль данных в повышении прозрачности и формировании системы ключевых показателей для увеличения производительности бизнеса.
+                                    Дата-центричные компании: роль данных в повышении прозрачности и формировании системы ключевых показателей для увеличения
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -655,6 +680,9 @@
                 </div>
                 <!-- Технологическая -->
                 <div class="program__tr program__tr--full">
+                    <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        Зал ROCKEFELLER
+                    </div>
                     <div class="program__tr-inner d-flex d-flex-column">
                         <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                             14:00 — 14:30
@@ -681,6 +709,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
@@ -691,9 +722,6 @@
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                     ИИ в данных
-                                </div>
-                                <div class="program__info-text text text--large text--brown text--w-medium">
-                                    К участию приглашены представители компаний: К участию приглашены представители компаний: РЖД, Газпром нефть, DIS Group, СУЭК, Автоваз, Роснефть, Tele2
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -713,6 +741,9 @@
                     </div>
                     <!-- Бизнес  -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
@@ -723,9 +754,6 @@
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                     Эффективность инструментов ИИ в области Data Governance
-                                </div>
-                                <div class="program__info-text text text--large text--brown text--w-medium">
-                                    К участию приглашены представители компаний: Сбер Про, Российские космические системы, Агроэко, МТС Банк, Азпроммедиа
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -748,22 +776,28 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 15:15 - 15:45
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Тема уточняется
+                                    Интеграционная база в составе Каталога данных. Помощник в миграции и обмене информации с корпоративными справочниками.
                                 </div>
                                 <div class="program__info-text text text--large text--brown text--w-medium">
-                                    Представитель Газпром нефти
+                                    Газпром нефть, спикер уточняется + DIS Group
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Бизнес  -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 15:15 — 15:45
@@ -781,7 +815,7 @@
                                              Трофимов Дмитрий
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Сбер Про управляющий Цифровой трансформации
+                                            Сбер Про. Управляющий Цифровой трансформации
                                         </div>
                                     </div>
                                 </div>
@@ -804,6 +838,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 16:00 - 16:30
@@ -817,13 +854,16 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 16:00 — 16:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Комплексный подход к построению функции УД в организации  -  опермодель, регламенты, технологии, промоушн проекта внутри + эффекты
+                                    Комплексный подход к построению функции УД в организации - опермодель (Оргструктура и роли), регламенты, технологии, промоушн проекта внутри + эффекты
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -846,6 +886,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 16:30 - 17:00
@@ -859,6 +902,9 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 16:00 — 16:30
@@ -870,7 +916,7 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/ivanov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                              Иванов Сергей
@@ -899,6 +945,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 17:15 — 17:45
@@ -912,6 +961,9 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
@@ -947,6 +999,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая  -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 17:45 — 18:15
@@ -960,6 +1015,9 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 17:45 — 18:00
@@ -969,7 +1027,7 @@
                                     Тема уточняется
                                 </div>
                                 <div class="program__info-text text text--large text--brown text--w-medium">
-                                    Представитель  компании Форсайт
+                                    Представитель компании Форсайт
                                 </div>
                             </div>
                         </div>
@@ -979,6 +1037,9 @@
                 <div class="program__grid-tr">
                     <!-- Технологическая -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                                 18:15 — 18:30
@@ -1006,13 +1067,16 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                                 18:00 — 18:30
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Стратегия и будущее ИИ в управлении данными. Деконструкция ИИ: от идей  Алана Тьюринга до сингулярности - технологической "чёрной дыры"
+                                    Каталог данных на базе Plus7 EDM как часть импортонезависимой Дата-платформы
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -1020,10 +1084,7 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Гашников Олег
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            DIS Group
+                                            Газпром нефть, спикер уточняется
                                         </div>
                                     </div>
                                 </div>

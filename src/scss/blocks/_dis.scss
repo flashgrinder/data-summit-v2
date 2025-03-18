@@ -11,21 +11,15 @@
 	min-height: 50vh;
 	position: sticky;
 	top: 0;
-	@include mobile {
-		min-height: 100vh;
-	}
 }
 
 .dis__card {
 	position: relative;
 	padding: 32px;
-	background-color: #171A30;
 	border-radius: 12px;
 	overflow: hidden;
-	background-image: url('../img/decor/dis-blur.png');
-	background-repeat: no-repeat;
-	background-position: right bottom;
 	min-height: 378px;
+	background: linear-gradient(93.01deg, #171A30 5.27%, #0D1528 16%, #030F20 23.67%, #000000 57.73%, #000000 99.29%);
 	@include mobile {
 		padding: 0;
 	}
@@ -53,6 +47,8 @@
 }
 
 .dis__card-wrap {
+	position: relative;
+	z-index: 1;
 	max-width: 633px;
 	@include mobile {
 		padding: 24px;
@@ -62,11 +58,14 @@
 .dis__card-img {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	top: 50%;
+	transform: translateY(-50%);
 	@include mobile {
+		display: none;
 		position: static;
 		margin-top: 50px;
 		width: 100%;
+		transform: none;
 	}
 }
 
@@ -74,6 +73,17 @@
 	right: 50px;
 }
 
+.dis__section:nth-child(3) .dis__card .dis__card-img {
+	top: 0;
+	transform: none;
+}
+
 .dis__section:last-child .dis__card {
 	overflow: visible;
+}
+
+.dis__section:last-child .dis__card .dis__card-img {
+	transform: none;
+	bottom: 0;
+	top: auto;
 }

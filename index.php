@@ -709,11 +709,11 @@
                     </div>
                 </div>
                 <div class="program__tr program__tr--full">
-                    <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                         Пленарная сессия
                     </div>
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             10:10 — 10:30
                         </div>
                         <div class="program__info">
@@ -743,7 +743,7 @@
                 </div>
                 <div class="program__tr program__tr--full">
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             10:30 - 10:50
                         </div>
                         <div class="program__info">
@@ -769,7 +769,7 @@
                 </div>
                 <div class="program__tr program__tr--gen">
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             10:50 — 11:10
                         </div>
                         <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -779,7 +779,7 @@
                 </div>
                 <div class="program__tr program__tr--full">
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             11:10 — 11:40
                         </div>
                         <div class="program__info">
@@ -804,11 +804,11 @@
                     </div>
                 </div>
                 <div class="program__tr program__tr--full">
-                    <div class="program__subtitle text text--normal text--orange text--w-regular text--uppercase">
+                    <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                         Панельная дискуссия
                     </div>
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             11:40 — 12:30
                         </div>
                         <div class="program__info">
@@ -885,7 +885,7 @@
                 </div>
                 <div class="program__tr program__tr--full">
                     <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
                             12:30-12:40
                         </div>
                         <div class="program__info">
@@ -917,7 +917,7 @@
                     </div>
                     <div class="program__tr program__tr--title" id="business">
                         <div class="program__tr-inner d-flex">
-                            <div class="program__title title title--pre-large title--mint title--w-semibold title--uppercase">
+                            <div class="program__title title title--pre-large title--orange title--w-semibold title--uppercase">
                                 Бизнес-сессия <br> (Зал RATUSHA)
                             </div>
                         </div>
@@ -927,7 +927,7 @@
                         <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
                             Зал ROCKEFELLER
                         </div>
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--primary text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
@@ -956,14 +956,14 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
-                        <div class="program__subtitle text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--primary text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
                                 13:30 - 14:30
                             </div>
                             <div class="program__info">
@@ -1070,7 +1070,7 @@
                         <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
                             Зал ROCKEFELLER
                         </div>
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--primary text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
@@ -1148,14 +1148,14 @@
                     </div>
                     <!-- Бизнес  -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--primary text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
                                 14:45 — 15:15
                             </div>
                             <div class="program__info">
@@ -1219,46 +1219,6 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Интеграционная база в составе Каталога данных. Помощник в миграции и обмене информации с корпоративными справочниками.
-                                </div>
-                                <div class="program__speakers">
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/cinchenko.jpg" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ПАО «Газпром нефть». <br> Цынченко Яна
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Аналитик систем
-                                        </div>
-                                    </div>
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            DIS Group. <br> Тюрина Галина
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Руководитель направления качества данных
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Бизнес  -->
-                    <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
-                            Зал RATUSHA
-                        </div>
-                        <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                15:15 — 15:45
-                            </div>
-                            <div class="program__info">
-                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                     Тема уточняется
                                 </div>
                                 <div class="program__speakers">
@@ -1282,6 +1242,46 @@
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Бизнес  -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                                15:15 — 15:45
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    Каталог данных на базе Plus7 EDM как часть импортонезависимой Дата-платформы
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/chepkasov.jpg" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            ПАО «Газпром нефть» <br> Чепкасов  Александр
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Начальник отдела цифровой платформы
+                                        </div>
+                                    </div>
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/pivovarova.jpg" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            ПАО «Газпром нефть» <br> Пивоварова Арина
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Руководитель практики развития и поддержки систем каталогизации и описания данных
                                         </div>
                                     </div>
                                 </div>
@@ -1318,24 +1318,24 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/chepkasov.jpg" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/cinchenko.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ПАО «Газпром нефть». <br> Чепкасов  Александр
+                                            ПАО «Газпром нефть». <br> Цынченко Яна
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Начальник отдела цифровой платформы
+                                            Аналитик систем
                                         </div>
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/pivovarova.jpg" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ПАО «Газпром нефть». <br> Пивоварова Арина
+                                            DIS Group <br> Тюрина Галина
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Руководитель практики развития и поддержки систем каталогизации и описания данных
+                                            Руководитель направления качества данных
                                         </div>
                                     </div>
                                 </div>
@@ -1344,11 +1344,11 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
                                 16:00 — 16:30
                             </div>
                             <div class="program__info">
@@ -1405,12 +1405,12 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                16:00 — 16:30
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                                16:30 — 17:00
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -1477,14 +1477,14 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
-                        <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
+                        <div class="program__subtitle text text--normal text--primary text--w-regular text--uppercase">
                             Панельная дискуссия
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
                                 17:15 — 17:45
                             </div>
                             <div class="program__info">
@@ -1504,6 +1504,22 @@
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                             Зам.директора департамента консалтинга
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase" style="margin-top: 30px">
+                                    Участники:
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Сбер. <br> Рудковский Михаил
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+
                                         </div>
                                     </div>
                                 </div>
@@ -1531,12 +1547,12 @@
                     </div>
                     <!-- Бизнес -->
                     <div class="program__tr program__tr--elem-grid">
-                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
                             Зал RATUSHA
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
-                            <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                                17:45 — 18:00
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                                17:45 — 18:15
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">

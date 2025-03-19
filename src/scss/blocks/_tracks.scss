@@ -85,8 +85,6 @@
 
 .tracks__item-inner {
 	padding: 12px 99px 12px 12px;
-	border-radius: 37px;
-	background-color: rgba(255, 255, 255, 0.02);
 	max-width: 639px;
 	@include mobile {
 		padding: 0;
@@ -123,7 +121,7 @@
 	height: 100%;
 	background-image: url('../img/decor/track-ellips-item-one.png');
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: right bottom;
 	backdrop-filter: blur(71.04450225830078px);
 	opacity: .4;
 	z-index: -1;
@@ -136,7 +134,8 @@
 
 .tracks__item:nth-child(2) {
 	grid-area: item-2;
-	background-color: #4897FE;
+	background: linear-gradient(165.14deg, rgba(29, 35, 55, 0) 1.19%, #2B5A98 98.07%);
+	backdrop-filter: blur(60px);
 	cursor: pointer;
 	@include mobile {
 		grid-area: unset;
@@ -145,7 +144,8 @@
 
 .tracks__item:nth-child(3) {
 	grid-area: item-3;
-	background-color: var(--primary);
+	background: linear-gradient(166.67deg, rgba(29, 35, 55, 0) 13.09%, #FC9512 108.34%);
+	backdrop-filter: blur(60px);
 	cursor: pointer;
 	@include mobile {
 		grid-area: unset;

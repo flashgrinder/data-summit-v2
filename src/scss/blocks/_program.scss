@@ -68,7 +68,7 @@
 	background-position: right center;
 	background-size: contain;
 	@include mobile {
-		background-size: cover;
+		background-image: none;
 	}
 }
 
@@ -94,7 +94,7 @@
 	}
 }
 
-.program__tr.program__tr--desktop {
+.program__grid-tr.program__tr--desktop .program__tr--title {
 	@include mobile {
 		display: none;
 	}

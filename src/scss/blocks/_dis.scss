@@ -21,7 +21,8 @@
 	min-height: 378px;
 	background: linear-gradient(93.01deg, #171A30 5.27%, #0D1528 16%, #030F20 23.67%, #000000 57.73%, #000000 99.29%);
 	@include mobile {
-		padding: 0 0 250px;
+		padding: 0 0 210px;
+		min-height: 530px;
 		background: linear-gradient(180deg, #171A30 3.16%, #030F20 19.89%, #000000 45.67%);
 	}
 }

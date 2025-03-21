@@ -290,7 +290,7 @@
                         </picture>
                     </div>
                     <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/renesans.svg" alt="" class="speakers__item-logo-img">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/renesans.png" alt="" class="speakers__item-logo-img">
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -470,7 +470,7 @@
                         </picture>
                     </div>
                     <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/ydata.png" alt="" class="speakers__item-logo-img">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/ydata.svg" alt="" class="speakers__item-logo-img">
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
@@ -556,24 +556,6 @@
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
-                        </picture>
-                    </div>
-                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/agroeko.svg" alt="" class="speakers__item-logo-img">
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Агроэко. <br> Меркулов Сергей
-                        </h3>
-                        <div class="speakers__item-position text text--small text--primary text--w-medium">
-                             ИТ-директор
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/evtushenko.jpg" alt="">
                         </picture>
                     </div>
@@ -631,9 +613,9 @@
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
                         </picture>
                     </div>
-<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
-<!--                    </div>-->
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/roshoz.png" alt="" class="speakers__item-logo-img">
+                    </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
                             Россельхозбанк. <br> Проскурина Кристина
@@ -667,9 +649,9 @@
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
                         </picture>
                     </div>
-                    <!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-                    <!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
-                    <!--                    </div>-->
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/rusagro.png" alt="" class="speakers__item-logo-img">
+                    </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
                             Русагро. <br> Спикер уточняется
@@ -904,9 +886,6 @@
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                 Как управление данными и культура работы с ними повышают эффективность компании
-                            </div>
-                            <div class="program__info-text text text--large text--brown text--w-medium">
-                                К участию приглашены представители компаний: Сбер, DIS Group, Федеральное Казначейство РФ, Росатом, Ростех, Лукойл
                             </div>
                             <div class="program__speakers">
                                 <div class="program__speaker">
@@ -1360,17 +1339,6 @@
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                             Директор департамента управления данными
-                                        </div>
-                                    </div>
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Агроэко. <br> Меркулов Сергей
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            ИТ-директор
                                         </div>
                                     </div>
                                 </div>
@@ -1838,17 +1806,17 @@
                         <div class="partners__splide-list splide__list">
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/ydata.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/it.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -1858,17 +1826,62 @@
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/unicon.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sberteh.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/vk.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/croc.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/opens.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/crotek.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bank.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
                                     <img src="<?php echo STANDART_DIR; ?>img/partners/korus.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sbertech.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                         </div>
@@ -1880,17 +1893,17 @@
                         <div class="partners__splide-list splide__list">
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/ydata.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/it.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -1900,17 +1913,62 @@
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/unicon.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sberteh.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/vk.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/croc.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/opens.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/crotek.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bank.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
                                     <img src="<?php echo STANDART_DIR; ?>img/partners/korus.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sbertech.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                         </div>

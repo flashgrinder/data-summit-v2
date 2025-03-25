@@ -1973,22 +1973,7 @@
                         <div class="partners__splide-list splide__list">
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/it.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tern.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/vk.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -1998,7 +1983,22 @@
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/vk.png" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tern.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sberteh.png" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -2013,54 +2013,26 @@
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/opens.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/crotek.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bank.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
                                     <img src="<?php echo STANDART_DIR; ?>img/partners/korus.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sberteh.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="partners__top container" style="margin-top: 100px">
+                <h3 class="partners__heading title title--primary title--large title--w-regular title--uppercase text-center">
+                    Информационные партнёры
+                </h3>
+            </div>
+            <div class="partners__sliders-wrapper">
                 <div class="partners__splide splide js-slider-partners" id="slider-2"
                      data-splide='{"autoScroll":{ "speed": -0.3}}'>
                     <div class="partners__splide-track splide__track">
                         <div class="partners__splide-list splide__list">
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tadviser.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -2075,42 +2047,17 @@
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tern.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/unicon.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/vk.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/croc.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/pix.svg" alt="" class="partners__slide-logo">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
                                     <img src="<?php echo STANDART_DIR; ?>img/partners/opens.svg" alt="" class="partners__slide-logo">
+                                </div>
+                            </div>
+                            <div class="partners__splide-slide splide__slide">
+                                <div class="partners__slide-pic">
+                                    <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                             <div class="partners__splide-slide splide__slide">
@@ -2121,21 +2068,6 @@
                             <div class="partners__splide-slide splide__slide">
                                 <div class="partners__slide-pic">
                                     <img src="<?php echo STANDART_DIR; ?>img/partners/bank.svg" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/korus.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/sberteh.png" alt="" class="partners__slide-logo">
-                                </div>
-                            </div>
-                            <div class="partners__splide-slide splide__slide">
-                                <div class="partners__slide-pic">
-                                    <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.png" alt="" class="partners__slide-logo">
                                 </div>
                             </div>
                         </div>

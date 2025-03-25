@@ -975,7 +975,7 @@
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                Практический опыт и приоритеты: культура в управлении данными, понимание ценности данных, способы нарастить эффективность компании
+                                Как управление данными и культура работы с ними повышают эффективность компании
                             </div>
                             <div class="program__speakers">
                                 <div class="program__speaker">
@@ -1442,8 +1442,6 @@
                                             Директор департамента управления данными
                                         </div>
                                     </div>
-                                </div>
-                                <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
@@ -1760,8 +1758,6 @@
 
                                         </div>
                                     </div>
-                                </div>
-                                <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/boyarkin.jpg" alt="" class="program__speaker-img">
@@ -1773,8 +1769,6 @@
                                             Руководитель дирекции развития процессов управления данными
                                         </div>
                                     </div>
-                                </div>
-                                <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">

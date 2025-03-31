@@ -239,10 +239,10 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Лихницкий Павел
+                            DIS Group. <br> Лихницкий Павел
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Генеральный директор DIS Group
+                            Генеральный директор
                         </div>
                     </div>
                 </div>
@@ -257,10 +257,10 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Гиацинтов Олег
+                            DIS Group. <br> Гиацинтов Олег
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Технический директор DIS Group
+                            Технический директор
                         </div>
                     </div>
                 </div>
@@ -312,7 +312,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Сбер. Рабинович Борис
+                            Сбер. <br> Рабинович Борис
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Старший управляющий директор - директор Департамента управления данными (SberData)
@@ -330,7 +330,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Уралсиб. Гончаров Игорь
+                            Уралсиб. <br> Гончаров Игорь
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Руководитель Службы управления данными
@@ -348,7 +348,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Сбер. Селиванов Юрий
+                            Сбер. <br> Селиванов Юрий
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Управляющий директор
@@ -366,7 +366,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            ВТБ. Громов Владимир
+                            ВТБ. <br> Громов Владимир
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Заместитель руководителя департамента технологического развития общебанковских систем
@@ -384,7 +384,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            ПАО «Газпром нефть». Пивоварова Арина
+                            Газпром нефть. <br> Пивоварова Арина
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Руководитель практики развития и поддержки систем каталогизации и описания данных
@@ -402,10 +402,10 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Сбер. Трофимов Дмитрий
+                            Сбер. <br> Трофимов Дмитрий
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Управляющий Цифровой трансформации
+                            Управляющий директор
                         </div>
                     </div>
                 </div>
@@ -420,7 +420,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Российские железные дороги. Савицкий Артём
+                            Российские железные дороги. <br> Савицкий Артём
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Начальник управления информационного обеспечения
@@ -438,28 +438,10 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            ПАО «Газпром нефть». Чепкасов Александр
+                            Газпром нефть. <br> Чепкасов Александр
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Начальник отдела цифровой платформы
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/molchanov.jpg" alt="">
-                        </picture>
-                    </div>
-                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                        <img src="<?php echo STANDART_DIR; ?>img/speakers/magnit.png" alt="" class="speakers__item-logo-img">
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Магнит. Молчанов Олег
-                        </h3>
-                        <div class="speakers__item-position text text--small text--primary text--w-medium">
-                            Руководитель направления по метаданным и качеству данных.
                         </div>
                     </div>
                 </div>
@@ -582,7 +564,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            ПАО «Газпром нефть». <br> Цынченко  Яна
+                            Газпром нефть. <br> Цынченко  Яна
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
                             Аналитик систем
@@ -610,7 +592,7 @@
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/proskurina.jpg" alt="">
                         </picture>
                     </div>
                     <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
@@ -618,17 +600,17 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Россельхозбанк. <br> Проскурина Кристина
+                            РСХБ-Интех. <br> Проскурина Кристина
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
-
+                            Управляющий директор
                         </div>
                     </div>
                 </div>
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/petrov.jpg" alt="">
                         </picture>
                     </div>
                     <!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
@@ -664,7 +646,7 @@
                 <div class="speakers__item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/maksimenko.jpg" alt="">
                         </picture>
                     </div>
                     <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
@@ -685,9 +667,9 @@
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/boyarkin.jpg" alt="">
                         </picture>
                     </div>
-<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/sber.png" alt="" class="speakers__item-logo-img">-->
-<!--                    </div>-->
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/alfa.png" alt="" class="speakers__item-logo-img">
+                    </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
                             Альфа Банк. <br> Бояркин Александр
@@ -744,10 +726,133 @@
 <!--                    </div>-->
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Автоваз. <br>  Гремицких Наталья
+                            Автоваз. <br>  Гремитских Наталья
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
 
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rassoha.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/tvel.jpg" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            ТВЭЛ. <br>  Рассоха Ольга
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Руководитель направления по управлению данными ТВЭЛ
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/shevcov.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/otp.png" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            ОТП Банк. <br> Шевцов Николай
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            CDO
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/otp.png" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Национальная платежная система Казахстана. <br> Шеметова Анастасия
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Руководитель направления аналитики данных
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/lebedev.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/oak.png" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            ОАК. <br> Лебедев Александр
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Советник Генерального директора по цифровой трансформации
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/denisenko.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/samolet.jpeg" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Самолёт. <br> Денисенко Дзерасса
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Руководитель Отдела развития и сопровождения НСИ, Дирекция по данным
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/lukovnikov.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Независимый эксперт. <br> Луковников Алексей
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/tarasov.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/union.jpg" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Юникон Бизнес Солюшнс. <br> Тарасов Александр
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Старший директор Блока бизнеса
                         </div>
                     </div>
                 </div>
@@ -758,14 +863,86 @@
                         </picture>
                     </div>
                     <!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-                    <!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/sber.png" alt="" class="speakers__item-logo-img">-->
+                    <!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/samolet.jpeg" alt="" class="speakers__item-logo-img">-->
                     <!--                    </div>-->
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            ТВЭЛ. <br>  Россоха Ольга
+                            Алешин Егор
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
-
+                            Управляющий директор, владелец продукта Gigachat
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                        <img src="<?php echo STANDART_DIR; ?>img/speakers/samolet.jpeg" alt="" class="speakers__item-logo-img">
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Самолет. <br> Свитнева Ольга
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Директор по данным группы
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/samolet.jpeg" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            НЛМК. <br> Тамарина Алена
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Начальник управления
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/shvedov.jpg" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/samolet.jpeg" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Еврохим. <br> Шведов Дмитрий
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Руководитель департамента бизнес-анализа
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/valin.jpg" alt="">
+                        </picture>
+                    </div>
+<!--                    <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                        <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/union.jpg" alt="" class="speakers__item-logo-img">-->
+<!--                    </div>-->
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
+                            Ростех. <br> Валин Максим
+                        </h3>
+                        <div class="speakers__item-position text text--small text--primary text--w-medium">
+                            Директор по цифровой трансформации
                         </div>
                     </div>
                 </div>
@@ -929,20 +1106,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="program__tr program__tr--gen">
-                    <div class="program__tr-inner d-flex">
-                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                            10:50 — 11:10
-                        </div>
-                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                            Выступление генерального спонсора
-                        </div>
-                    </div>
-                </div>
+
                 <div class="program__tr program__tr--full">
                     <div class="program__tr-inner d-flex">
                         <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
-                            11:10 — 11:40
+                            10:50 — 11:20
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -965,6 +1133,18 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="program__tr program__tr--gen">
+                    <div class="program__tr-inner d-flex">
+                        <div class="program__time title title--pre-large title--mint title--w-semibold title--uppercase">
+                            11:20 — 11:40
+                        </div>
+                        <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                            Выступление генерального спонсора
+                        </div>
+                    </div>
+                </div>
+
                 <div class="program__tr program__tr--full">
                     <div class="program__subtitle text text--normal text--mint text--w-regular text--uppercase">
                         Панельная дискуссия
@@ -1038,6 +1218,17 @@
                                         Генеральный директор
                                     </div>
                                 </div>
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <img src="<?php echo STANDART_DIR; ?>img/speakers/valin.jpg" alt="" class="program__speaker-img">
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Ростех. <br> Валин Максим
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Директор по цифровой трансформации
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1095,7 +1286,7 @@
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Платформа и методология: золотое сечение управления данными
+                                    Платформа и методология: "золотое сечение" управления данными
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
@@ -1138,24 +1329,13 @@
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/proskurina.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Россельхозбанк. <br> Проскурина Кристина
+                                            РСХБ-Интех. <br> Проскурина Кристина
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
-                                        </div>
-                                    </div>
-                                    <div class="program__speaker">
-                                        <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
-                                        </div>
-                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Петров Михаил
-                                        </div>
-                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Независимый эксперт
+                                            Управляющий директор
                                         </div>
                                     </div>
                                     <div class="program__speaker">
@@ -1192,7 +1372,7 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/tarasov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             Модератор: <br> Тарасов Александр
@@ -1222,10 +1402,10 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Сбер Тех. <br> Кудрявцев Валерий
+                                            Сбер Тех. <br> Фролов Дмитрий
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
+                                            Исполнительный директор
                                         </div>
                                     </div>
                                     <div class="program__speaker">
@@ -1241,32 +1421,33 @@
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/shevcov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             ОТП Банк <br>
+                                            Шевцов Николай
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Шевцов Николай
+                                            CDO
                                         </div>
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/shvedov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             Еврохим. <br> Шведов Дмитрий
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
+                                            Руководитель департамента бизнес-анализа
                                         </div>
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/lukovnikov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Б1. <br> Луковников Алексей
+                                            Независимый эксперт. <br> Луковников Алексей
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
 
@@ -1284,11 +1465,55 @@
                     </div>
                     <div class="program__tr-inner d-flex d-flex-column">
                         <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                            14:00 — 14:30
+                            14:00 — 14:15
                         </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                Решение Селена: новая веха в хранении и управлении данными -спикер уточняется
+                                Решение Селена: новая веха в хранении и управлении данными
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Национальная платежная система Казахстана. <br>  Шеметова Анастасия
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Руководитель направления аналитики данных
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Технологическая -->
+                <div class="program__tr program__tr--full">
+                    <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                        Зал ROCKEFELLER
+                    </div>
+                    <div class="program__tr-inner d-flex d-flex-column">
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            14:15 — 14:30
+                        </div>
+                        <div class="program__info">
+                            <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                MDM без иллюзий: Как не превратить ваш проект в "еще одну коробку" в ІТ-ландшафте
+                            </div>
+                            <div class="program__speakers">
+                                <div class="program__speaker">
+                                    <div class="program__speaker-photo">
+                                        <img src="<?php echo STANDART_DIR; ?>img/speakers/denisenko.jpg" alt="" class="program__speaker-img">
+                                    </div>
+                                    <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                        Самолёт. <br> Денисенко Дзерасса
+                                    </div>
+                                    <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                        Руководитель отдела развития и сопровождения НСИ, Дирекция по
+                                        данным
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1363,13 +1588,13 @@
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/gashnikov.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             DIS Group. <br> Гашников Олег
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Директор практики искусственного интеллекта и машинного обучения
+                                            Директор практики искусственного интеллекта и ML
                                         </div>
                                     </div>
                                     <div class="program__speaker">
@@ -1420,10 +1645,10 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/klepikov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Модератор: МТС Банк. <br> Клепиков Алексей
+                                            Модератор: <br> Клепиков Алексей
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Вице-президент
+                                            Вице-президент МТС Банка
                                         </div>
                                     </div>
                                 </div>
@@ -1447,10 +1672,32 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Автоваз. <br> Гремицких Наталья
+                                            Автоваз. <br> Гремитских Наталья
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
 
+                                        </div>
+                                    </div>
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/petrov.jpg" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Петров Михаил
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Независимый эксперт
+                                        </div>
+                                    </div>
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Алешин Егор
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Управляющий директор, владелец продукта Gigachat
                                         </div>
                                     </div>
                                 </div>
@@ -1519,7 +1766,7 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/chepkasov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ПАО «Газпром нефть» <br> Чепкасов  Александр
+                                            Газпром нефть <br> Чепкасов  Александр
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                             Начальник отдела цифровой платформы
@@ -1530,7 +1777,7 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/pivovarova.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ПАО «Газпром нефть» <br> Пивоварова Арина
+                                            Газпром нефть <br> Пивоварова Арина
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
                                             Руководитель практики развития и поддержки систем каталогизации и описания данных
@@ -1633,7 +1880,7 @@
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
-                                16:30 — 17:00
+                                16:30 — 16:45
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
@@ -1645,10 +1892,10 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Россельхозбанк. <br> Колошеин Юрий
+                                            РСХБ-Интех. <br> Колошеин Юрий
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
+                                            Руководитель ЦК развития Озера данных и интеграционных решений
                                         </div>
                                     </div>
                                 </div>
@@ -1662,22 +1909,81 @@
                         </div>
                         <div class="program__tr-inner d-flex d-flex-column">
                             <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
-                                16:30 — 17:00
+                                16:30 — 16:45
                             </div>
                             <div class="program__info">
                                 <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
-                                    Как внедрение управления данными изменило Магнит
+                                    Готовим актуальный контент
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program__grid-tr">
+                    <!-- Технологическая -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--blue text--w-regular text--uppercase">
+                            Зал ROCKEFELLER
+                        </div>
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                                16:45 — 17:00
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    GebAI/ИИ трансформация бизнеса и кейсы и практика использования LLM
                                 </div>
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/molchanov.jpg" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Магнит. <br> Молчанов Олег
+                                            Егор Алешин
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-                                            Руководитель направления по метаданным и качеству данных
+                                            Управляющий директор, владелец продукта Gigachat
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Бизнес -->
+                    <div class="program__tr program__tr--elem-grid">
+                        <div class="program__hol text text--normal text--orange text--w-regular text--uppercase">
+                            Зал RATUSHA
+                        </div>
+                        <div class="program__tr-inner d-flex d-flex-column">
+                            <div class="program__time title title--pre-large title--orange title--w-semibold title--uppercase">
+                                16:45 — 17:00
+                            </div>
+                            <div class="program__info">
+                                <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
+                                    Тема уточняется
+                                </div>
+                                <div class="program__speakers">
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            Axenix. <br> Егор Чугункин
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Старший менеджер депертамента Природные ресурсы
+                                        </div>
+                                    </div>
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            НЛМК. <br> Тамарина Алёна
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Начальник управления, старший менеджер департамента Природные ресурсы
                                         </div>
                                     </div>
                                 </div>
@@ -1752,10 +2058,10 @@
                                             <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            Сбер. <br> Рудковский Михаил
+                                            Самолет. <br> Ольга Свитнева
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
+                                            Директор по данным группы
                                         </div>
                                     </div>
                                     <div class="program__speaker">
@@ -1771,13 +2077,24 @@
                                     </div>
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rassoha.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                            ТВЭЛ. <br> Россоха Ольга
+                                            ТВЭЛ. <br> Рассоха Ольга
                                         </div>
                                         <div class="program__speaker-pos text text--normal text--brown text--w-medium">
-
+                                            Руководитель направления по управлению данными ТВЭЛ
+                                        </div>
+                                    </div>
+                                    <div class="program__speaker">
+                                        <div class="program__speaker-photo">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/lebedev.jpg" alt="" class="program__speaker-img">
+                                        </div>
+                                        <div class="program__speaker-name text text--medium text--primary text--w-semibold">
+                                            ОАК. <br> Лебедев Александр
+                                        </div>
+                                        <div class="program__speaker-pos text text--normal text--brown text--w-medium">
+                                            Советник генерального директора по цифровой трансформации
                                         </div>
                                     </div>
                                 </div>
@@ -1795,6 +2112,9 @@
                         <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
                             17:45 — 18:00
                         </div>
+                        <div class="program__time title title--pre-large title--blue title--w-semibold title--uppercase">
+                            Готовим актуальный контент
+                        </div>
                         <div class="program__info">
                             <div class="program__title title title--pre-large title--primary title--w-semibold title--uppercase">
                                 Тема уточняется
@@ -1805,7 +2125,7 @@
                                         <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
                                     </div>
                                     <div class="program__speaker-name text text--medium text--primary text--w-semibold">
-                                        ВШЭ. <br> Спикер уточняется
+                                        Спикер уточняется
                                     </div>
                                     <div class="program__speaker-pos text text--normal text--brown text--w-medium">
 
@@ -1833,7 +2153,7 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/kurtov.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             DIS Group. <br> Куртов Дмитрий
@@ -1862,7 +2182,7 @@
                                 <div class="program__speakers">
                                     <div class="program__speaker">
                                         <div class="program__speaker-photo">
-                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/team-avatar.png" alt="" class="program__speaker-img">
+                                            <img src="<?php echo STANDART_DIR; ?>img/speakers/maksimenko.jpg" alt="" class="program__speaker-img">
                                         </div>
                                         <div class="program__speaker-name text text--medium text--primary text--w-semibold">
                                             Форсайт. <br> Максименко Оксана

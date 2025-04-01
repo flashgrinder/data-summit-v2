@@ -708,7 +708,7 @@
 <!--                    </div>-->
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--medium text--primary text--w-semibold">
-                            Tele2. <br> Тинас Алевтина
+                            t2. <br> Тинас Алевтина
                         </h3>
                         <div class="speakers__item-position text text--small text--primary text--w-medium">
 

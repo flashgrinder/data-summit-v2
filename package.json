@@ -66,10 +66,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com/flashgrinder/data-summit.git"
+		"url": "git+ssh://git@github.com/flashgrinder/data-summit-v2.git"
 	},
 	"bugs": {
-		"url": "https://github.com/flashgrinder/data-summit/issues"
+		"url": "https://github.com/flashgrinder/data-summit-v2/issues"
 	},
-	"homepage": "https://github.com/flashgrinder/data-summit#readme"
+	"homepage": "https://github.com/flashgrinder/data-summit-v2#readme"
 }

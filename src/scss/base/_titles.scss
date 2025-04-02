@@ -3,36 +3,22 @@
 	font-style: normal;
 	margin: 0;
 	&--extra-huge {
-		//font-size: responsive 48px 113px;
-		//font-range: 768px 1440px;
-		font-size: responsive 48px 96px;
-		font-range: 768px 1440px;
+		font-size: 136px;
 	}
 	&--huge {
-		font-size: responsive 48px 76px;
-		font-range: 768px 1440px;
-	}
-	&--big {
-		//font-size: responsive 32px 48px;
-		//font-range: 768px 1440px;
-		font-size: responsive 32px 40px;
-		font-range: 768px 1440px;
-	}
-	&--pre-big {
-		//font-size: responsive 32px 40px;
-		//font-range: 768px 1440px;
-		font-size: responsive 28px 32px;
-		font-range: 768px 1440px;
+		font-size: 96px;
 	}
 	&--large {
-		font-size: responsive 28px 36px;
-		font-range: 768px 1440px;
+		font-size: 40px;
 	}
-	&--pre-large {
-		//font-size: responsive 24px 32px;
-		//font-range: 768px 1440px;
-		font-size: responsive 24px 28px;
-		font-range: 768px 1440px;
+	&--medium {
+		font-size: 32px;
+	}
+	&--small {
+		font-size: 24px;
+	}
+	&--tiny {
+		font-size: 20px;
 	}
 	&--primary {
 		color: var(--primary-font-color);
@@ -40,8 +26,8 @@
 	&--secondary {
 		color: var(--secondary-font-color);
 	}
-	&--orange {
-		color: var(--primary);
+	&--dark {
+		color: var(--secondary-font-color);
 	}
 	&--blue {
 		color: #4897FE;
@@ -49,20 +35,8 @@
 	&--mint {
 		color: #48EBFF;
 	}
-	&--w-light {
-		font-weight: 300;
-	}
 	&--w-regular {
 		font-weight: 400;
-	}
-	&--w-medium {
-		font-weight: 500;
-	}
-	&--w-semibold {
-		font-weight: 600;
-	}
-	&--w-bold {
-		font-weight: 700;
 	}
 	&--uppercase {
 		text-transform: uppercase;
@@ -70,7 +44,7 @@
 }
 
 .title--indent {
-	margin-bottom: 48px;
+	margin-bottom: 30px;
 	@include mobile {
 		margin-bottom: 24px;
 	}

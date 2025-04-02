@@ -1,6 +1,6 @@
 .button {
   font-family: var(--font-main);
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   cursor: pointer;
   display: inline-flex;
@@ -10,24 +10,20 @@
   font-style: normal;
   text-decoration: none;
   text-align: center;
-  font-size: 24px;
-  line-height: 31px;
-  padding: 12px 12px 12px 24px;
+  font-size: 18px;
+  line-height: 1;
+  padding: 15px 25px;
   z-index: 1;
   outline: var(--primary);
   background: transparent;
   transition: background .3s ease-out, color .3s ease-out, border .3s ease-out, opacity .3s ease-out, width .3s ease-out;
   overflow: hidden;
-  text-transform: uppercase;
 }
 
 .button--primary {
-  background-color: var(--primary);
-  color: var(--white-bg);
-  border-radius: 92px;
-  //font-size: 20px;
-  font-size: 18px;
-  font-weight: 600;
+  background-color: #FF7A19;
+  color: var(--dark-font-color);
+  border-radius: 5px;
   border: 1px solid transparent;
   @include mobile {
     width: 100%;
@@ -37,114 +33,13 @@
 .button--primary:hover,
 .button--primary:focus,
 .button--primary:target {
-  background-color: var(--primary-hover);
-}
-
-.button--primary .button__icon {
-  transform: rotateZ(0deg);
-  transition: transform var(--hover-time) ease;
-}
-
-.button--primary:hover .button__icon,
-.button--primary:focus .button__icon,
-.button--primary:target .button__icon {
-  transform: rotateZ(45deg);
+  background-color: var(--primary);
 }
 
 .button--primary:active {
-  background-color: var(--primary-pressed);
+  background-color: var(--primary);
 }
 
 .button--primary:disabled {
-  color: var(--secondary-bg);
-  background-color: var(--disabled);
-}
-
-.button--secondary {
-  background-color: var(--secondary-bg-2);
-  color: var(--secondary-font-color);
-  @include mobile {
-    font-size: 14px;
-    width: 100%;
-  }
-}
-
-.button--secondary .button__icon {
-  fill: var(--secondary-font-color);
-}
-
-.button--secondary:hover,
-.button--secondary:focus,
-.button--secondary:target {
-  background-color: var(--blue-gray-bg);
-  color: var(--secondary-font-color);
-}
-
-.button--secondary:active {
-  color: var(--primary-pressed);
-}
-
-.button--secondary:disabled {
-  background-color: var(--disabled);
-  color: var(--secondary-bg);
-}
-
-.button--thirty {
-  background-color: var(--dark-bg);
-  color: var(--primary-bg);
-  border: 1px solid #0053391A;
-  @include mobile {
-    font-size: 14px;
-    width: 100%;
-  }
-}
-
-.button--thirty:hover,
-.button--thirty:focus,
-.button--thirty:target {
-  background-color: #263238;
-}
-
-.button--thirty:active {
-  color: var(--primary-pressed);
-}
-
-.button--thirty:disabled {
-  background-color: var(--disabled);
-  color: var(--secondary-bg);
-}
-
-.button--text {
-  color: var(--primary);
-  padding: 3px;
-  font-weight: normal;
-}
-
-.button--text:hover,
-.button--text:focus,
-.button--text:target {
-  color: var(--primary);
-  background-color: var(--focus-bg);
-}
-
-.button--text:active,
-.button--text.is-active {
-  background-color: var(--primary);
-  color: var(--primary-bg);
-}
-
-.button--text:disabled {
-  color: var(--disabled);
-}
-
-.button--medium {
-  font-size: 16px;
-  line-height: 20px;
-  padding: 16px 24px;
-}
-
-.button--small {
-  padding: 10px;
-  font-size: 14px;
-  line-height: 16px;
+  background-color: var(--primary)
 }

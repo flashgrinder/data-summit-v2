@@ -1,0 +1,12 @@
+.solution__items {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 20px;
+}
+
+.solution__item {
+	padding: 25px;
+	background-color: #000019;
+	border-radius: 10px;
+	height: 100px;
+}

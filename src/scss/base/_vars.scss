@@ -3,36 +3,21 @@
 	--container-width-1600: 1630px;
 	--container-padding: 32px;
 
-	--font-main: Manrope, sans-serif;
+	--font-main: NTSomicMed, sans-serif;
+	--font-secondary: Onest, sans-serif;
 
 	/* Brand Colors */
 	--primary: #FB9512;
-	--secondary: #16161C;
-	/* State Colors */
-	--primary-hover: #E3820D;
-	--primary-pressed: #F48A0B;
-	--disabled: #ECEFF1;
-	--secondary-hover: #D30A21;
-	--secondary-pressed: #A9081A;
-	/* Input Colors */
-	--normal: #FFFFFF;
-	--success: #E9F1E4;
-	--error: #F8E4E2;
 	/* Border Colors */
-	--primary-border: #DDE5E3;
-	--normal-border: #C9CBC8;
-	--success-border: #699E4A;
-	--error-border: #D1493F;
+	--primary-border: #FDFDFD1A;
 	/* Background Colors */
-	--primary-bg: #13182B;
+	--primary-bg: #080821;
+	--secondary-bg: #02022D;
 	--white-bg: #ffffff;
-	--secondary-bg: #1E2137;
-	--secondary-bg-2: #171A30;
-	--dark-bg: #16161C;
-	--blue-gray-bg: #CFD8DC;
 	/* Font Colors */
 	--primary-font-color: #FFFFFF;
-	--secondary-font-color: #FF9F43;
+	--secondary-font-color: #FB9512;
+	--dark-font-color: #080821;
 	/* Shadows */
 	--small-shadow: 0px 3px 10px 0px #8585851A;
 	--big-shadow: 0px 10px 50px 0px #8585850D;

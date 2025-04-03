@@ -3,18 +3,18 @@
 	top: 0;
 	width: 100%;
 	z-index: 101;
-	box-shadow: var(--small-shadow);
-	padding: 25px 0;
-	background: #FFFFFF05;
-	backdrop-filter: blur(12px);
-	@include mobile {
-		padding: 18px 0;
-	}
+	padding: 30px 0 0;
+	background: transparent;
+}
+
+.header__inner {
+	gap: 30px;
 }
 
 .header__logo {
 	position: relative;
 	z-index: 111;
+	max-width: 40px;
 }
 
 .header__actions {
@@ -24,9 +24,8 @@
 	}
 }
 
-.header__on-off {
-	margin-top: 12px;
-	opacity: 0.6;
+.header__menu {
+	margin-left: auto;
 }
 
 .header__menu.menu .menu__list {
@@ -34,21 +33,4 @@
 		flex-direction: column;
 		align-items: center;
 	}
-}
-
-.header__menu.menu .menu__item.menu__item--bot {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.header__menu.menu .menu__item.menu__item--bot::after {
-	content: '';
-	display: block;
-	width: 20px;
-	height: 20px;
-	background-image: url('../img/decor/lightning.svg');
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	background-position: center;
 }

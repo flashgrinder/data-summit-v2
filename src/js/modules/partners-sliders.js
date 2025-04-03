@@ -12,6 +12,7 @@ function partnersSliders() {
         const clientsSliders = document.querySelectorAll('.js-slider-partners');
         const buildClientsSlider = clientElem => {
             return new Splide(`#${clientElem.id}`, {
+                fixedHeight: 100,
                 type   : 'loop',
                 height: 'auto',
                 drag   : 'free',

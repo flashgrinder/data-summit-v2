@@ -1,13 +1,13 @@
 .menu {
-  font-family: var(--font-main);
-  font-weight: 600;
+  font-family: var(--font-secondary);
+  font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 130%;
 }
 
 .menu__list {
   display: flex;
-  gap: 48px;
+  gap: 30px;
 }
 
 .menu__list > .menu__item .menu__link {
@@ -16,9 +16,6 @@
   transition: color var(--hover-time) ease;
 }
 
-.menu__list > .menu__item:hover .menu__link {
-  color: var(--primary);
-  @include mobile {
-    transform: none;
-  }
+.menu__item {
+  position: relative;
 }

@@ -43,3 +43,28 @@
 .button--primary:disabled {
   background-color: var(--primary)
 }
+
+.button--secondary {
+  background-color: transparent;
+  color: var(--primary-font-color);
+  border-radius: 5px;
+  border: 1px solid var(--white-bg);
+  width: 100%;
+}
+
+.button--secondary:hover,
+.button--secondary:focus,
+.button--secondary:target {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.button--secondary:active {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.button--secondary:disabled {
+  border-color: var(--primary);
+  color: var(--primary);
+}

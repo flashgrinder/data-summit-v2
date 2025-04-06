@@ -11,33 +11,24 @@
 
 @keyframes hoverWave {
 	0% {
-		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 0 rgba(105, 158, 74, 0.2), 0 0 0 0 rgba(105, 158, 74, 0.2)
+		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 0 rgba(105, 158, 74, 0.2), 0 0 0 0 rgba(105, 158, 74, 0.2);
 	}
 
 	40% {
-		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 15px rgba(105, 158, 74, 0.2), 0 0 0 0 rgba(105, 158, 74, 0.2)
+		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 15px rgba(105, 158, 74, 0.2), 0 0 0 0 rgba(105, 158, 74, 0.2);
 	}
 
 	80% {
-		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 30px rgba(105, 158, 74, 0), 0 0 0 26.7px rgba(105, 158, 74, 0.067)
+		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 30px rgba(105, 158, 74, 0), 0 0 0 26.7px rgba(105, 158, 74, 0.067);
 	}
 
 	100% {
-		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 30px rgba(105, 158, 74, 0), 0 0 0 40px rgba(105, 158, 74, 0.0)
+		box-shadow: 0 8px 10px rgba(105, 158, 74, 0.3), 0 0 0 30px rgba(105, 158, 74, 0), 0 0 0 40px rgba(105, 158, 74, 0.0);
 	}
 }
 
 
 /* Анимация ссылок */
-:root {
-	--AccentuationColor: #FFFFFF;
-	/*цвет заливки по наведению*/
-	--AccentuationHeight: 1.2px;
-	/*размер подчеркивания*/
-	--AccentuationPadding: 5px;
-	/*отступ от текста*/
-}
-
 /*Минимальная ширина экрана 480px*/
 @media only screen and (min-width: 480px) {
 	.hover-accentuation-text,
@@ -97,7 +88,7 @@
 
 	.hover-accentuation-text {
 		position: absolute;
-		top: var(--AccentuationPadding);
+		top: 5px;
 		left: 0;
 		bottom: 0;
 		transform: translateX(-100%);
@@ -112,9 +103,9 @@
 
 	.hover-accentuation-text:before {
 		content: "";
-		background: var(--AccentuationColor);
+		background: #FFFFFF;
 		width: 100%;
-		height: var(--AccentuationHeight);
+		height: 1.2px;
 		position: absolute;
 		bottom: 0;
 		transform: translateX(100%);

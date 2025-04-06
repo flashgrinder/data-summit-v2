@@ -1,0 +1,36 @@
+.tabs__button {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	cursor: pointer;
+	padding: 30px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	height: 100%;
+	transition: color var(--hover-time) ease;
+	@include mobile {
+		padding: 20px;
+	}
+}
+
+.tabs__button-name {
+	color: inherit;
+}
+
+.tabs__content {
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	backface-visibility: hidden;
+	height: 0;
+	transition: opacity .200s ease;
+	z-index: -1;
+}
+
+.tabs__content.is-open {
+	opacity: 1;
+	visibility: visible;
+	height: 100%;
+	backface-visibility: visible;
+	z-index: 9;
+}

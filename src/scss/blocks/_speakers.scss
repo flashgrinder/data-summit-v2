@@ -10,6 +10,31 @@
 	margin-top: 85px;
 }
 
+.speakers__item {
+	position: relative;
+	border-radius: 10px;
+	border: 1px solid transparent;
+	background-color: var(--primary-bg);
+}
+
+.speakers__item::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	border-radius: 10px;
+	padding: 1px;
+	margin: -10px;
+	background:linear-gradient(90deg, #1999FF 0%, #FF8F00 100%);
+	mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+	mask-composite: exclude;
+	transition: opacity var(--hover-time) linear;
+}
+
+.speakers__item:hover::before {
+	opacity: 1;
+}
+
 .speakers__item.is-hidden {
 	display: none;
 }

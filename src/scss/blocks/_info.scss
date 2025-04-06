@@ -1,0 +1,44 @@
+.info {
+	position: relative;
+	background-color: var(--primary-bg);
+	background-image: url('../img/decor/bg-decor-2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 732px;
+	margin-bottom: 30px;
+}
+
+.info.info--footer {
+	background: none;
+	margin-bottom: 145px;
+	min-height: auto;
+	padding-bottom: 0;
+}
+
+.info__inner {
+	display: grid;
+	grid-template-columns: minmax(280px, 332px) minmax(400px, 660px);
+	gap: 30px;
+	align-items: center;
+}
+
+.info__excerpt {
+	line-height: 150%;
+}
+
+.info__title {
+	margin-bottom: 20px;
+}
+
+.info__plunk {
+	max-width: 460px;
+}
+
+.info.info--footer .info__plunk {
+	max-width: 660px;
+}
+
+.info__button {
+	margin-top: 50px;
+}

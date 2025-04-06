@@ -110,11 +110,11 @@ gulp.task('sass:prod', function () {
 		.pipe(groupMedia())
 		.pipe(sass())
 		.pipe(postcss(plugins))
-		.pipe(
-			webImagesCSS({
-				mode: 'webp',
-			})
-		)
+		// .pipe(
+		// 	webImagesCSS({
+		// 		mode: 'webp',
+		// 	})
+		// )
 		.pipe(
 			replace(
 				/(['"]?)(\.\.\/)+(img|images|fonts|css|scss|sass|js|files|audio|video)(\/[^\/'"]+(\/))?([^'"]*)\1/gi,

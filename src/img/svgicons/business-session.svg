@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_550_10533)">
+<path d="M16.0307 2.18018L16.0107 10.6602" stroke="var(--tabs-icon-color)" style="stroke:var(--tabs-icon-color);stroke-opacity:1;" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M16.0307 21.3501L16.0107 29.8301" stroke="var(--tabs-icon-color)" style="stroke:var(--tabs-icon-color);stroke-opacity:1;" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M16.0103 18.5901C21.9142 18.5901 26.7003 16.1949 26.7003 13.2401C26.7003 10.2854 21.9142 7.89014 16.0103 7.89014C10.1064 7.89014 5.32031 10.2854 5.32031 13.2401C5.32031 16.1949 10.1064 18.5901 16.0103 18.5901Z" stroke="var(--tabs-icon-color)" style="stroke:var(--tabs-icon-color);stroke-opacity:1;" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M16.0103 24.1102C21.9142 24.1102 26.7003 21.7149 26.7003 18.7602C26.7003 15.8054 21.9142 13.4102 16.0103 13.4102C10.1064 13.4102 5.32031 15.8054 5.32031 18.7602C5.32031 21.7149 10.1064 24.1102 16.0103 24.1102Z" stroke="var(--tabs-icon-color)" style="stroke:var(--tabs-icon-color);stroke-opacity:1;" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_550_10533">
+<rect width="32" height="32" fill="white" style="fill:white;fill-opacity:1;"/>
+</clipPath>
+</defs>
+</svg>

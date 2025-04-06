@@ -1,0 +1,78 @@
+.pulse {
+	padding-bottom: 100px;
+}
+
+.pulse__grid {
+	display: grid;
+	grid-template-columns: minmax(400px, 529px) minmax(400px, 660px);
+	gap: 50px;
+	justify-content: space-between;
+}
+
+.pulse__info {
+	gap: 30px;
+}
+
+.pulse__heading {
+	max-width: 429px;
+}
+
+.pulse__description {
+	line-height: 150%;
+}
+
+.pulse__items {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(290px, 1fr));
+	gap: 80px;
+}
+
+.pulse__item {
+	position: relative;
+	padding-bottom: 35px;
+}
+
+.pulse__item:hover .pulse__item-static {
+	opacity: 0;
+}
+
+.pulse__item-animation {
+	opacity: 0;
+}
+
+.pulse__item:hover .pulse__item-animation {
+	opacity: 1;
+}
+
+.pulse__item-num.title {
+	font-family: var(--font-regular);
+}
+
+.pulse__item-static,
+.pulse__item-animation {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	transition: opacity .100s linear;
+}
+
+.pulse__item-animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pulse__item-animation svg {
+	stroke: #337AB7;
+	stroke-width: 2px;
+	fill: none;
+	stroke-dasharray: 150, 300;
+	stroke-dashoffset: 0;
+	animation: heartbeat 4s infinite linear;
+}
+
+@keyframes heartbeat {
+	from {
+		stroke-dashoffset: 1350;
+	}
+}

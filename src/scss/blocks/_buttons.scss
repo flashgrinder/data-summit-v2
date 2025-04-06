@@ -21,27 +21,57 @@
 }
 
 .button--primary {
-  background-color: #FF7A19;
   color: var(--dark-font-color);
+  background-color: transparent;
+  overflow: hidden;
   border-radius: 5px;
-  border: 1px solid transparent;
   @include mobile {
     width: 100%;
   }
 }
 
-.button--primary:hover,
-.button--primary:focus,
-.button--primary:target {
-  background-color: var(--primary);
+.button--primary::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--blue-bg);
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  z-index: -1;
+  transform: translate(-105%, 0);
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
+.button--primary::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #FF7A19;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  z-index: -2;
+}
+
+.button--primary:hover::after,
+.button--primary:target::after,
+.button--primary:active::after {
+  transform: translate(0%, 0);
+}
+
+.button--primary:hover,
+.button--primary:target,
 .button--primary:active {
-  background-color: var(--primary);
+  color: var(--primary-font-color);
 }
 
 .button--primary:disabled {
-  background-color: var(--primary)
+  opacity: .5;
 }
 
 .button--secondary {

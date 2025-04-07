@@ -23,7 +23,7 @@ function tabsSlider() {
             768: {
                 autoWidth: false,
                 fixedWidth: 244,
-                perPage: 1,
+                perPage: 'auto',
                 gap: 10,
             },
         },

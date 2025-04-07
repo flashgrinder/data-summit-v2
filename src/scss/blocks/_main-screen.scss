@@ -1,8 +1,5 @@
 .main-screen {
 	background-color: var(--primary-bg);
-	background-image: url('../img/wave.mp4');
-	background-repeat: no-repeat;
-	background-size: cover;
 	padding: 180px 0 220px;
 	//min-height: 790px;
 	position: relative;
@@ -11,7 +8,11 @@
 	overflow: hidden;
 	margin: 0 auto;
 	@include mobile {
-		padding: 150px 0 120px;
+		padding: 185px 0 60px;
+		background-image: url('../img/decor/bg-decor.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
 	}
 }
 
@@ -32,6 +33,9 @@
 	left: 0;
 	min-width: 100%;
 	min-height: 100%;
+	@include mobile {
+		display: none;
+	}
 }
 
 .main-screen__body {
@@ -41,6 +45,16 @@
 
 .main-screen__heading {
 	margin-left: -10px;
+	line-height: 100%;
+	@include tablet {
+		margin-left: 0;
+	}
+}
+
+.main-screen__subtitle {
+	@include tablet {
+		margin-top: 10px;
+	}
 }
 
 .main-screen__inner {
@@ -56,6 +70,7 @@
 	background-color: rgba(0, 0, 50, 1);
 	@include mobile {
 		width: 100%;
+		margin-top: 160px;
 	}
 }
 

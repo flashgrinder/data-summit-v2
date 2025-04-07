@@ -7,12 +7,21 @@
 	}
 	&--extra-huge {
 		font-size: 136px;
+		@include tablet {
+			font-size: 64px;
+		}
 	}
 	&--huge {
 		font-size: 96px;
+		@include mobile {
+			font-size: 48px;
+		}
 	}
 	&--large {
 		font-size: 40px;
+		@include mobile {
+			font-size: 24px;
+		}
 	}
 	&--medium {
 		font-size: 32px;
@@ -52,6 +61,6 @@
 .title--indent {
 	margin-bottom: 30px;
 	@include mobile {
-		margin-bottom: 24px;
+		margin-bottom: 20px;
 	}
 }

@@ -2,6 +2,10 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 	gap: 20px;
+	@include mobile {
+		grid-template-columns: repeat(2, minmax(170px, 1fr));
+		gap: 10px;
+	}
 }
 
 .solution__item {
@@ -9,4 +13,8 @@
 	background-color: #000019;
 	border-radius: 10px;
 	height: 100px;
+	@include mobile {
+		padding: 20px;
+		height: 80px;
+	}
 }

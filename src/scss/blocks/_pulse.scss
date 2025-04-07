@@ -1,5 +1,8 @@
 .pulse {
 	padding-bottom: 100px;
+	@include mobile {
+		padding-bottom: 30px;
+	}
 }
 
 .pulse__grid {
@@ -7,10 +10,17 @@
 	grid-template-columns: minmax(400px, 529px) minmax(400px, 660px);
 	gap: 50px;
 	justify-content: space-between;
+	@include mobile {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
 }
 
 .pulse__info {
 	gap: 30px;
+	@include mobile {
+		gap: 20px;
+	}
 }
 
 .pulse__heading {
@@ -25,6 +35,10 @@
 	display: grid;
 	grid-template-columns: repeat(2, minmax(290px, 1fr));
 	gap: 80px;
+	@include mobile {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
 }
 
 .pulse__item {

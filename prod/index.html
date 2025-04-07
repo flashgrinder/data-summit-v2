@@ -26,15 +26,15 @@
             <nav class="header__menu mobile-nav menu">
     <ul class="header__menu-list menu__list">
         <li class="menu__item tn-atom">
-            <a class="menu__link" href="#speakers">Спикеры</a>
+            <a class="menu__link js-anchor-link" href="#speakers">Спикеры</a>
             <span class="hover-accentuation-text"></span>
         </li>
         <li class="menu__item tn-atom">
-            <a class="menu__link" href="#program">Программа</a>
+            <a class="menu__link js-anchor-link" href="#program">Программа</a>
             <span class="hover-accentuation-text"></span>
         </li>
         <li class="menu__item tn-atom">
-            <a class="menu__link" href="#themes">Темы</a>
+            <a class="menu__link js-anchor-link" href="#themes">Темы</a>
             <span class="hover-accentuation-text"></span>
         </li>
     </ul>
@@ -202,10 +202,10 @@
                 </div>
                 <div class="pulse__item">
                     <div class="pulse__item-num title title--huge title--primary title--w-regular js-counter counter counter-plus">
-                        20
+                        30
                     </div>
                     <div class="pulse__item-text text text--normal text--primary text--w-regular">
-                        спикеров
+                        выступлений заказчиков
                     </div>
                     <svg class="pulse__item-static" x="0px" y="0px" width="290" height="22" viewBox="0 0 290 22" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
@@ -236,8 +236,8 @@
                     </div>
                 </div>
                 <div class="pulse__item">
-                    <div class="pulse__item-num title title--huge title--primary title--w-regular js-counter counter">
-                        8
+                    <div class="pulse__item-num title title--huge title--primary title--w-regular js-counter counter counter-plus">
+                        15
                     </div>
                     <div class="pulse__item-text text text--normal text--primary text--w-regular">
                         часов полезного
@@ -298,99 +298,151 @@
                 </div>
             </div>
         </div>
-        <div class="dis__items">
-            <div class="dis__item">
-                <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-decor">
-                        <picture>
+        <div class="dis__splide splide js-dis-slider">
+            <div class="dis__splide-track splide__track">
+                <div class="dis__splide-list splide__list dis__items">
+                    <div class="dis__splide-slide splide__slide">
+                        <div class="dis__item js-dis-item">
+                            <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-decor">
+                                    <picture>
 <source srcset="./img/dis/dis-item-decor-1.webp 1x, ./img/dis/dis-item-decor-1@2x.webp 2x" type="image/webp">
 <source srcset="./img/dis/dis-item-decor-1.png 1x, ./img/dis/dis-item-decor-1@2x.png 2x" type="image/png">
 <img src="./img/dis/dis-item-decor-1.png" alt="" class="dis__item-decor-img">
 </picture>
+                                </div>
+                                <div class="dis__item-face-title text text--large text--primary text--w-regular">
+                                    Данные + ИИ: <br> новый <br> уровень
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-face js-dis-item-button-open">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-back-title text text--large text--primary text--w-regular">
+                                    Данные + ИИ: <br> новый уровень
+                                </div>
+                                <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
+                                    Покажем, как искусственный интеллект уже встроен в&#160;решения по&#160;управлению данными, какие
+                                    задачи он&#160;автоматизирует и&#160;как максимально эффективно его использовать.
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-back js-dis-item-button-close">
+                                        Свернуть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="dis__item-face-title text text--large text--primary text--w-regular">
-                        Данные + ИИ: <br> новый <br> уровень
-                    </div>
-                </div>
-                <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-back-title text text--large text--primary text--w-regular">
-                        Данные + ИИ: <br> новый уровень
-                    </div>
-                    <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
-                        Покажем, как искусственный интеллект уже встроен в&#160;решения по&#160;управлению данными, какие
-                        задачи он&#160;автоматизирует и&#160;как максимально эффективно его использовать.
-                    </div>
-                </div>
-            </div>
-            <div class="dis__item">
-                <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-decor">
-                        <picture>
+                    <div class="dis__splide-slide splide__slide">
+                        <div class="dis__item js-dis-item">
+                            <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-decor">
+                                    <picture>
 <source srcset="./img/dis/dis-item-decor-2.webp 1x, ./img/dis/dis-item-decor-2@2x.webp 2x" type="image/webp">
 <source srcset="./img/dis/dis-item-decor-2.png 1x, ./img/dis/dis-item-decor-2@2x.png 2x" type="image/png">
 <img src="./img/dis/dis-item-decor-2.png" alt="" class="dis__item-decor-img">
 </picture>
-                    </div>
-                    <div class="dis__item-face-title text text--large text--primary text--w-regular">
-                        <div class="dis__item-subtitle text text--normal text--white-50 text--w-regular">
-                            Премьера:
+                                </div>
+                                <div class="dis__item-face-title text text--large text--primary text--w-regular">
+                                    <div class="dis__item-subtitle text text--normal text--white-50 text--w-regular">
+                                        Премьера:
+                                    </div>
+                                    Селена&#160;&#8212; <br> высокопроизводительная <br> Lakehouse платформа
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-face js-dis-item-button-open">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-back-title text text--large text--primary text--w-regular">
+                                    Селена&#160;&#8212; <br> высокопроизводительная <br> Lakehouse платформа
+                                </div>
+                                <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
+                                    Впервые представим Селену&#160;&#8212; платформу для аналитики в&#160;реальном времени. Презентацию проведет RnD-инженер, готовый ответить на&#160;любые вопросы.
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-back js-dis-item-button-close">
+                                        Свернуть
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        Селена&#160;&#8212; <br> высокопроизводительная <br> Lakehouse платформа
                     </div>
-                </div>
-                <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-back-title text text--large text--primary text--w-regular">
-                        Селена&#160;&#8212; <br> высокопроизводительная <br> Lakehouse платформа
-                    </div>
-                    <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
-                        Впервые представим Селену&#160;&#8212; платформу для аналитики в&#160;реальном времени. Презентацию проведет RnD-инженер, готовый ответить на&#160;любые вопросы.
-                    </div>
-                </div>
-            </div>
-            <div class="dis__item">
-                <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-decor">
-                        <picture>
+                    <div class="dis__splide-slide splide__slide">
+                        <div class="dis__item js-dis-item">
+                            <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-decor">
+                                    <picture>
 <source srcset="./img/dis/dis-item-decor-3.webp 1x, ./img/dis/dis-item-decor-3@2x.webp 2x" type="image/webp">
 <source srcset="./img/dis/dis-item-decor-3.png 1x, ./img/dis/dis-item-decor-3@2x.png 2x" type="image/png">
 <img src="./img/dis/dis-item-decor-3.png" alt="" class="dis__item-decor-img">
 </picture>
+                                </div>
+                                <div class="dis__item-face-title text text--large text--primary text--w-regular">
+                                    Нетворкинг <br> с&#160;лидерами <br> индустрии
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-face js-dis-item-button-open">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-back-title text text--large text--primary text--w-regular">
+                                    Нетворкинг <br> с&#160;лидерами <br> индустрии
+                                </div>
+                                <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
+                                    Уникальная возможность пообщаться с&#160;CDO, CDTO, директорами по&#160;данным и&#160;экспертами крупнейших компаний, обменяться опытом и&#160;наладить полезные связи.
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-back js-dis-item-button-close">
+                                        Свернуть
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="dis__item-face-title text text--large text--primary text--w-regular">
-                        Нетворкинг <br> с&#160;лидерами <br> индустрии
-                    </div>
-                </div>
-                <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-back-title text text--large text--primary text--w-regular">
-                        Нетворкинг <br> с&#160;лидерами <br> индустрии
-                    </div>
-                    <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
-                        Уникальная возможность пообщаться с&#160;CDO, CDTO, директорами по&#160;данным и&#160;экспертами крупнейших компаний, обменяться опытом и&#160;наладить полезные связи.
-                    </div>
-                </div>
-            </div>
-            <div class="dis__item">
-                <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-decor">
-                        <picture>
+                    <div class="dis__splide-slide splide__slide">
+                        <div class="dis__item js-dis-item">
+                            <div class="dis__item-face d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-decor">
+                                    <picture>
 <source srcset="./img/dis/dis-item-decor-4.webp 1x, ./img/dis/dis-item-decor-4@2x.webp 2x" type="image/webp">
 <source srcset="./img/dis/dis-item-decor-4.png 1x, ./img/dis/dis-item-decor-4@2x.png 2x" type="image/png">
 <img src="./img/dis/dis-item-decor-4.png" alt="" class="dis__item-decor-img">
 </picture>
-                    </div>
-                    <div class="dis__item-face-title text text--large text--primary text--w-regular">
-                        <div class="dis__item-subtitle text text--normal text--white-50 text--w-regular">
-                            Демо-зона:
+                                </div>
+                                <div class="dis__item-face-title text text--large text--primary text--w-regular">
+                                    <div class="dis__item-subtitle text text--normal text--white-50 text--w-regular">
+                                        Демо-зона:
+                                    </div>
+                                    Тестируйте <br> технологии <br> в&#160;реальном времени
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-face js-dis-item-button-open">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
+                                <div class="dis__item-back-title text text--large text--primary text--w-regular">
+                                    Тестируйте <br> технологии <br> в&#160;реальном времени
+                                </div>
+                                <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
+                                    Испытайте решения своими руками, соберите свою идеальную платформу управления данными и&#160;получите консультации экспертов.
+                                </div>
+                                <div class="dis__item-action-mobile">
+                                    <button class="dis__item-button dis__item-button-back js-dis-item-button-close">
+                                        Свернуть
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        Тестируйте <br> технологии <br> в&#160;реальном времени
-                    </div>
-                </div>
-                <div class="dis__item-back d-flex d-flex-column flex-justify-sb">
-                    <div class="dis__item-back-title text text--large text--primary text--w-regular">
-                        Тестируйте <br> технологии <br> в&#160;реальном времени
-                    </div>
-                    <div class="dis__item-excerpt text text--normal text--primary text--w-regular">
-                        Испытайте решения своими руками, соберите свою идеальную платформу управления данными и&#160;получите консультации экспертов.
                     </div>
                 </div>
             </div>
@@ -448,7 +500,7 @@
             </div>
             <div class="info__plunk">
                 <div class="info__title title title--large title--primary title--w-regular">
-                    Информация <br> о&#160;саммите
+                    Информация о&#160;саммите
                 </div>
                 <div class="info__excerpt text text--large text--primary text--w-regular">
                     Лучшие практики успешных проектов и&#160;экспертиза от&#160;лидеров отрасли
@@ -481,10 +533,9 @@
                 </div>
                 <div class="themes__item-decor">
                     <picture>
-<source srcset="./img/themes/item-1.webp 1x, ./img/themes/item-1@2x.webp 2x" type="image/webp">
-<source srcset="./img/themes/item-1.png 1x, ./img/themes/item-1@2x.png 2x" type="image/png">
-<img src="./img/themes/item-1.png" alt="" class="themes__item-decor-pic">
-</picture>
+                        <source media="(max-width: 768px)" srcset="./img/themes/item-mobile-1.png">
+                        <img src="./img/themes/item-1.png" alt="" class="themes__item-decor-pic">
+                    </picture>
                 </div>
             </div>
             <div class="themes__item themes__item--second">
@@ -501,10 +552,9 @@
                 </div>
                 <div class="themes__item-decor">
                     <picture>
-<source srcset="./img/themes/item-2.webp 1x, ./img/themes/item-2@2x.webp 2x" type="image/webp">
-<source srcset="./img/themes/item-2.png 1x, ./img/themes/item-2@2x.png 2x" type="image/png">
-<img src="./img/themes/item-2.png" alt="" class="themes__item-decor-pic">
-</picture>
+                        <source media="(max-width: 768px)" srcset="./img/themes/item-mobile-2.png">
+                        <img src="./img/themes/item-2.png" alt="" class="themes__item-decor-pic">
+                    </picture>
                 </div>
             </div>
             <div class="themes__item themes__item--thirty">
@@ -519,10 +569,9 @@
                 </div>
                 <div class="themes__item-decor">
                     <picture>
-<source srcset="./img/themes/item-3.webp 1x, ./img/themes/item-3@2x.webp 2x" type="image/webp">
-<source srcset="./img/themes/item-3.png 1x, ./img/themes/item-3@2x.png 2x" type="image/png">
-<img src="./img/themes/item-3.png" alt="" class="themes__item-decor-pic">
-</picture>
+                        <source media="(max-width: 768px)" srcset="./img/themes/item-mobile-3.png">
+                        <img src="./img/themes/item-3.png" alt="" class="themes__item-decor-pic">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -1894,7 +1943,7 @@
                             </div>
                         </div>
 
-                        <div class="program__tr program__tr--meetup">
+                        <div class="program__tr program__tr--meetup program__tr--plenary">
                             <div class="program__tr-head">
                                 <div class="program__tr-time title title--ff-regular title--small title--primary title--w-regular">
                                     <div class="program__tr-time-wrap d-flex">
@@ -3888,38 +3937,66 @@
                 <picture>
 <source srcset="./img/was/was-1.webp 1x, ./img/was/was-1@2x.webp 2x" type="image/webp">
 <source srcset="./img/was/was-1.jpg 1x, ./img/was/was-1@2x.jpg 2x" type="image/jpeg">
-<img src="./img/was/was-1.jpg" alt="" data-fancybox="summit-2024">
+<img src="./img/was/was-1.jpg" alt="" data-fancybox="top">
 </picture>
             </div>
             <div class="was__item">
                 <picture>
 <source srcset="./img/was/was-2.webp 1x, ./img/was/was-2@2x.webp 2x" type="image/webp">
 <source srcset="./img/was/was-2.jpg 1x, ./img/was/was-2@2x.jpg 2x" type="image/jpeg">
-<img src="./img/was/was-2.jpg" alt="" data-fancybox="summit-2024">
+<img src="./img/was/was-2.jpg" alt="" data-fancybox="top">
 </picture>
             </div>
         </div>
-        <div class="was__bottom d-flex">
-            <div class="was__item">
-                <picture>
+        <div class="was__splide splide js-was-slider">
+            <div class="was__splide-track splide__track">
+                <div class="was__splide-list splide__list">
+                    <div class="was__splide-slide splide__slide">
+                        <div class="was__item">
+                            <picture>
+<source srcset="./img/was/was-1.webp 1x, ./img/was/was-1@2x.webp 2x" type="image/webp">
+<source srcset="./img/was/was-1.jpg 1x, ./img/was/was-1@2x.jpg 2x" type="image/jpeg">
+<img src="./img/was/was-1.jpg" alt="" data-fancybox="summit-2024">
+</picture>
+                        </div>
+                    </div>
+                    <div class="was__splide-slide splide__slide">
+                        <div class="was__item">
+                            <picture>
+<source srcset="./img/was/was-2.webp 1x, ./img/was/was-2@2x.webp 2x" type="image/webp">
+<source srcset="./img/was/was-2.jpg 1x, ./img/was/was-2@2x.jpg 2x" type="image/jpeg">
+<img src="./img/was/was-2.jpg" alt="" data-fancybox="summit-2024">
+</picture>
+                        </div>
+                    </div>
+                    <div class="was__splide-slide splide__slide">
+                        <div class="was__item">
+                            <picture>
 <source srcset="./img/was/was-3.webp 1x, ./img/was/was-3@2x.webp 2x" type="image/webp">
 <source srcset="./img/was/was-3.jpg 1x, ./img/was/was-3@2x.jpg 2x" type="image/jpeg">
 <img src="./img/was/was-3.jpg" alt="" data-fancybox="summit-2024">
 </picture>
-            </div>
-            <div class="was__item">
-                <picture>
+                        </div>
+                    </div>
+                    <div class="was__splide-slide splide__slide">
+                        <div class="was__item">
+                            <picture>
 <source srcset="./img/was/was-4.webp 1x, ./img/was/was-4@2x.webp 2x" type="image/webp">
 <source srcset="./img/was/was-4.jpg 1x, ./img/was/was-4@2x.jpg 2x" type="image/jpeg">
 <img src="./img/was/was-4.jpg" alt="" data-fancybox="summit-2024">
 </picture>
-            </div>
-            <div class="was__item">
-                <picture>
+                        </div>
+                    </div>
+                    <div class="was__splide-slide splide__slide">
+                        <div class="was__item">
+                            <picture>
 <source srcset="./img/was/was-5.webp 1x, ./img/was/was-5@2x.webp 2x" type="image/webp">
 <source srcset="./img/was/was-5.jpg 1x, ./img/was/was-5@2x.jpg 2x" type="image/jpeg">
 <img src="./img/was/was-5.jpg" alt="" data-fancybox="summit-2024">
 </picture>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -3940,22 +4017,42 @@
                 <picture>
 <source srcset="./img/loft/loft-1.webp 1x, ./img/loft/loft-1@2x.webp 2x" type="image/webp">
 <source srcset="./img/loft/loft-1.jpg 1x, ./img/loft/loft-1@2x.jpg 2x" type="image/jpeg">
-<img src="./img/loft/loft-1.jpg" alt="">
+<img src="./img/loft/loft-1.jpg" alt="" data-fancybox="loft">
 </picture>
             </div>
             <div class="loft__item">
                 <picture>
 <source srcset="./img/loft/loft-2.webp 1x, ./img/loft/loft-2@2x.webp 2x" type="image/webp">
 <source srcset="./img/loft/loft-2.jpg 1x, ./img/loft/loft-2@2x.jpg 2x" type="image/jpeg">
-<img src="./img/loft/loft-2.jpg" alt="">
+<img src="./img/loft/loft-2.jpg" alt="" data-fancybox="loft">
 </picture>
             </div>
             <div class="loft__item">
                 <picture>
 <source srcset="./img/loft/loft-3.webp 1x, ./img/loft/loft-3@2x.webp 2x" type="image/webp">
 <source srcset="./img/loft/loft-3.jpg 1x, ./img/loft/loft-3@2x.jpg 2x" type="image/jpeg">
-<img src="./img/loft/loft-3.jpg" alt="">
+<img src="./img/loft/loft-3.jpg" alt=""data-fancybox="loft">
 </picture>
+            </div>
+        </div>
+        <div class="loft__splide splide js-loft-slider">
+            <div class="loft__splide-track splide__track">
+                <div class="loft__splide-list splide__list">
+                    <div class="loft__splide-slide splide__slide">
+                        <picture>
+<source srcset="./img/loft/loft-2.webp 1x, ./img/loft/loft-2@2x.webp 2x" type="image/webp">
+<source srcset="./img/loft/loft-2.jpg 1x, ./img/loft/loft-2@2x.jpg 2x" type="image/jpeg">
+<img src="./img/loft/loft-2.jpg" alt="" data-fancybox="loft-mobile">
+</picture>
+                    </div>
+                    <div class="loft__splide-slide splide__slide">
+                        <picture>
+<source srcset="./img/loft/loft-3.webp 1x, ./img/loft/loft-3@2x.webp 2x" type="image/webp">
+<source srcset="./img/loft/loft-3.jpg 1x, ./img/loft/loft-3@2x.jpg 2x" type="image/jpeg">
+<img src="./img/loft/loft-3.jpg" alt="" data-fancybox="loft-mobile">
+</picture>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -4015,6 +4112,9 @@
                 </div>
             </div>
         </div>
+        <div class="partners__decor-wrap partners__decor-wrap--mobile container">
+            <div class="partners__decor"></div>
+        </div>
         <div class="partners__top container">
             <h3 class="partners__heading title title--primary title--large title--w-regular title--indent">
                 Информационные партнёры
@@ -4061,11 +4161,11 @@
             </h3>
             <div class="faq__wrap-accordion">
 
-                <div class="accordion js-accordion">
+                <div class="faq__accordion accordion js-accordion">
 
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Где и&#160;когда состоится DATA SUMMIT?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4075,14 +4175,14 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Саммит состоится 17&#160;апреля в&#160;Москве в&#160;современном Event-пространстве Loft Hall 2-3 (10 минут пешком от&#160;станции Автозаводская)
                             </div>
                         </div>
                     </div>
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Будет&#160;ли онлайн-трансляция?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4092,14 +4192,14 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Да, все зарегистрированные пользователи получат возможность смотреть трансляцию мероприятия в&#160;режиме онлайн.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Будет&#160;ли запись трансляции мероприятия?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4109,14 +4209,14 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Да, запись будет направлена всем зарегистрированным участникам.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Какие условия участия?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4126,14 +4226,14 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Участие в&#160;Саммите могут принять все желающие бесплатно, необходимо зарегистрироваться на&#160;сайте мероприятия и&#160;дождаться подтверждения.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Можно&#160;ли зарегистрировать коллег?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4143,14 +4243,14 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Да, вы&#160;можете зарегистрировать себя и&#160;своих коллег. После регистрации проверьте, что на&#160;почту пришло подтверждение на&#160;каждого участника.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion__item js-accordion-item">
-                        <h3 class="accordion__item-heading js-accordion-trigger">
-                            <span class="text title title--tiny title--primary title--w-regular">
+                    <div class="faq__accordion-item accordion__item js-accordion-item">
+                        <h3 class="faq__accordion-item-heading accordion__item-heading js-accordion-trigger">
+                            <span class="faq__accordion-item-heading-name  accordion__heading-name text title title--tiny title--primary title--w-regular">
                                 Что делать, если не&#160;пришло письмо с&#160;подтверждением регистрации?
                             </span>
                             <span class="accordion__item-arrow">
@@ -4160,7 +4260,7 @@
                             </span>
                         </h3>
                         <div class="accordion__item-panel js-accordion-panel">
-                            <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                            <div class="faq__accordion-item-answer accordion__item-answer text text--normal text--primary text--w-regular">
                                 Необходимо написать письмо с&#160;описанием проблемы на&#160;Forum@data-summit.ru. Мы&#160;оперативно поможем.
                             </div>
                         </div>

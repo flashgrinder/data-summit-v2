@@ -1,5 +1,8 @@
 .partners {
 	padding: 100px 0;
+	@include mobile {
+		padding: 35px 0;
+	}
 }
 
 .partners__splide + .partners__top {
@@ -14,25 +17,29 @@
 	justify-content: center;
 	padding: 50px;
 	height: 100px;
-}
-
-.partners__slide-pic {
-	//height: 100px;
-}
-
-.partners__slide-logo {
-	//width: 100%;
-	//height: auto;
-	//object-fit: contain;
-	//max-height: 100px;
+	@include mobile {
+		padding: 30px;
+		height: 80px;
+	}
 }
 
 .partners__decor-wrap {
 	margin-top: 30px;
+	@include mobile {
+		margin-top: 10px;
+	}
 }
 
 .partners__decor {
 	height: 1px;
 	width: 100%;
 	background-image: linear-gradient(90deg, #1999FF 0%, #FF8F00 100%);
+}
+
+.partners__decor-wrap--mobile {
+	display: none;
+	@include mobile {
+		display: block;
+		margin-bottom: 40px;
+	}
 }

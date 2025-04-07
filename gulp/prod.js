@@ -150,8 +150,8 @@ gulp.task('images:prod', function () {
 			imagemin(
 				[
 					imagemin.gifsicle({ interlaced: true }),
-					imagemin.mozjpeg({ quality: 85, progressive: true }),
-					imagemin.optipng({ optimizationLevel: 5 }),
+					imagemin.mozjpeg({ quality: 90, progressive: true }),
+					imagemin.optipng({ optimizationLevel: 4 }),
 				],
 				{ verbose: true }
 			)

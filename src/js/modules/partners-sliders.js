@@ -30,6 +30,7 @@ function partnersSliders() {
                 breakpoints : {
                     768: {
                         perPage: 2,
+                        fixedHeight: 80,
                     },
                 },
             })

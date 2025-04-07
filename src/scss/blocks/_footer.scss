@@ -6,6 +6,9 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
+	@include mobile {
+		padding: 50px 0;
+	}
 }
 
 .footer::before {
@@ -28,6 +31,9 @@
 
 .footer__col:first-child {
 	max-width: 311px;
+	@include mobile {
+		max-width: 100%;
+	}
 }
 
 .footer__title {
@@ -56,13 +62,24 @@
 
 .footer__copyright {
 	margin-top: 50px;
+	@include mobile {
+		margin-top: 30px;
+	}
 }
 
 .footer__outer-wrap  {
 	gap: 175px;
+	@include mobile {
+		flex-direction: column;
+		gap: 50px;
+	}
 }
 
 .footer__cookies {
 	max-width: 673px;
 	margin-top: 120px;
+	@include mobile {
+		margin-top: 50px;
+		max-width: 100%;
+	}
 }

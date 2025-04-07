@@ -1,5 +1,10 @@
 .themes {
 	padding-bottom: 100px;
+	@include mobile {
+		position: relative;
+		margin-top: -40px;
+		padding-bottom: 30px;
+	}
 }
 
 .themes__grid {
@@ -8,6 +13,11 @@
 	grid-template-rows: repeat(1, 1fr);
 	grid-auto-rows: 400px;
 	gap: 20px;
+	@include mobile {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 250px);
+		gap: 10px;
+	}
 }
 
 .themes__item {
@@ -15,22 +25,34 @@
 	padding: 30px;
 	border-radius: 10px;
 	overflow: hidden;
+	@include mobile {
+		padding: 20px 16px 20px 20px;
+	}
 }
 
 .themes__item--first {
 	background: linear-gradient(85.56deg, #000035 13.97%, #010175 69.46%);
 
 	grid-area: 1 / 1 / 3 / 3;
+	@include mobile {
+		grid-area: unset;
+	}
 }
 .themes__item--second {
 	background: linear-gradient(239.65deg, #1999FF 31.53%, #0105D6 97.4%);
 
 	grid-area: 3 / 1 / 4 / 2;
+	@include mobile {
+		grid-area: unset;
+	}
 }
 .themes__item--thirty {
 	background: linear-gradient(247.41deg, #FF5900 54.24%, #F11F00 89.48%);
 
 	grid-area: 3 / 2 / 4 / 3;
+	@include mobile {
+		grid-area: unset;
+	}
 }
 
 .themes__item-info {
@@ -52,4 +74,7 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	@include mobile {
+		height: auto;
+	}
 }

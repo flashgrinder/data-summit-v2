@@ -7,6 +7,11 @@
 	background-size: cover;
 	min-height: 732px;
 	margin-bottom: 30px;
+	@include mobile {
+		padding: 60px 0 100px;
+		min-height: auto;
+		margin-bottom: 0;
+	}
 }
 
 .info.info--footer {
@@ -14,6 +19,10 @@
 	margin-bottom: 145px;
 	min-height: auto;
 	padding-bottom: 0;
+	@include mobile {
+		padding: 0;
+		margin-bottom: 100px;
+	}
 }
 
 .info__inner {
@@ -21,6 +30,15 @@
 	grid-template-columns: minmax(280px, 332px) minmax(400px, 660px);
 	gap: 30px;
 	align-items: center;
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
+}
+
+.info__pic {
+	@include mobile {
+		display: none;
+	}
 }
 
 .info__excerpt {
@@ -28,7 +46,11 @@
 }
 
 .info__title {
+	max-width: 370px;
 	margin-bottom: 20px;
+	@include mobile {
+		margin-bottom: 10px;
+	}
 }
 
 .info__plunk {
@@ -41,4 +63,7 @@
 
 .info__button {
 	margin-top: 50px;
+	@include mobile {
+		margin-top: 30px;
+	}
 }

@@ -4,15 +4,27 @@
 	margin: 0;
 	&--big {
 		font-size: 32px;
+		@include mobile {
+			font-size: 20px;
+		}
 	}
 	&--large {
 		font-size: 20px;
+		@include mobile {
+			font-size: 16px;
+		}
 	}
 	&--medium {
 		font-size: 18px;
+		@include mobile {
+			font-size: 14px;
+		}
 	}
 	&--normal {
 		font-size: 16px;
+		@include mobile {
+			font-size: 14px;
+		}
 	}
 	&--small {
 		font-size: 14px;

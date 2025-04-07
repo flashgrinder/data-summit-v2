@@ -11,15 +11,23 @@ import triggerCounter from "./modules/counter";
 import customTabs from "./modules/tabs";
 import tabsSlider from "./modules/tabs-slider";
 import initAccordionsMeetups from "./modules/accordion-meetup";
+import disMobileSlider from "./modules/dis-mobile-slider";
+import disMobileOpenItem from "./modules/dis-mobile-items";
+import wasMobileSlider from "./modules/was-mobile-slider";
+import loftMobileSlider from "./modules/loft-mobile-slider";
 
 document.addEventListener('DOMContentLoaded', ()=> {
 
     mobileNav();
     triggerCounter();
+    disMobileSlider();
+    disMobileOpenItem();
     customTabs();
     tabsSlider();
-    showHideHeader();
+    // showHideHeader();
     partnersSliders();
+    wasMobileSlider();
+    loftMobileSlider();
     animationsSections();
     initModal();
     initAccordion();

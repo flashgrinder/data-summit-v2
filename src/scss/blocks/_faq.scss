@@ -1,3 +1,24 @@
 .faq {
 	padding: 100px 0 75px;
+	@include mobile {
+		padding: 35px 0 50px;
+	}
+}
+
+.faq .faq__accordion-item {
+	@include mobile {
+		padding: 20px 0;
+	}
+}
+
+.faq .faq__accordion-item-heading-name {
+	@include mobile {
+		font-size: 16px;
+	}
+}
+
+.faq .faq__accordion-item-answer {
+	@include mobile {
+		font-size: 12px;
+	}
 }

@@ -383,7 +383,7 @@
                     <div class="info__excerpt text text--large text--primary text--w-regular">
                         Лучшие практики успешных проектов и экспертиза от лидеров отрасли
                     </div>
-                    <a href="" class="info__button button button--primary">
+                    <a href="https://t.me/dis_group_news" class="info__button button button--primary">
                         Перейти в телеграм-канал
                     </a>
                 </div>
@@ -1130,7 +1130,7 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/gremitskih.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/avtovaz.svg" alt="" class="speakers__item-logo-img">
@@ -1141,7 +1141,115 @@
                             Гремитских Наталья
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Директор проекта диджитал маркетинга
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/kurtov.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/dis.png" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Куртов Дмитрий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Архитектор решений
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/zamula.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/selena.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Замула Дмитрий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Технический директор
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/moshnina.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/cloud.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Мошнина Гузелия
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Технический эксперт по платформе данных
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/gashnikov.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/dis.png" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Гашников Олег
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Директор практики искусственного интеллекта и ML
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/bagley.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/cifrum.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Баглей Дмитрий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
 
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/erikalov.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rosatom.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Ерыкалов Василий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Заместитель начальника Управления технической политики в ИТ - главный архитектор ГК Ростатом
                         </div>
                     </div>
                 </div>
@@ -1202,24 +1310,6 @@
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rosatom.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Ерыкалов Василий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Заместитель начальника Управления технической политики в ИТ - главный архитектор ГК Ростатом
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/mosoblgaz.svg" alt="" class="speakers__item-logo-img">
                         </div>
                     </div>
@@ -1244,24 +1334,6 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Старший вице-президент, директор по цифровому бизнесу и развитию отношений с клиентами Почта Банка
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/selena.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Замула Дмитрий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Технический директор
                         </div>
                     </div>
                 </div>
@@ -1595,7 +1667,7 @@
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/moshnina.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -1801,7 +1873,7 @@
                                                 <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
                                             </svg>
                                             <div class="program__tr-time-num">
-                                                12:40 — 13:30
+                                                12:50 — 13:05
                                             </div>
                                         </div>
                                     </div>
@@ -1824,7 +1896,61 @@
                                                     Митап
                                                 </span>
                                                     <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    ROTHSCHILDS HALL
+                                                    Rothschilds hall
+                                                </span>
+                                                    <span class="accordion__item-arrow">
+                                                    <svg class="accordion__svg-arrow" width="24px" height="24px">
+                                                        <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#arrow-accordion"></use>
+                                                    </svg>
+                                                </span>
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-panel js-session-accordion-panel">
+                                                <div class="accordion__item-answer title title--small title--primary title--w-regular">
+                                                    Применение ИИ для автоматической классификации и атрибутирования
+                                                    записей
+                                                </div>
+                                                <div class="accordion__item-answer text text--normal text--primary text--w-regular">
+                                                    Участники: Кудинов Игорь, Скоробогачёв Константин
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="program__tr program__tr--meetup program__tr--plenary">
+                                <div class="program__tr-head">
+                                    <div class="program__tr-time title title--ff-regular title--small title--primary title--w-regular">
+                                        <div class="program__tr-time-wrap d-flex">
+                                            <svg width="32" height="32" class="program__tr-clock">
+                                                <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
+                                            </svg>
+                                            <div class="program__tr-time-num">
+                                                13:10 — 13:25
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="program__tr-accordion accordion--plenary accordion js-session-accordion">
+                                        <div class="program__accordion-item accordion__item js-session-accordion-item">
+                                            <div class="program__accordion-item-heading accordion__item-heading js-session-accordion-trigger">
+                                            <span class="program__accordion-item-heading-inner d-flex">
+                                                <svg width="16" height="23" class="program__tr-bookmark">
+                                                    <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#bookmark"></use>
+                                                </svg>
+                                                <span class="title title--small title--primary title--w-regular">
+                                                    Перерыв
+                                                </span>
+                                            </span>
+                                                <div class="program__meetup-name-wrap">
+                                                <span class="program__meetup-name text text--normal text--primary text--w-regular">
+                                                    <svg width="20" height="20" class="program__tr-bookmark">
+                                                        <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#meetup"></use>
+                                                    </svg>
+                                                    Митап
+                                                </span>
+                                                    <span class="program__meetup-hall text text--normal text--primary text--w-regular">
+                                                    Rothschilds hall
                                                 </span>
                                                     <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
@@ -2786,7 +2912,7 @@
                                     <div class="program__tr-speakers-inner">
                                         <div class="program__speaker">
                                             <div class="program__speaker-pic">
-                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/kurtrov.png" alt=""
                                                      class="program__speaker-img">
                                             </div>
                                             <div class="program__speaker-info">
@@ -3116,7 +3242,7 @@
                                             </div>
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/gremitskih.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3127,7 +3253,7 @@
                                                         Гремитских Наталья
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Директор проекта диджитал маркетинга LADA, Автоваз
+                                                        Директор проекта диджитал маркетинга
                                                     </div>
                                                 </div>
                                             </div>
@@ -3167,7 +3293,7 @@
                                             </div>
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/erikalov.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3439,7 +3565,7 @@
                                         </div>
                                     </div>
                                     <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        Тема уточняется
+                                        Performance Management как драйвер развития Data Governance
                                     </div>
                                 </div>
                                 <div class="program__tr-inner">

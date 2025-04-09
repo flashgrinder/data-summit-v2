@@ -538,25 +538,6 @@
                 <div class="speakers__item js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/ivanov.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/renesans.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Иванов Сергей
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Управляющий директор по корпоративной архитектуре и управлению данными Ренессанс
-                            Страхование.
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/rabinovich.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
@@ -610,7 +591,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="speakers__item is-hidden js-speaker-item">
+                <div class="speakers__item js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/gromov.png" alt="">
@@ -1276,6 +1257,9 @@
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
                         </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sber.svg" alt="" class="speakers__item-logo-img">
+                        </div>
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
@@ -1345,6 +1329,9 @@
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
                         </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/pochta.svg" alt="" class="speakers__item-logo-img">
+                        </div>
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
@@ -1469,12 +1456,12 @@
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
                                         </svg>
                                         <div class="program__tr-time-num">
-                                            10:00 — 10:03
+                                            09:00 — 10:00
                                         </div>
                                     </div>
                                 </div>
                                 <div class="program__tr-title title title--small title--primary title--w-regular">
-                                    Шоу открытия
+                                    Приветственный кофе, регистрация участников
                                 </div>
                             </div>
                         </div>
@@ -2105,7 +2092,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    DIS Group.
+                                                    DIS Group
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Гиацинтов Олег
@@ -2129,7 +2116,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Юниверс Дата.
+                                                    Юниверс Дата
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Каменский Влад
@@ -2163,7 +2150,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    РСХБ-Интех.
+                                                    РСХБ-Интех
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Проскурина Кристина
@@ -2180,7 +2167,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Газпром нефть.
+                                                    Газпром нефть
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Чепкасов Александр
@@ -2232,7 +2219,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Платформа Данных Селена.
+                                                    Платформа Данных Селена
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Замула Дмитрий
@@ -2284,7 +2271,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Самолёт.
+                                                    Самолёт
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Денисенко Дзерасса
@@ -2395,7 +2382,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    DIS Group.
+                                                    DIS Group
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Гиацинтов Олег
@@ -2419,7 +2406,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Цифровые Технологии и Платформы.
+                                                    Цифровые Технологии и Платформы
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Рудаков Дмитрий
@@ -2436,7 +2423,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Российские железные дороги.
+                                                    Российские железные дороги
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Савицкий Артём
@@ -2453,7 +2440,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    DIS Group.
+                                                    DIS Group
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Гашников Олег
@@ -2470,7 +2457,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    Цифрум.
+                                                    Цифрум
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Баглей Дмитрий
@@ -2487,7 +2474,7 @@
                                             </div>
                                             <div class="program__speaker-info">
                                                 <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                    T2.
+                                                    T2
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                     Тинас Алевтина
@@ -3070,7 +3057,7 @@
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
                                         </svg>
                                         <div class="program__tr-time-num">
-                                            18:15 — 20:00
+                                            18:15 — 21:00
                                         </div>
                                     </div>
                                 </div>
@@ -3614,8 +3601,7 @@
                                         </div>
                                     </div>
                                     <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        Считаем эффективность данных: затраты –
-                                        да, а эффекты?
+                                        Тема уточняется
                                     </div>
                                 </div>
                                 <div class="program__tr-inner">
@@ -3625,7 +3611,7 @@
                                         <div class="program__tr-speakers-inner">
                                         </div>
                                     </div>
-                                    <div class="program__tr-speakers">
+                                    <div class="program__tr-speakers visually-hidden">
                                         <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
                                             Участники:
                                         </div>
@@ -3637,7 +3623,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Ренессанс Страхование.
+                                                        Ренессанс Страхование
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Иванов Сергей
@@ -3737,7 +3723,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Axenix.
+                                                        Axenix
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Егор Чугункин
@@ -3754,7 +3740,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        НЛМК.
+                                                        НЛМК
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Тамарина Алёна
@@ -3864,7 +3850,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        DIS Group.
+                                                        DIS Group
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Евтушенко Сергей
@@ -3888,7 +3874,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        ВСК.
+                                                        ВСК
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Сорокина Ольга
@@ -3905,7 +3891,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Самолет.
+                                                        Самолет
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Свитнева Ольга
@@ -3922,7 +3908,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Альфа-Банк.
+                                                        Альфа-Банк
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Бояркин Александр
@@ -3939,7 +3925,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        ТВЭЛ.
+                                                        ТВЭЛ
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Рассоха Ольга
@@ -3956,7 +3942,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        ОАК.
+                                                        ОАК
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Лебедев Александр
@@ -3973,7 +3959,7 @@
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Почта Банк.
+                                                        Почта Банк
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
                                                         Елистратова Ирина
@@ -4046,7 +4032,7 @@
                                                 <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
                                             </svg>
                                             <div class="program__tr-time-num">
-                                                18:15 — 20:00
+                                                18:15 — 21:00
                                             </div>
                                         </div>
                                     </div>
@@ -4202,16 +4188,6 @@
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/corus.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/rostelecom.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                     </div>

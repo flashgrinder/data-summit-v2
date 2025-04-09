@@ -79,6 +79,9 @@
 
 .program__tr-time-wrap {
 	gap: 20px;
+	@include mobile {
+		gap: 10px;
+	}
 }
 
 .program__tr-inner {
@@ -263,38 +266,49 @@
 }
 
 .program__accordion-item-heading {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	gap: 30px;
 	line-height: 1;
-	padding-right: 53px;
+	padding-right: 100px;
 	@include mobile {
 		padding-right: 0;
 		gap: 15px;
 	}
 }
 
-.program__accordion-item-heading-inner .program__tr-bookmark {
+.program__item-meetup {
+	margin-top: 30px;
+}
+
+.program__item-meetup-name svg {
+	min-width: 20px;
+	//@include mobile {
+	//	margin-bottom: -1px;
+	//}
+}
+
+.program__item-meetup-time-wrap {
+	gap: 10px;
+}
+
+.program__item-meetup-name {
+	gap: 10px;
 	@include mobile {
-		display: none;
+		flex-direction: column;
 	}
 }
 
-.program__meetup-name svg {
-	@include mobile {
-		margin-bottom: -3px;
-	}
+.program__item-meetup .program__tr-time-num {
+	font-size: 16px;
 }
 
 .program__tr.program__tr--meetup .accordion__item-answer {
 	@include mobile {
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 
 .program__accordion-item-heading-inner {
 	gap: 10px;
+	align-items: flex-end;
 }
 
 .program__accordion-item-heading-inner span {
@@ -343,4 +357,15 @@
 	display: inline-flex;
 	align-items: flex-end;
 	gap: 5px;
+}
+
+.program__item-meetup-name,
+.program__accordion-item-ask {
+	margin-top: 10px;
+}
+
+.program__item-meetup .program__accordion-item-ask {
+	@include mobile {
+		font-size: 16px;
+	}
 }

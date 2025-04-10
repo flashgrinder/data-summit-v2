@@ -1255,24 +1255,6 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sber.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Алешин Егор
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Управляющий директор, владелец продукта Gigachat
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/svitneva.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
@@ -1285,60 +1267,6 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Директор по данным группы
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/nlmk.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Тамарина Алена
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Начальник управления
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/mosoblgaz.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Климов Дмитрий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Директор по цифровой трансформации
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/pochta.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Елистратова Ирина
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Старший вице-президент, директор по цифровому бизнесу и развитию отношений с клиентами Почта Банка
                         </div>
                     </div>
                 </div>
@@ -1429,6 +1357,96 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Генеральный директор
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sber.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Алешин Егор
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Управляющий директор, владелец продукта Gigachat
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/nlmk.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Тамарина Алена
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Начальник управления
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/mosoblgaz.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Климов Дмитрий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Директор по цифровой трансформации
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/pochta.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Елистратова Ирина
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Старший вице-президент, директор по цифровому бизнесу и развитию отношений с клиентами Почта Банка
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/unicon.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Артем Шмарев
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
                         </div>
                     </div>
                 </div>
@@ -3596,7 +3614,57 @@
                                                 <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock-orange"></use>
                                             </svg>
                                             <div class="program__tr-time-num">
-                                                16:00 — 16:30
+                                                16:00 — 16:15
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="program__tr-title title title--small title--primary title--w-regular">
+                                        Вот был бы тогда КАТАЛОГ! Повышение эффективности внедрения систем бюджетирования, консолидации, отчетности
+                                    </div>
+                                </div>
+                                <div class="program__tr-inner">
+                                    <div class="program__tr-speakers">
+                                        <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
+                                        </div>
+                                        <div class="program__tr-speakers-inner">
+                                        </div>
+                                    </div>
+                                    <div class="program__tr-speakers">
+                                        <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
+                                            Участники:
+                                        </div>
+                                        <div class="program__tr-speakers-inner">
+                                            <div class="program__speaker">
+                                                <div class="program__speaker-pic">
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                         class="program__speaker-img">
+                                                </div>
+                                                <div class="program__speaker-info">
+                                                    <div class="program__speaker-company text text--normal text--primary text--w-regular">
+                                                        Юникон Бизнес Солюшнс
+                                                    </div>
+                                                    <div class="program__speaker-name text text--normal text--primary text--w-regular">
+                                                        Артем Шмарев
+                                                    </div>
+                                                    <div class="program__speaker-position text text--small text--brown text--w-regular">
+                                                        Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="program__tr">
+                                <div class="program__tr-head">
+                                    <div class="program__tr-time title title--ff-regular title--small title--secondary title--w-regular">
+                                        <div class="program__tr-time-wrap d-flex">
+                                            <svg width="32" height="32" class="program__tr-clock">
+                                                <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock-orange"></use>
+                                            </svg>
+                                            <div class="program__tr-time-num">
+                                                16:15 — 16:30
                                             </div>
                                         </div>
                                     </div>
@@ -4196,7 +4264,7 @@
             <div class="partners__decor-wrap partners__decor-wrap--mobile container">
                 <div class="partners__decor"></div>
             </div>
-            <div class="partners__top container">
+            <div class="partners__top container" style="margin-top: 50px">
                 <h3 class="partners__heading title title--primary title--large title--w-regular title--indent">
                     Информационные партнёры
                 </h3>

@@ -1311,9 +1311,9 @@
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/rudakov.png" alt="">
                         </picture>
-<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
-<!--                        </div>-->
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/tech.svg" alt="" class="speakers__item-logo-img">
+                        </div>
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
@@ -1329,9 +1329,9 @@
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/venevcev.png" alt="">
                         </picture>
-<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
-<!--                        </div>-->
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sk.svg" alt="" class="speakers__item-logo-img">
+                        </div>
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
@@ -1357,6 +1357,24 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Генеральный директор
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/shmarev.png" alt="">
+                        </picture>
+<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/unicon.svg" alt="" class="speakers__item-logo-img">-->
+<!--                        </div>-->
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Артем Шмарев
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
                         </div>
                     </div>
                 </div>
@@ -1429,24 +1447,6 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Старший вице-президент, директор по цифровому бизнесу и развитию отношений с клиентами Почта Банка
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/unicon.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Артем Шмарев
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
                         </div>
                     </div>
                 </div>
@@ -3636,7 +3636,7 @@
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/shmarev.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">

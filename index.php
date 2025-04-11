@@ -3279,7 +3279,7 @@
                                                     Перерыв
                                                 </span>
                                                 <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS
+                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
                                                 </span>
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
@@ -3566,7 +3566,7 @@
                                                     Перерыв
                                                 </span>
                                                 <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS
+                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
                                                 </span>
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
@@ -3846,7 +3846,7 @@
                                                     Перерыв
                                                 </span>
                                                 <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS
+                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
                                                 </span>
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
@@ -4256,6 +4256,36 @@
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/notim.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/tadviser.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/prime.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                     </div>

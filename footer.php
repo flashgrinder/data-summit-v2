@@ -9,7 +9,7 @@
                 </div>
                 <div class="info__plunk">
                     <div class="info__title title title--large title--primary title--w-regular">
-                        Станьте партнёров <br> DATA SUMMIT 2025
+                        Станьте партнёром <br> DATA SUMMIT 2025
                     </div>
                     <div class="info__excerpt text text--large text--primary text--w-regular">
                         Чтобы принять участие в Саммите в качестве партнёра, отправьте заявку

@@ -941,7 +941,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Элина Тихонова
+                            Тихонова Элина
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Ведущая
@@ -1371,7 +1371,7 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Артем Шмарев
+                            Шмарев Артем
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
@@ -3116,7 +3116,7 @@
                                         </div>
                                     </div>
                                     <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        От данных к результатам: повышение прозрачности производительности Data-driven центричного бизнеса
+                                        От данных к результатам: повышение прозрачности производительности Data-центричного бизнеса
                                     </div>
                                 </div>
                                 <div class="program__tr-inner">
@@ -3619,7 +3619,7 @@
                                         </div>
                                     </div>
                                     <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        Вот был бы тогда КАТАЛОГ! Повышение эффективности внедрения систем бюджетирования, консолидации, отчетности
+                                        Вот был бы тогда КАТАЛОГ! <br> Повышение эффективности внедрения систем бюджетирования, консолидации, отчетности
                                     </div>
                                 </div>
                                 <div class="program__tr-inner">
@@ -3644,7 +3644,7 @@
                                                         Юникон Бизнес Солюшнс
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Артем Шмарев
+                                                        Шмарев Артем
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
                                                         Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
@@ -4235,6 +4235,11 @@
                         </div>
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/cloud.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/unicon.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
@@ -4260,32 +4265,7 @@
                         </div>
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/notim.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/tadviser.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/prime.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                     </div>
@@ -4321,6 +4301,36 @@
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/digital.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/mobile.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/prime.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/notim.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/cyber.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/bis.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/open.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                     </div>

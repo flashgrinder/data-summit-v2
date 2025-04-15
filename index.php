@@ -512,8 +512,7 @@
                             Чулок Александр
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Доктор экономических наук, доцент. Директор центра научно-технологического прогнозирования,
-                            Институт статистических исследований и экономики знаний НИУ ВШЭ
+                            Российский прогнозист, международный эксперт Программы развития ООН по форсайту, д.э.н., профессор, директор Центра научно-технологического прогнозирования ИСИЭЗ НИУ ВШЭ
                         </div>
                     </div>
                 </div>
@@ -1365,27 +1364,27 @@
                         <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/shmarev.png" alt="">
                         </picture>
-<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
-<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/unicon.svg" alt="" class="speakers__item-logo-img">-->
-<!--                        </div>-->
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/unicon.svg" alt="" class="speakers__item-logo-img">
+                        </div>
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
                             Шмарев Артем
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
+                            Руководитель центра компетенций «Руководство данными и управление НСИ
                         </div>
                     </div>
                 </div>
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/aleshin.png" alt="">
                         </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sber.svg" alt="" class="speakers__item-logo-img">
-                        </div>
+<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/sber.svg" alt="" class="speakers__item-logo-img">-->
+<!--                        </div>-->
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
@@ -1417,25 +1416,7 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/mosoblgaz.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Климов Дмитрий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Директор по цифровой трансформации
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/elistratova.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/pochta.svg" alt="" class="speakers__item-logo-img">
@@ -1447,6 +1428,60 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Старший вице-президент, директор по цифровому бизнесу и развитию отношений с клиентами Почта Банка
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/koloshein.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/rshb.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Колошеин Юрий
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Руководитель ЦК развития Озера данных и интеграционных решений
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/borovleva.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/dis.png" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Ирина Боровлева
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Технический менеджер
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                        </picture>
+<!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
+<!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
+<!--                        </div>-->
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Федосеев Артем
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Руководитель отдела стратегического сопровождения клиентов
                         </div>
                     </div>
                 </div>
@@ -1689,7 +1724,7 @@
                                                         Чулок Александр
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Доктор экономических наук, доцент. Директор центра научно-технологического прогнозирования НИУ ВШЭ
+                                                        Российский прогнозист, международный эксперт Программы развития ООН по форсайту, д.э.н., профессор, директор Центра научно-технологического прогнозирования ИСИЭЗ НИУ ВШЭ
                                                     </div>
                                                 </div>
                                             </div>
@@ -1957,26 +1992,26 @@
                                 </div>
                             </div>
 
-                            <div class="program__tr program__tr--launch visually-hidden">
-                                <div class="program__tr-head">
-                                    <div class="program__tr-time title title--ff-regular title--small title--primary title--w-regular">
-                                        <div class="program__tr-time-wrap d-flex">
-                                            <svg width="32" height="32" class="program__tr-clock">
-                                                <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock"></use>
-                                            </svg>
-                                            <div class="program__tr-time-num">
-                                                12:40 — 13:30
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        <div class="program__tr-time-subtitle text text--small text--primary text--w-regular">
-                                            Зал BACKYARD
-                                        </div>
-                                        Обед
-                                    </div>
-                                </div>
-                            </div>
+<!--                            <div class="program__tr program__tr--launch visually-hidden">-->
+<!--                                <div class="program__tr-head">-->
+<!--                                    <div class="program__tr-time title title--ff-regular title--small title--primary title--w-regular">-->
+<!--                                        <div class="program__tr-time-wrap d-flex">-->
+<!--                                            <svg width="32" height="32" class="program__tr-clock">-->
+<!--                                                <use href="--><?php //echo STANDART_DIR; ?><!--img/svgsprite/sprite.symbol.svg#clock"></use>-->
+<!--                                            </svg>-->
+<!--                                            <div class="program__tr-time-num">-->
+<!--                                                12:40 — 13:30-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="program__tr-title title title--small title--primary title--w-regular">-->
+<!--                                        <div class="program__tr-time-subtitle text text--small text--primary text--w-regular">-->
+<!--                                            Зал BACKYARD-->
+<!--                                        </div>-->
+<!--                                        Обед-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
 
                             <div class="program__tr program__tr--meetup program__tr--plenary">
                                 <div class="program__tr-head">
@@ -1997,9 +2032,9 @@
                                                 <span class="title title--small title--primary title--w-regular">
                                                     Обед
                                                 </span>
-                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал BACKYARD
-                                                </span>
+<!--                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">-->
+<!--                                                    Зал ROTHSCHILDS HALL - зона рядом с камином в выставочном зале-->
+<!--                                                </span>-->
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
                                                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#arrow-accordion"></use>
@@ -2023,6 +2058,9 @@
                                                                 <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#meetup"></use>
                                                             </svg>
                                                             Митап
+                                                        </span>
+                                                        <span class="program__meetup-name-hall text text--normal text--primary text--w-regular">
+                                                            Зал ROTHSCHILDS HALL - зона рядом с камином в выставочном зале
                                                         </span>
                                                     </div>
                                                     <div class="program__accordion-item-ask accordion__item-ask title title--small title--primary title--w-regular">
@@ -2051,10 +2089,10 @@
                                                     </span>
                                                     </div>
                                                     <div class="program__accordion-item-ask accordion__item-ask title title--small title--primary title--w-regular">
-                                                        Кейс ИИ в Universe Data Governance по автоописанию терминов
+                                                        Как найти критичные данные в системах
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Юлия Гордиенко
+                                                        Участники: Инна Устякина
                                                     </div>
                                                 </div>
                                             </div>
@@ -2645,7 +2683,7 @@
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock-mint"></use>
                                         </svg>
                                         <div class="program__tr-time-num">
-                                            16:00 — 16:30
+                                            16:00 — 16:15
                                         </div>
                                     </div>
                                 </div>
@@ -2712,12 +2750,12 @@
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock-mint"></use>
                                         </svg>
                                         <div class="program__tr-time-num">
-                                            16:30 — 16:45
+                                            16:15 — 16:30
                                         </div>
                                     </div>
                                 </div>
                                 <div class="program__tr-title title title--small title--primary title--w-regular">
-                                    Тема уточняется
+                                    МаяК - связь концептуальной модели Data Governance с корпоративными знаниями
                                 </div>
                             </div>
                             <div class="program__tr-inner">
@@ -2734,7 +2772,57 @@
                                     <div class="program__tr-speakers-inner">
                                         <div class="program__speaker">
                                             <div class="program__speaker-pic">
-                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/borovleva.png" alt=""
+                                                     class="program__speaker-img">
+                                            </div>
+                                            <div class="program__speaker-info">
+                                                <div class="program__speaker-company text text--normal text--primary text--w-regular">
+                                                    DIS Group
+                                                </div>
+                                                <div class="program__speaker-name text text--normal text--primary text--w-regular">
+                                                    Ирина Боровлева
+                                                </div>
+                                                <div class="program__speaker-position text text--small text--brown text--w-regular">
+                                                    Технический менеджер
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="program__tr">
+                            <div class="program__tr-head">
+                                <div class="program__tr-time title title--ff-regular title--small title--mint title--w-regular">
+                                    <div class="program__tr-time-wrap d-flex">
+                                        <svg width="32" height="32" class="program__tr-clock">
+                                            <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#clock-mint"></use>
+                                        </svg>
+                                        <div class="program__tr-time-num">
+                                            16:30 — 16:45
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program__tr-title title title--small title--primary title--w-regular">
+                                    Интеграция для МСФО-консолидации
+                                </div>
+                            </div>
+                            <div class="program__tr-inner">
+                                <div class="program__tr-speakers">
+                                    <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
+                                    </div>
+                                    <div class="program__tr-speakers-inner">
+                                    </div>
+                                </div>
+                                <div class="program__tr-speakers">
+                                    <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
+                                        Участники:
+                                    </div>
+                                    <div class="program__tr-speakers-inner">
+                                        <div class="program__speaker">
+                                            <div class="program__speaker-pic">
+                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/koloshein.png" alt=""
                                                      class="program__speaker-img">
                                             </div>
                                             <div class="program__speaker-info">
@@ -2784,7 +2872,7 @@
                                     <div class="program__tr-speakers-inner">
                                         <div class="program__speaker">
                                             <div class="program__speaker-pic">
-                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                <img src="<?php echo STANDART_DIR; ?>img/speakers/aleshin.png" alt=""
                                                      class="program__speaker-img">
                                             </div>
                                             <div class="program__speaker-info">
@@ -2792,7 +2880,7 @@
                                                     Сбер
                                                 </div>
                                                 <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                    Егор Алешин
+                                                    Алешин Егор
                                                 </div>
                                                 <div class="program__speaker-position text text--small text--brown text--w-regular">
                                                     Управляющий директор, владелец продукта Gigachat
@@ -3278,9 +3366,9 @@
                                                 <span class="title title--small title--secondary title--w-regular" style="margin-right: auto">
                                                     Перерыв
                                                 </span>
-                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
-                                                </span>
+<!--                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">-->
+<!--                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале-->
+<!--                                                </span>-->
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
                                                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#arrow-accordion"></use>
@@ -3305,12 +3393,15 @@
                                                             </svg>
                                                             Митап
                                                         </span>
+                                                        <span class="program__meetup-name-hall text text--normal text--primary text--w-regular">
+                                                            Зал ROTHSCHILDS HALL - зона рядом с камином в выставочном зале
+                                                        </span>
                                                     </div>
                                                     <div class="program__accordion-item-ask accordion__item-ask title title--small title--primary title--w-regular">
-                                                        Показ разметки данных в Universe Data Governance
+                                                        Отчётность в Universe MDM и Universe Data Governance
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Гордиенко Юлия, Тюрина Галина
+                                                        Участники: Кудинов Игорь, Гордиенко Юлия
                                                     </div>
                                                 </div>
                                             </div>
@@ -3421,7 +3512,7 @@
                                             </div>
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/aleshin.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3450,23 +3541,6 @@
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
                                                         Заместитель начальника Управления технической политики в ИТ - главный архитектор ГК Ростатом
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="program__speaker">
-                                                <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
-                                                         class="program__speaker-img">
-                                                </div>
-                                                <div class="program__speaker-info">
-                                                    <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Мособлгаз
-                                                    </div>
-                                                    <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Климов Дмитрий
-                                                    </div>
-                                                    <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Директор по цифровой трансформации
                                                     </div>
                                                 </div>
                                             </div>
@@ -3565,9 +3639,9 @@
                                                 <span class="title title--small title--secondary title--w-regular" style="margin-right: auto">
                                                     Перерыв
                                                 </span>
-                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
-                                                </span>
+<!--                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">-->
+<!--                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале-->
+<!--                                                </span>-->
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
                                                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#arrow-accordion"></use>
@@ -3591,6 +3665,9 @@
                                                                 <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#meetup"></use>
                                                             </svg>
                                                             Митап
+                                                        </span>
+                                                        <span class="program__meetup-name-hall text text--normal text--primary text--w-regular">
+                                                            Зал ROTHSCHILDS HALL - зона рядом с камином в выставочном зале
                                                         </span>
                                                     </div>
                                                     <div class="program__accordion-item-ask accordion__item-ask title title--small title--primary title--w-regular">
@@ -3647,7 +3724,7 @@
                                                         Шмарев Артем
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Руководитель ЦК НСИ и руководства данными Практики управления данными и аналитик
+                                                        Руководитель центра компетенций «Руководство данными и управление НСИ
                                                     </div>
                                                 </div>
                                             </div>
@@ -3669,7 +3746,7 @@
                                         </div>
                                     </div>
                                     <div class="program__tr-title title title--small title--primary title--w-regular">
-                                        Тема уточняется
+                                        Что даёт бизнесу BI-платформа Visiology? Кейсы и выгоды на пальцах
                                     </div>
                                 </div>
                                 <div class="program__tr-inner">
@@ -3679,25 +3756,25 @@
                                         <div class="program__tr-speakers-inner">
                                         </div>
                                     </div>
-                                    <div class="program__tr-speakers visually-hidden">
+                                    <div class="program__tr-speakers">
                                         <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
                                             Участники:
                                         </div>
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/ivanov.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
                                                     <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Ренессанс Страхование
+                                                        Visiology
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Иванов Сергей
+                                                        Федосеев Артем
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Управляющий директор по корпоративной архитектуре и управлению данными
+                                                        Руководитель отдела стратегического сопровождения клиентов
                                                     </div>
                                                 </div>
                                             </div>
@@ -3845,9 +3922,9 @@
                                                 <span class="title title--small title--secondary title--w-regular" style="margin-right: auto">
                                                     Перерыв
                                                 </span>
-                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">
-                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале
-                                                </span>
+<!--                                                <span class="program__meetup-hall text text--normal text--primary text--w-regular">-->
+<!--                                                    Зал ROTHSCHILDS - зона рядом с камином в выставочном зале-->
+<!--                                                </span>-->
                                                 <span class="accordion__item-arrow">
                                                     <svg class="accordion__svg-arrow" width="24px" height="24px">
                                                         <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#arrow-accordion"></use>
@@ -3872,12 +3949,15 @@
                                                             </svg>
                                                             Митап
                                                         </span>
+                                                        <span class="program__meetup-name-hall text text--normal text--primary text--w-regular">
+                                                            Зал ROTHSCHILDS HALL - зона рядом с камином в выставочном зале
+                                                        </span>
                                                     </div>
                                                     <div class="program__accordion-item-ask accordion__item-ask title title--small title--primary title--w-regular">
-                                                        Отчетность в Universe MDM и Universe Data Governance
+                                                        Кейс ИИ в Universe Data Governance по автоописанию терминов
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Игорь Кудинов, Юлия Гордиенко
+                                                        Участники: Гордиенко Юлия
                                                     </div>
                                                 </div>
                                             </div>
@@ -4022,7 +4102,7 @@
                                             </div>
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/elistratova.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -4255,17 +4335,7 @@
                         </div>
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/sbertech.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/tarantool.svg" alt="" class="partners__slide-logo">
-                            </div>
-                        </div>
-                        <div class="partners__splide-slide splide__slide">
-                            <div class="partners__slide-pic">
-                                <img src="<?php echo STANDART_DIR; ?>img/partners/tadviser.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                     </div>
@@ -4301,6 +4371,11 @@
                         <div class="partners__splide-slide splide__slide">
                             <div class="partners__slide-pic">
                                 <img src="<?php echo STANDART_DIR; ?>img/partners/digital.svg" alt="" class="partners__slide-logo">
+                            </div>
+                        </div>
+                        <div class="partners__splide-slide splide__slide">
+                            <div class="partners__slide-pic">
+                                <img src="<?php echo STANDART_DIR; ?>img/partners/tadviser.svg" alt="" class="partners__slide-logo">
                             </div>
                         </div>
                         <div class="partners__splide-slide splide__slide">

@@ -26,6 +26,17 @@
                     Регистрация
                 </a>
             </div>
+            <div class="main-screen__actions" style="display: none">
+                <div class="main-screen__on-off text text--large text--primary text--w-regular">
+                    Трансляция:
+                </div>
+                <a href="https://facecast.net/v/clients/trued/17_04_25/index.html" class="main-screen__button button button--translate">
+                    <svg width="22" height="22" class="button__icon">
+                        <use href="./img/svgsprite/sprite.symbol.svg#camera"></use>
+                    </svg>
+                    <span>Смотреть трансляцию</span>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -629,24 +640,6 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/trofimov.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sber.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Трофимов Дмитрий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Управляющий директор
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/savicki.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
@@ -890,24 +883,6 @@
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Старший директор Блока бизнеса
-                        </div>
-                    </div>
-                </div>
-                <div class="speakers__item is-hidden js-speaker-item">
-                    <div class="speakers__item-pic">
-                        <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/frolov.png" alt="">
-                        </picture>
-                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sberteh.svg" alt="" class="speakers__item-logo-img">
-                        </div>
-                    </div>
-                    <div class="speakers__item-info">
-                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
-                            Фролов Дмитрий
-                        </h3>
-                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Исполнительный директор
                         </div>
                     </div>
                 </div>
@@ -1398,7 +1373,7 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/tamarina.png" alt="">
                         </picture>
                         <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
                             <img src="<?php echo STANDART_DIR; ?>img/speakers/nlmk.svg" alt="" class="speakers__item-logo-img">
@@ -1409,7 +1384,7 @@
                             Тамарина Алена
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
-                            Начальник управления
+                            Начальник управления Проектный офис ИТ трансформации Экономики
                         </div>
                     </div>
                 </div>
@@ -1470,7 +1445,7 @@
                 <div class="speakers__item is-hidden js-speaker-item">
                     <div class="speakers__item-pic">
                         <picture>
-                            <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt="">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/chugunkin.png" alt="">
                         </picture>
 <!--                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">-->
 <!--                            <img src="--><?php //echo STANDART_DIR; ?><!--img/speakers/dis.png" alt="" class="speakers__item-logo-img">-->
@@ -1478,10 +1453,46 @@
                     </div>
                     <div class="speakers__item-info">
                         <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Чугункин Егор
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Старший менеджер департамента Природные ресурсы
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/fedoseev.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/visiology.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
                             Федосеев Артем
                         </h3>
                         <div class="speakers__item-position text text--normal text--brown text--w-regular">
                             Руководитель отдела стратегического сопровождения клиентов
+                        </div>
+                    </div>
+                </div>
+                <div class="speakers__item is-hidden js-speaker-item">
+                    <div class="speakers__item-pic">
+                        <picture>
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/gluhov.png" alt="">
+                        </picture>
+                        <div class="speakers__item-logo d-flex flex-justify-center flex-align-center">
+                            <img src="<?php echo STANDART_DIR; ?>img/speakers/sberteh.svg" alt="" class="speakers__item-logo-img">
+                        </div>
+                    </div>
+                    <div class="speakers__item-info">
+                        <h3 class="speakers__item-name text text--large text--primary text--w-regular">
+                            Глухов Иван
+                        </h3>
+                        <div class="speakers__item-position text text--normal text--brown text--w-regular">
+                            Исполнительный директор
                         </div>
                     </div>
                 </div>
@@ -1588,7 +1599,7 @@
                                 <div class="program__splide-slide splide__slide">
                                     <div class="program__tabs-button tabs__button" data-tab-trigger="technology">
                                         <div class="program__tabs-hall text text--small text--brown text--w-regular">
-                                            Основной зал
+                                            Бизнес-зал
                                         </div>
                                         <svg width="32" height="32" class="program__tabs-icon tabs__icon">
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#techno-session"></use>
@@ -1601,7 +1612,7 @@
                                 <div class="program__splide-slide splide__slide">
                                     <div class="program__tabs-button tabs__button" data-tab-trigger="business">
                                         <div class="program__tabs-hall text text--small text--brown text--w-regular">
-                                            Бизнес-зал
+                                            Основной зал
                                         </div>
                                         <svg width="32" height="32" class="program__tabs-icon tabs__icon">
                                             <use href="<?php echo STANDART_DIR; ?>img/svgsprite/sprite.symbol.svg#business-session"></use>
@@ -3239,24 +3250,7 @@
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/trofimov.png" alt=""
-                                                         class="program__speaker-img">
-                                                </div>
-                                                <div class="program__speaker-info">
-                                                    <div class="program__speaker-company text text--normal text--primary text--w-regular">
-                                                        Сбер
-                                                    </div>
-                                                    <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Трофимов Дмитрий
-                                                    </div>
-                                                    <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Управляющий директор
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="program__speaker">
-                                                <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/frolov.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/gluhov.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3264,7 +3258,7 @@
                                                         Сбер Тех
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Фролов Дмитрий
+                                                        Глухов Иван
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
                                                         Исполнительный директор
@@ -3339,6 +3333,25 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="program__speaker">
+                                                <div class="program__speaker-pic">
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/lukovnikov.png" alt=""
+                                                         class="program__speaker-img">
+                                                </div>
+                                                <div class="program__speaker-info">
+                                                    <div class="program__speaker-company text text--normal text--primary text--w-regular">
+                                                        Сбер
+                                                    </div>
+                                                    <div class="program__speaker-name text text--normal text--primary text--w-regular">
+                                                        Князев Сергей
+                                                    </div>
+                                                    <div class="program__speaker-position text text--small text--brown text--w-regular">
+                                                        Исполнительный директор
+                                                        <br>
+                                                        Департамент развития корпоративного бизнеса
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -3401,7 +3414,7 @@
                                                         Отчётность в Universe MDM и Universe Data Governance
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Кудинов Игорь, Гордиенко Юлия
+                                                        Участники: Работаев Александр, Кудинов Игорь
                                                     </div>
                                                 </div>
                                             </div>
@@ -3674,7 +3687,7 @@
                                                         Показ разметки данных в Universe Data Governance
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Гордиенко Юлия, Тюрина Галина
+                                                        Участники: Тюрина Галина
                                                     </div>
                                                 </div>
                                             </div>
@@ -3763,7 +3776,7 @@
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/fedoseev.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3808,10 +3821,10 @@
                                     </div>
                                     <div class="program__tr-speakers">
                                         <div class="program__tr-speakers-name text text--normal text--primary text--w-regular">
-                                            Участники:
+
                                         </div>
                                         <div class="program__tr-speakers-inner">
-                                            <div class="program__speaker">
+                                            <div class="program__speaker visually-hidden">
                                                 <div class="program__speaker-pic">
                                                     <img src="<?php echo STANDART_DIR; ?>img/speakers/trofimov.png" alt=""
                                                          class="program__speaker-img">
@@ -3863,7 +3876,7 @@
                                         <div class="program__tr-speakers-inner">
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/man.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/chugunkin.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3871,16 +3884,16 @@
                                                         Axenix
                                                     </div>
                                                     <div class="program__speaker-name text text--normal text--primary text--w-regular">
-                                                        Егор Чугункин
+                                                        Чугункин Егор
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Старший менеджер депертамента Природные ресурсы
+                                                        Старший менеджер департамента Природные ресурсы
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="program__speaker">
                                                 <div class="program__speaker-pic">
-                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/woman.png" alt=""
+                                                    <img src="<?php echo STANDART_DIR; ?>img/speakers/tamarina.png" alt=""
                                                          class="program__speaker-img">
                                                 </div>
                                                 <div class="program__speaker-info">
@@ -3891,7 +3904,7 @@
                                                         Тамарина Алёна
                                                     </div>
                                                     <div class="program__speaker-position text text--small text--brown text--w-regular">
-                                                        Начальник управления, старший менеджер департамента Природные ресурсы
+                                                        Начальник управления Проектный офис ИТ трансформации Экономики
                                                     </div>
                                                 </div>
                                             </div>
@@ -3957,7 +3970,7 @@
                                                         Кейс ИИ в Universe Data Governance по автоописанию терминов
                                                     </div>
                                                     <div class="accordion__item-answer text text--normal text--primary text--w-regular">
-                                                        Участники: Гордиенко Юлия
+                                                        Участники: Сильвесторов Алексей
                                                     </div>
                                                 </div>
                                             </div>

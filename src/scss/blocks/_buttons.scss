@@ -98,3 +98,13 @@
   border-color: var(--primary);
   color: var(--primary);
 }
+
+.button--translate {
+  border: 1px solid #066B1D;
+  background-color: transparent;
+  color: var(--white-bg);
+}
+
+.button--translate svg {
+  margin-bottom: -2px;
+}

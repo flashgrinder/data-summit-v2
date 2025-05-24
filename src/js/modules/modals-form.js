@@ -2,6 +2,18 @@ import HystModal from 'hystmodal';
 
 function initModal() {
 
+    let wpcf7Elem = document.querySelectorAll( '.wpcf7-form' );
+
+    wpcf7Elem.forEach(function(elem) {
+
+        elem.addEventListener( 'wpcf7mailsent', function( e ) {
+
+            modalsForms.open('.js-modal-success');
+
+        }, false );
+
+    });
+
     const hideHeader = document.querySelector('.js-header');
 
     let modalsForms = new HystModal({

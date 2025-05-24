@@ -23,7 +23,7 @@
                     17 апреля \ Москва + онлайн
                 </div>
                 <a href="javascript:;" class="main-screen__button button button--primary" data-hystmodal="#feedback">
-                    Регистрация
+                    Запросить запись
                 </a>
             </div>
             <div class="main-screen__actions" style="display: none">

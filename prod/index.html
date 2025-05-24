@@ -4313,7 +4313,7 @@
 </main>
 
 <!-- Модалка -->
-<div class="modal modal--feedback hystmodal" id="feedback" aria-hidden="true">
+<div class="modal modal--feedback hystmodal" id="feedbackss" aria-hidden="true">
     <div class="modal__wrap hystmodal__wrap">
         <div class="modal__body hystmodal__window" role="dialog" aria-modal="true">
             <button data-hystclose class="modal__close hystmodal__close">Close</button>
@@ -4321,6 +4321,123 @@
         </div>
     </div>
 </div>
+
+<!-- Модалка обратной связи -->
+<div class="modal hystmodal" id="feedback" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
+            <div class="modal__close" data-hystclose>
+                <svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="modal__logo">
+                <img src="./img/logo.png" alt=""
+					 class="modal__logo-img">
+            </div>
+            <h3 class="modal__title title title--large title--white title--w-regular text-center">
+                Получить запись
+            </h3>
+            <div role="form" class="submitting wpcf7">
+<!--				                <div class="form-loader">-->
+<!--				                    <div class="loader"></div>-->
+<!--				                </div>-->
+                <form class="modal__form wpcf7-form init" action="php/form-send.php" method="post">
+                    <input type="hidden" class="js-modal-info">
+                    <div class="modal__field">
+                        <span class="modal__field-plunk">Ваше имя*</span>
+                        <input type="text" class="modal__input" placeholder="Rachael Joe">
+                    </div>
+                    <div class="modal__field">
+                        <span class="modal__field-plunk">Ваш Email*</span>
+                        <input type="email" class="modal__input" placeholder="mail@email.com">
+                    </div>
+                    <div class="modal__field">
+                        <span class="modal__field-plunk">Ваш телефон*</span>
+                        <input type="tel" class="modal__input" placeholder="+7 ___ ___ -__-__">
+                    </div>
+                    <div class="modal__field">
+                        <span class="modal__field-plunk">Интересующий лот</span>
+                        <textarea class="modal__input modal__input--textarea" placeholder="Комнатность/цена/консультация/полный каталог"></textarea>
+                    </div>
+                    <div class="modal__acceptance">
+                        <span class="wpcf7-form-control-wrap" data-name="acceptance-680">
+                            <span class="wpcf7-form-control wpcf7-acceptance">
+                                <span class="wpcf7-list-item">
+                                    <label>
+                                        <input type="checkbox" name="acceptance-680" value="1" aria-invalid="false">
+                                        <span class="wpcf7-list-item-label">
+                                            <span class="sg-popup-id-956 underline2" data-popup-id="956"
+												  data-hystmodal="#policy">
+                                                Подтверждаю согласие на&#160;обработку персональных данных
+                                            </span>
+                                        </span>
+                                    </label>
+                                </span>
+                            </span>
+                        </span>
+                        <span class="wpcf7-form-control-wrap" data-name="acceptance-680">
+                            <span class="wpcf7-form-control wpcf7-acceptance">
+                                <span class="wpcf7-list-item">
+                                    <label>
+                                        <input type="checkbox" name="acceptance-680" value="1" aria-invalid="false">
+                                        <span class="wpcf7-list-item-label">
+                                            <span class="sg-popup-id-956 underline2" data-popup-id="956">
+                                                Согласен на&#160;получение рекламной рассылки
+                                            </span>
+                                        </span>
+                                    </label>
+                                </span>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="modal__actions">
+                        <button type="submit" class="modal__btn button button--primary button--form" data-hystmodal="#success">
+                            Получить запись
+                        </button>
+                    </div>
+                </form>
+                <div class="modal__footer d-flex flex-justify-sb flex-align-center">
+                    <a href="tel:+7 915 118-80-80" class="modal__contact">
+                        +7&#160;915&#160;118-80-80
+                    </a>
+                    <a href="mailto:info@jol-agency.ru" class="modal__contact">
+                        info@jol-agency.ru
+                    </a>
+                    <a href="https://wa.me/message/TGMYNWTYHYZJF1" class="modal__contact">
+                        WhatsApp
+                    </a>
+                    <a href="https://t.me/jolagency" class="modal__contact">
+                        Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /. Модалка обратной связи -->
+
+<!-- Success -->
+<div class="modal modal--success hystmodal js-modal-success" id="success" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
+            <div class="modal__close" data-hystclose>
+                <svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="modal__wrapper-success">
+                <div class="modal__success-text text text--large text--white text--w-regular">
+                    Спасибо, ваша запрос принят!
+                    <br>
+                    <br>
+                    Вышлем вам запись мероприятия в&#160;ближайшее.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /. Success -->
 
 <footer class="footer js-reveal gs-reveal">
     <div class="footer__info info info--footer">

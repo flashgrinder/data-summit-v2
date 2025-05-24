@@ -10,3 +10,5 @@
 
     /* Actions */
     include_once(__DIR__ . '/inc/actions.php');
+	/* Filters */
+    include_once(__DIR__ . '/inc/filters.php');

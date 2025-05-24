@@ -85,7 +85,7 @@
 </footer>
 
 <!-- Модалка -->
-<div class="modal modal--feedback hystmodal" id="feedback" aria-hidden="true">
+<div class="modal modal--feedback hystmodal" id="feedbackss" aria-hidden="true">
     <div class="modal__wrap hystmodal__wrap">
         <div class="modal__body hystmodal__window" role="dialog" aria-modal="true">
             <button data-hystclose class="modal__close hystmodal__close">Close</button>
@@ -93,6 +93,67 @@
         </div>
     </div>
 </div>
+
+<!-- Модалка обратной связи -->
+<div class="modal hystmodal" id="feedback" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
+            <div class="modal__close" data-hystclose>
+                <svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="modal__logo">
+                <img src="<?= STANDART_DIR; ?>/img/logo.png" alt=""
+                     class="modal__logo-img">
+            </div>
+            <h3 class="modal__title title title--large title--white title--w-regular text-center">
+                Получить запись
+            </h3>
+            <?= do_shortcode('[contact-form-7 id="e20c03c" title="Получить запись" html_class="modal__form"]'); ?>
+            <div class="modal__footer d-flex flex-justify-sb flex-align-center">
+                <a href="tel:+74956450201" class="modal__contact">
+                    +7 495 645-02-01
+                </a>
+                <a href="mailto:forum@dis-group.ru" class="modal__contact">
+                    forum@dis-group.ru
+                </a>
+                <a href="https://vk.com/disgroup1" class="modal__contact">
+                    VK
+                </a>
+                <a href="https://t.me/dis_group_news" class="modal__contact">
+                    Telegram
+                </a>
+                <a href="https://rutube.ru/channel/38442777/" class="modal__contact">
+                    Rutube
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /. Модалка обратной связи -->
+
+<!-- Success -->
+<div class="modal modal--success hystmodal js-modal-success" id="success" aria-hidden="true">
+    <div class="modal__wrap hystmodal__wrap">
+        <div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
+            <div class="modal__close" data-hystclose>
+                <svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="modal__wrapper-success">
+                <div class="modal__success-text text text--large text--white text--w-regular">
+                    Спасибо, ваша запрос принят!
+                    <br>
+                    <br>
+                    Вышлем вам запись мероприятия в ближайшее.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /. Success -->
 
 <? wp_footer(); ?>
 </body>

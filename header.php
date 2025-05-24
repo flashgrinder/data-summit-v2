@@ -33,7 +33,7 @@
             </nav>
             <div class="header__actions">
                 <a href="javascript:;" class="button button--primary" data-hystmodal="#feedback">
-                    Регистрация
+                    Запросить запись
                 </a>
             </div>
             <button class="mobile-nav-btn burger js-mobile-nav-burger">
